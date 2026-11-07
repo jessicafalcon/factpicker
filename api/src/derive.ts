@@ -851,8 +851,9 @@ export function buildEventInsight(index: Index, eventId: string, beforeDays = 14
     const videos = index.videosByCandidate.get(candidateId) ?? [];
     const before = videos.filter((video) => within(video, beforeFrom, beforeTo));
     const after = videos.filter((video) => within(video, afterFrom, afterTo));
+    // Count the stance aimed at *this* candidate, not the video's dominant one.
     const leaning = (list: VideoRow[], label: string) =>
-      list.filter((video) => primaryStance(index, video.id)?.label === label).length;
+      list.filter((video) => stanceOf(index, video.id, candidateId)?.label === label).length;
     const beforeRate = perDay(before.length, beforeDays);
     const afterRate = perDay(after.length, afterDays);
     return {

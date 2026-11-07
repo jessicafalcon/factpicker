@@ -216,12 +216,14 @@ export const resolvers = {
       return insight ? insightShape(ctx, insight) : null;
     },
     eventInsights: (_: unknown, args: { limit?: number; beforeDays?: number; afterHours?: number }, ctx: Context) => {
-      const events = [...(ctx.dataset.events.events as any[])]
-        .sort((a, b) => (b.videos ?? 0) - (a.videos ?? 0))
-        .slice(0, args.limit ?? 6);
+      // Prefer moments that have a real baseline: a 14-day window inside the
+      // start of the corpus makes every multiplier undefined.
+      const events = [...(ctx.dataset.events.events as any[])];
       return events
         .map((event) => buildEventInsight(ctx.index, event.id, args.beforeDays ?? 14, args.afterHours ?? 72))
         .filter((item) => item !== null)
+        .sort((a, b) => (b.beforeVideos - a.beforeVideos) || (b.afterVideos - a.afterVideos))
+        .slice(0, args.limit ?? 6)
         .map((item) => insightShape(ctx, item));
     },
     issueGroups: (_: unknown, __: unknown, ctx: Context) =>

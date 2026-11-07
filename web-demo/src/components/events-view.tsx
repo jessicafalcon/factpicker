@@ -10,6 +10,16 @@ const short = (iso: string, locale: Locale) =>
     new Date(`${iso.slice(0, 10)}T00:00:00Z`),
   );
 
+const chip = (title: string) => {
+  const words = title.replace(/,.*$/, "").split(" ");
+  const out: string[] = [];
+  for (const word of words) {
+    if (out.join(" ").length + word.length > 22) break;
+    out.push(word);
+  }
+  return out.join(" ") + (out.join(" ") === words.join(" ") ? "" : "…");
+};
+
 const MULT = (value: number | null) => (value === null ? "—" : `${value}×`);
 
 function Rise({ impact, copy, locale }: { impact: Impact | null; copy: Copy; locale: Locale }) {
@@ -60,7 +70,7 @@ export function EventsView({ insights, copy, locale }: { insights: Insight[]; co
               index === selected ? "border-ink bg-ink text-paper" : "border-rule text-ink hover:border-ink/40",
             )}
           >
-            {short(item.event.commencement, locale)} · {item.event.title.split(":")[0].slice(0, 28)}
+            {short(item.event.commencement, locale)} · {chip(item.event.title)}
           </button>
         ))}
       </div>
