@@ -1,4 +1,5 @@
-import { buildFact, creatorStance, eventImpact, factVideos, lexicalSearch, stanceOf, videoText } from "./derive.ts";
+import { buildBehindTheNumbers, buildFact, buildFactTimeline, creatorStance, eventImpact, factVideos, lexicalSearch, stanceOf, videoText } from "./derive.ts";
+import { buildAnatomy, selectEntry } from "./anatomy.ts";
 import type { Index } from "./derive.ts";
 import type { Dataset, EmbeddingClient, FactDef, StanceRow } from "./sources.ts";
 import type { VideoRow } from "../../supabase/functions/_shared/types.ts";
@@ -82,6 +83,17 @@ function creatorShape(ctx: Context, handle: string) {
   };
 }
 
+const anatomyShape = (ctx: Context, anatomy: any) => ({
+  ...anatomy,
+  attribution: { ...anatomy.attribution, platform: platform(anatomy.attribution.platform) },
+  verdict: anatomy.verdict
+    ? { ...anatomy.verdict, leaning: leaning(anatomy.verdict.leaning), candidate: candidateShape(ctx.index.candidateById.get(anatomy.verdict.candidateId)) }
+    : null,
+  video: ctx.index.videoById.get(anatomy.videoId)
+    ? videoShape(ctx, ctx.index.videoById.get(anatomy.videoId)!)
+    : null,
+});
+
 const eventShape = (ctx: Context, event: any) => ({
   id: event.id,
   title: event.title,
@@ -134,6 +146,7 @@ const factShape = (ctx: Context, fact: FactDef) => {
     })),
     timeline: built.timeline,
     events: built.events.map((event: any) => eventShape(ctx, event)),
+    sankey: built.sankey,
     _built: built,
   };
 };
@@ -141,6 +154,13 @@ const factShape = (ctx: Context, fact: FactDef) => {
 export const resolvers = {
   Query: {
     apiVersion: () => "0.1.0",
+    dataset: (_: unknown, __: unknown, ctx: Context) => ({
+      videos: ctx.dataset.videos.length,
+      stanceRows: ctx.dataset.stance.length,
+      events: ctx.dataset.events.events.length,
+      window: ctx.dataset.events.window,
+      origin: ctx.dataset.origin.videos,
+    }),
     candidates: (_: unknown, __: unknown, ctx: Context) => ctx.dataset.candidates.map(candidateShape),
     candidate: (_: unknown, args: { id: string }, ctx: Context) => {
       const candidate = ctx.index.candidateById.get(args.id);
@@ -225,6 +245,25 @@ export const resolvers = {
         method: "lexical",
       }));
     },
+    anatomy: (_: unknown, args: { videoId: string }, ctx: Context) => {
+      const anatomy = buildAnatomy(ctx.index, args.videoId, ctx.dataset.facts);
+      return anatomy && anatomyShape(ctx, anatomy);
+    },
+    entryPage: (_: unknown, args: { limit?: number }, ctx: Context) =>
+      selectEntry(ctx.index, args.limit ?? 6).map((item) => anatomyShape(ctx, item.anatomy)),
+    behindTheNumbers: (_: unknown, args: { limit?: number; factId?: string }, ctx: Context) =>
+      buildBehindTheNumbers(ctx.index, { limit: args.limit ?? 6, factId: args.factId }).map((item) => ({
+        video: videoShape(ctx, item.video),
+        fact: item.fact,
+        candidate: item.candidate,
+        leaning: item.leaning,
+      })),
+    factTimeline: (_: unknown, args: { factId: string; windowDays?: number }, ctx: Context) => {
+      const fact = ctx.dataset.facts.find((item) => item.id === args.factId);
+      return fact ? buildFactTimeline(ctx.index, fact, args.windowDays ?? 3) : null;
+    },
+    factTimelines: (_: unknown, args: { windowDays?: number }, ctx: Context) =>
+      ctx.dataset.facts.map((fact) => buildFactTimeline(ctx.index, fact, args.windowDays ?? 3)),
     timeline: (_: unknown, args: { factId?: string }, ctx: Context) => {
       if (args.factId) {
         const fact = ctx.dataset.facts.find((item) => item.id === args.factId);

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "pension_2023_64",
+    "statement": "The 2023 pension reform raised the legal retirement age to 64",
+    "category": "Pensions",
+    "anchorTerms": ["réforme des retraites", "reforme des retraites", "64 ans", "retraite", "retraites"],
+    "topicIds": ["pensions"],
+    "eventIds": ["pensions_reform"],
+    "sourceName": "Vie publique — dossier réforme des retraites 2023",
+    "sourceUrl": null,
+    "reviewStatus": "anchor_from_brief",
+    "verified": false
+  },
+  {
+    "id": "education_budget_2027",
+    "statement": "The 2027 education budget plans fewer teachers",
+    "category": "Education",
+    "anchorTerms": ["budget de l'éducation", "budget de l education", "budget éducation", "budget education", "postes d'enseignants", "postes d enseignants"],
+    "topicIds": ["education"],
+    "eventIds": ["lycee_blockades_uni"],
+    "sourceName": "Projet de loi de finances 2027 — mission Enseignement scolaire",
+    "sourceUrl": null,
+    "reviewStatus": "anchor_from_brief",
+    "verified": false
+  },
+  {
+    "id": "immigration_law_2024",
+    "statement": "The 2024 immigration law tightened conditions for residence permits",
+    "category": "Immigration",
+    "anchorTerms": ["loi immigration", "loi sur l'immigration", "immigration", "oqtf", "régularisation", "regularisation"],
+    "topicIds": ["immigration"],
+    "eventIds": ["immigration_oqtf"],
+    "sourceName": "Loi du 26 janvier 2024 pour contrôler l'immigration",
+    "sourceUrl": null,
+    "reviewStatus": "anchor_from_brief",
+    "verified": false
+  },
+  {
+    "id": "cost_of_living",
+    "statement": "Prices rose faster than wages, squeezing household purchasing power",
+    "category": "Cost of living",
+    "anchorTerms": ["pouvoir d'achat", "pouvoir d achat", "inflation", "smic", "salaire", "salaires", "coût de la vie"],
+    "topicIds": ["purchasing_power"],
+    "eventIds": ["purchasing_power_smic"],
+    "sourceName": "INSEE — indices des prix à la consommation",
+    "sourceUrl": null,
+    "reviewStatus": "anchor_from_brief",
+    "verified": false
+  },
+  {
+    "id": "lepen_conviction",
+    "statement": "Marine Le Pen was convicted and placed under an electronic bracelet",
+    "category": "Justice",
+    "anchorTerms": ["bracelet électronique", "bracelet electronique", "condamnation", "condamné", "inéligibilité", "ineligibilite", "assistants parlementaires"],
+    "topicIds": ["scandals"],
+    "eventIds": ["lepen_conviction_ineligibility"],
+    "sourceName": "Tribunal judiciaire de Paris — dossier assistants parlementaires",
+    "sourceUrl": null,
+    "reviewStatus": "corpus_supported",
+    "verified": false
+  },
+  {
+    "id": "protest_17_october_2026",
+    "statement": "A nationwide mobilisation took place on 17 October 2026",
+    "category": "Protest",
+    "anchorTerms": ["17 octobre", "manifs 17"],
+    "topicIds": ["labour"],
+    "eventIds": ["protest_17_october"],
+    "sourceName": "Corpus coverage (see event protest_17_october)",
+    "sourceUrl": null,
+    "reviewStatus": "corpus_supported",
+    "verified": false
+  }
+]

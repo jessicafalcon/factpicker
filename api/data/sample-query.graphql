@@ -1,0 +1,30 @@
+query StoryPage {
+  apiVersion
+  story(factId: "pension_2023_64") {
+    statement
+    videos
+    creators
+    sourceName
+    reviewStatus
+    stories { label videos favorable critical neutral unclear }
+    aimedAt { candidate { id name } leaning videos }
+  }
+  events(filter: { isScandal: true, limit: 3 }) {
+    id
+    title
+    commencement
+    videos
+    majorIssue
+    subIssue
+  }
+  eventImpact(id: "lepen_conviction_ineligibility", windowDays: 7) {
+    candidate { id name }
+    before
+    after
+    changePct
+    favorableAfter
+    criticalAfter
+  }
+  issueGroups { majorIssue videos subIssues { subIssue videos } }
+  search(query: "réforme des retraites", limit: 3) { score method video { id url postedAt } }
+}

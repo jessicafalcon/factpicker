@@ -10,6 +10,7 @@ import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { CANDIDATES } from "../../supabase/functions/_shared/candidates.ts";
+import { hashEmbedding } from "../../supabase/functions/_shared/local-embeddings.ts";
 import type { CandidateDef, VideoRow } from "../../supabase/functions/_shared/types.ts";
 
 export const REPO_ROOT = join(dirname(fileURLToPath(import.meta.url)), "..", "..");
@@ -171,20 +172,6 @@ async function accessToken(env: Record<string, string | undefined>): Promise<str
     return null;
   }
 }
-
-const EMBED_DIMS = 3072;
-const hashEmbedding = (text: string): number[] => {
-  // Deterministic offline fallback so the lexical path is testable and the
-  // service degrades instead of failing when Vertex is not configured.
-  const vector = new Array(EMBED_DIMS).fill(0);
-  for (const token of text.toLowerCase().split(/\W+/).filter(Boolean)) {
-    const digest = createHash("sha256").update(token).digest();
-    const index = digest.readUInt32BE(0) % EMBED_DIMS;
-    vector[index] += 1;
-  }
-  const norm = Math.sqrt(vector.reduce((sum, value) => sum + value * value, 0)) || 1;
-  return vector.map((value) => value / norm);
-};
 
 export function createEmbeddingClient(env: Record<string, string | undefined> = process.env): EmbeddingClient {
   const project = env.GCP_PROJECT;
