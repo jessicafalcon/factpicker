@@ -22,5 +22,6 @@ export function createContext(dataset: Dataset, embeddings: Context["embeddings"
   buildBehindTheNumbers(index, { limit: 6 });
   selectEntry(index, 6);
 
+
   return { dataset, index, embeddings, factsByVideo };
 }

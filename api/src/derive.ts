@@ -818,7 +818,26 @@ export interface ImpactRow {
 
 const perDay = (count: number, days: number) => Number((count / Math.max(1, days)).toFixed(2));
 
-export function buildEventInsight(index: Index, eventId: string, beforeDays = 14, afterHours = 72) {
+// Invert candidate→videos once per index instead of rescanning every
+// candidate for every event video.
+const inverseOnce = new WeakMap<Index, Map<string, string[]>>();
+function candidatesByVideo(index: Index) {
+  let map = inverseOnce.get(index);
+  if (!map) {
+    map = new Map();
+    for (const [candidateId, videos] of index.videosByCandidate) {
+      for (const video of videos) {
+        const list = map.get(video.id) ?? [];
+        list.push(candidateId);
+        map.set(video.id, list);
+      }
+    }
+    inverseOnce.set(index, map);
+  }
+  return map;
+}
+
+function buildEventInsightUncached(index: Index, eventId: string, beforeDays = 14, afterHours = 72) {
   const event = index.eventById.get(eventId);
   if (!event) return null;
   const start = dayOf(event.commencement);
@@ -838,13 +857,10 @@ export function buildEventInsight(index: Index, eventId: string, beforeDays = 14
   const afterVideos = index.dataset.videos.filter((video) => within(video, afterFrom, afterTo));
   const beforeVideos = index.dataset.videos.filter((video) => within(video, beforeFrom, beforeTo));
 
+  const inverse = candidatesByVideo(index);
   const candidateIds = new Set<string>();
   for (const id of (event.video_ids ?? []) as string[]) {
-    const video = index.videoById.get(id);
-    if (!video) continue;
-    for (const candidate of index.dataset.candidates) {
-      if (mentionsCandidate(index, video, candidate.id)) candidateIds.add(candidate.id);
-    }
+    for (const candidateId of inverse.get(id) ?? []) candidateIds.add(candidateId);
   }
 
   const rows: ImpactRow[] = [...candidateIds].map((candidateId) => {
@@ -853,7 +869,7 @@ export function buildEventInsight(index: Index, eventId: string, beforeDays = 14
     const after = videos.filter((video) => within(video, afterFrom, afterTo));
     // Count the stance aimed at *this* candidate, not the video's dominant one.
     const leaning = (list: VideoRow[], label: string) =>
-      list.filter((video) => stanceOf(index, video.id, candidateId)?.label === label).length;
+      list.filter((video) => index.stanceByKey.get(`${video.id}|${candidateId}`)?.label === label).length;
     const beforeRate = perDay(before.length, beforeDays);
     const afterRate = perDay(after.length, afterDays);
     return {
@@ -978,4 +994,19 @@ export function buildFactReadings(index: Index, fact: FactDef, limit = 5) {
         .map((video) => video.id),
     };
   });
+}
+
+// Computing an insight walks the corpus for every candidate; the dataset is
+// static per deployment, so memoise it instead of paying for it per request.
+const insightOnce = new WeakMap<Index, Map<string, ReturnType<typeof buildEventInsightUncached>>>();
+
+export function buildEventInsight(index: Index, eventId: string, beforeDays = 14, afterHours = 72) {
+  let cache = insightOnce.get(index);
+  if (!cache) {
+    cache = new Map();
+    insightOnce.set(index, cache);
+  }
+  const key = `${eventId}|${beforeDays}|${afterHours}`;
+  if (!cache.has(key)) cache.set(key, buildEventInsightUncached(index, eventId, beforeDays, afterHours));
+  return cache.get(key)!;
 }

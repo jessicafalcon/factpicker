@@ -35,7 +35,9 @@ function Rise({ impact, copy, locale }: { impact: Impact | null; copy: Copy; loc
       <p className="mt-1 font-serif text-[15px] text-ink">
         {fmt(copy.ev.perDay, { before: before.toFixed(1), after: after.toFixed(1) })}
       </p>
-      <p className="mt-0.5 font-sans text-[11.5px] text-ink-soft">{MULT(impact.multiplier)}</p>
+      <p className="mt-0.5 font-sans text-[11.5px] text-ink-soft">
+        {before > 0 ? `${(after / before).toFixed(2)}×` : "—"}
+      </p>
     </div>
   );
 }

@@ -218,7 +218,12 @@ export const resolvers = {
     eventInsights: (_: unknown, args: { limit?: number; beforeDays?: number; afterHours?: number }, ctx: Context) => {
       // Prefer moments that have a real baseline: a 14-day window inside the
       // start of the corpus makes every multiplier undefined.
-      const events = [...(ctx.dataset.events.events as any[])];
+      const limit = args.limit ?? 6;
+      // Only the busiest moments are candidates; walking all twenty would blow
+      // the edge worker's CPU budget.
+      const events = [...(ctx.dataset.events.events as any[])]
+        .sort((a, b) => (b.videos ?? 0) - (a.videos ?? 0))
+        .slice(0, limit);
       return events
         .map((event) => buildEventInsight(ctx.index, event.id, args.beforeDays ?? 14, args.afterHours ?? 72))
         .filter((item) => item !== null)

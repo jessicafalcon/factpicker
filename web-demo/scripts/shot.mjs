@@ -85,7 +85,7 @@ if (cookie) {
   });
 }
 await send("Page.navigate", { url });
-await sleep(2500);
+await sleep(9000);
 if (clickText) {
   await send("Runtime.evaluate", {
     expression: `(() => { const target = [...document.querySelectorAll("button")].find((b) => b.textContent.trim() === ${JSON.stringify(clickText)}); if (!target) return "not-found"; target.click(); return "clicked"; })()`,
