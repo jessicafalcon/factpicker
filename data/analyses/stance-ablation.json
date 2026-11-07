@@ -1,0 +1,1081 @@
+{
+  "generatedAt": "2026-11-07T11:29:01.392Z",
+  "goldSet": {
+    "size": 24,
+    "distribution": {
+      "irrelevant": 5,
+      "ambiguous": 2,
+      "critical": 3,
+      "neutral": 12,
+      "favorable": 2
+    }
+  },
+  "relevanceGate": {
+    "accuracy": 0.458,
+    "confusion": {
+      "irrelevant": {
+        "stance_possible": 5
+      },
+      "neutral_only": {
+        "neutral_only": 7,
+        "irrelevant": 1,
+        "stance_possible": 6
+      },
+      "stance_possible": {
+        "stance_possible": 4,
+        "irrelevant": 1
+      }
+    },
+    "definition": "direct=stance possible, listicle=neutral only, absent/credit_ocr=irrelevant",
+    "rows": [
+      {
+        "n": 1,
+        "gold": "irrelevant",
+        "goldClass": "irrelevant",
+        "kind": "direct",
+        "predicted": "stance_possible",
+        "candidatesInText": 1,
+        "ok": false
+      },
+      {
+        "n": 2,
+        "gold": "ambiguous",
+        "goldClass": "neutral_only",
+        "kind": "listicle",
+        "predicted": "neutral_only",
+        "candidatesInText": 10,
+        "ok": true
+      },
+      {
+        "n": 3,
+        "gold": "critical",
+        "goldClass": "stance_possible",
+        "kind": "direct",
+        "predicted": "stance_possible",
+        "candidatesInText": 4,
+        "ok": true
+      },
+      {
+        "n": 4,
+        "gold": "neutral",
+        "goldClass": "neutral_only",
+        "kind": "credit_ocr",
+        "predicted": "irrelevant",
+        "candidatesInText": 3,
+        "ok": false
+      },
+      {
+        "n": 5,
+        "gold": "irrelevant",
+        "goldClass": "irrelevant",
+        "kind": "direct",
+        "predicted": "stance_possible",
+        "candidatesInText": 1,
+        "ok": false
+      },
+      {
+        "n": 6,
+        "gold": "neutral",
+        "goldClass": "neutral_only",
+        "kind": "direct",
+        "predicted": "stance_possible",
+        "candidatesInText": 2,
+        "ok": false
+      },
+      {
+        "n": 7,
+        "gold": "irrelevant",
+        "goldClass": "irrelevant",
+        "kind": "direct",
+        "predicted": "stance_possible",
+        "candidatesInText": 2,
+        "ok": false
+      },
+      {
+        "n": 8,
+        "gold": "irrelevant",
+        "goldClass": "irrelevant",
+        "kind": "direct",
+        "predicted": "stance_possible",
+        "candidatesInText": 2,
+        "ok": false
+      },
+      {
+        "n": 9,
+        "gold": "irrelevant",
+        "goldClass": "irrelevant",
+        "kind": "direct",
+        "predicted": "stance_possible",
+        "candidatesInText": 1,
+        "ok": false
+      },
+      {
+        "n": 10,
+        "gold": "neutral",
+        "goldClass": "neutral_only",
+        "kind": "direct",
+        "predicted": "stance_possible",
+        "candidatesInText": 3,
+        "ok": false
+      },
+      {
+        "n": 11,
+        "gold": "favorable",
+        "goldClass": "stance_possible",
+        "kind": "direct",
+        "predicted": "stance_possible",
+        "candidatesInText": 1,
+        "ok": true
+      },
+      {
+        "n": 12,
+        "gold": "ambiguous",
+        "goldClass": "neutral_only",
+        "kind": "direct",
+        "predicted": "stance_possible",
+        "candidatesInText": 1,
+        "ok": false
+      },
+      {
+        "n": 13,
+        "gold": "favorable",
+        "goldClass": "stance_possible",
+        "kind": "direct",
+        "predicted": "stance_possible",
+        "candidatesInText": 2,
+        "ok": true
+      },
+      {
+        "n": 14,
+        "gold": "neutral",
+        "goldClass": "neutral_only",
+        "kind": "listicle",
+        "predicted": "neutral_only",
+        "candidatesInText": 22,
+        "ok": true
+      },
+      {
+        "n": 15,
+        "gold": "critical",
+        "goldClass": "stance_possible",
+        "kind": "direct",
+        "predicted": "stance_possible",
+        "candidatesInText": 1,
+        "ok": true
+      },
+      {
+        "n": 16,
+        "gold": "critical",
+        "goldClass": "stance_possible",
+        "kind": "credit_ocr",
+        "predicted": "irrelevant",
+        "candidatesInText": 3,
+        "ok": false
+      },
+      {
+        "n": 17,
+        "gold": "neutral",
+        "goldClass": "neutral_only",
+        "kind": "listicle",
+        "predicted": "neutral_only",
+        "candidatesInText": 22,
+        "ok": true
+      },
+      {
+        "n": 18,
+        "gold": "neutral",
+        "goldClass": "neutral_only",
+        "kind": "listicle",
+        "predicted": "neutral_only",
+        "candidatesInText": 10,
+        "ok": true
+      },
+      {
+        "n": 19,
+        "gold": "neutral",
+        "goldClass": "neutral_only",
+        "kind": "listicle",
+        "predicted": "neutral_only",
+        "candidatesInText": 22,
+        "ok": true
+      },
+      {
+        "n": 20,
+        "gold": "neutral",
+        "goldClass": "neutral_only",
+        "kind": "listicle",
+        "predicted": "neutral_only",
+        "candidatesInText": 22,
+        "ok": true
+      },
+      {
+        "n": 21,
+        "gold": "neutral",
+        "goldClass": "neutral_only",
+        "kind": "direct",
+        "predicted": "stance_possible",
+        "candidatesInText": 3,
+        "ok": false
+      },
+      {
+        "n": 22,
+        "gold": "neutral",
+        "goldClass": "neutral_only",
+        "kind": "direct",
+        "predicted": "stance_possible",
+        "candidatesInText": 1,
+        "ok": false
+      },
+      {
+        "n": 23,
+        "gold": "neutral",
+        "goldClass": "neutral_only",
+        "kind": "direct",
+        "predicted": "stance_possible",
+        "candidatesInText": 3,
+        "ok": false
+      },
+      {
+        "n": 24,
+        "gold": "neutral",
+        "goldClass": "neutral_only",
+        "kind": "listicle",
+        "predicted": "neutral_only",
+        "candidatesInText": 22,
+        "ok": true
+      }
+    ]
+  },
+  "evaluations": [
+    {
+      "config": "baseline",
+      "agreement": 0.875,
+      "stanceRecall": 0.4,
+      "stancePrecision": 1,
+      "falseStance": 0,
+      "predictedStance": 2,
+      "goldStance": 5,
+      "rows": [
+        {
+          "n": 1,
+          "candidate": "arthaud",
+          "gold": "irrelevant",
+          "pred": "unclear",
+          "basis": "none",
+          "ok": true
+        },
+        {
+          "n": 2,
+          "candidate": "asselineau",
+          "gold": "ambiguous",
+          "pred": "unclear",
+          "basis": "none",
+          "ok": true
+        },
+        {
+          "n": 3,
+          "candidate": "attal",
+          "gold": "critical",
+          "pred": "unclear",
+          "basis": "gemini:gemini-2.5-flash:unverified",
+          "ok": false
+        },
+        {
+          "n": 4,
+          "candidate": "bardella",
+          "gold": "neutral",
+          "pred": "unclear",
+          "basis": "none",
+          "ok": true
+        },
+        {
+          "n": 5,
+          "candidate": "batho",
+          "gold": "irrelevant",
+          "pred": "unclear",
+          "basis": "gemini:gemini-2.5-flash:unverified",
+          "ok": true
+        },
+        {
+          "n": 6,
+          "candidate": "becht",
+          "gold": "neutral",
+          "pred": "unclear",
+          "basis": "gemini:gemini-2.5-flash:unverified",
+          "ok": true
+        },
+        {
+          "n": 7,
+          "candidate": "bouamrane",
+          "gold": "irrelevant",
+          "pred": "unclear",
+          "basis": "gemini:gemini-2.5-flash:unverified",
+          "ok": true
+        },
+        {
+          "n": 8,
+          "candidate": "cazeneuve",
+          "gold": "irrelevant",
+          "pred": "unclear",
+          "basis": "gemini:gemini-2.5-flash:unverified",
+          "ok": true
+        },
+        {
+          "n": 9,
+          "candidate": "durif",
+          "gold": "irrelevant",
+          "pred": "unclear",
+          "basis": "none",
+          "ok": true
+        },
+        {
+          "n": 10,
+          "candidate": "glucksmann",
+          "gold": "neutral",
+          "pred": "unclear",
+          "basis": "none",
+          "ok": true
+        },
+        {
+          "n": 11,
+          "candidate": "labib",
+          "gold": "favorable",
+          "pred": "unclear",
+          "basis": "gemini:gemini-2.5-flash:unverified",
+          "ok": false
+        },
+        {
+          "n": 12,
+          "candidate": "lepen",
+          "gold": "ambiguous",
+          "pred": "unclear",
+          "basis": "none",
+          "ok": true
+        },
+        {
+          "n": 13,
+          "candidate": "arthaud",
+          "gold": "favorable",
+          "pred": "favorable",
+          "basis": "gemini:gemini-2.5-flash",
+          "ok": true
+        },
+        {
+          "n": 14,
+          "candidate": "asselineau",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "gemini:gemini-2.5-flash",
+          "ok": true
+        },
+        {
+          "n": 15,
+          "candidate": "attal",
+          "gold": "critical",
+          "pred": "neutral",
+          "basis": "gemini:gemini-2.5-flash",
+          "ok": false
+        },
+        {
+          "n": 16,
+          "candidate": "bardella",
+          "gold": "critical",
+          "pred": "critical",
+          "basis": "gemini:gemini-2.5-flash",
+          "ok": true
+        },
+        {
+          "n": 17,
+          "candidate": "batho",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "gemini:gemini-2.5-flash",
+          "ok": true
+        },
+        {
+          "n": 18,
+          "candidate": "bertrand",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "gemini:gemini-2.5-flash",
+          "ok": true
+        },
+        {
+          "n": 19,
+          "candidate": "bouamrane",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "gemini:gemini-2.5-flash",
+          "ok": true
+        },
+        {
+          "n": 20,
+          "candidate": "cazeneuve",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "gemini:gemini-2.5-flash",
+          "ok": true
+        },
+        {
+          "n": 21,
+          "candidate": "duponaignan",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "gemini:gemini-2.5-flash",
+          "ok": true
+        },
+        {
+          "n": 22,
+          "candidate": "durif",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "gemini:gemini-2.5-flash",
+          "ok": true
+        },
+        {
+          "n": 23,
+          "candidate": "glucksmann",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "gemini:gemini-2.5-flash",
+          "ok": true
+        },
+        {
+          "n": 24,
+          "candidate": "kazib",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "gemini:gemini-2.5-flash",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "config": "fewshot",
+      "agreement": 0.875,
+      "stanceRecall": 0.6,
+      "stancePrecision": 0.75,
+      "falseStance": 1,
+      "predictedStance": 4,
+      "goldStance": 5,
+      "rows": [
+        {
+          "n": 1,
+          "candidate": "arthaud",
+          "gold": "irrelevant",
+          "pred": "unclear",
+          "basis": "model:exact",
+          "ok": true
+        },
+        {
+          "n": 2,
+          "candidate": "asselineau",
+          "gold": "ambiguous",
+          "pred": "critical",
+          "basis": "model:exact",
+          "ok": false
+        },
+        {
+          "n": 3,
+          "candidate": "attal",
+          "gold": "critical",
+          "pred": "critical",
+          "basis": "model:exact",
+          "ok": true
+        },
+        {
+          "n": 4,
+          "candidate": "bardella",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "model:exact",
+          "ok": true
+        },
+        {
+          "n": 5,
+          "candidate": "batho",
+          "gold": "irrelevant",
+          "pred": "neutral",
+          "basis": "model:exact",
+          "ok": true
+        },
+        {
+          "n": 6,
+          "candidate": "becht",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "model:fuzzy",
+          "ok": true
+        },
+        {
+          "n": 7,
+          "candidate": "bouamrane",
+          "gold": "irrelevant",
+          "pred": "neutral",
+          "basis": "model:fuzzy",
+          "ok": true
+        },
+        {
+          "n": 8,
+          "candidate": "cazeneuve",
+          "gold": "irrelevant",
+          "pred": "neutral",
+          "basis": "model:fuzzy",
+          "ok": true
+        },
+        {
+          "n": 9,
+          "candidate": "durif",
+          "gold": "irrelevant",
+          "pred": "unclear",
+          "basis": "model:exact",
+          "ok": true
+        },
+        {
+          "n": 10,
+          "candidate": "glucksmann",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "model:fuzzy",
+          "ok": true
+        },
+        {
+          "n": 11,
+          "candidate": "labib",
+          "gold": "favorable",
+          "pred": "favorable",
+          "basis": "model:fuzzy",
+          "ok": true
+        },
+        {
+          "n": 12,
+          "candidate": "lepen",
+          "gold": "ambiguous",
+          "pred": "neutral",
+          "basis": "model:exact",
+          "ok": true
+        },
+        {
+          "n": 13,
+          "candidate": "arthaud",
+          "gold": "favorable",
+          "pred": "favorable",
+          "basis": "model:fuzzy",
+          "ok": true
+        },
+        {
+          "n": 14,
+          "candidate": "asselineau",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "model:fuzzy",
+          "ok": true
+        },
+        {
+          "n": 15,
+          "candidate": "attal",
+          "gold": "critical",
+          "pred": "neutral",
+          "basis": "model:exact",
+          "ok": false
+        },
+        {
+          "n": 16,
+          "candidate": "bardella",
+          "gold": "critical",
+          "pred": "neutral",
+          "basis": "model:exact",
+          "ok": false
+        },
+        {
+          "n": 17,
+          "candidate": "batho",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "model:fuzzy",
+          "ok": true
+        },
+        {
+          "n": 18,
+          "candidate": "bertrand",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "model:exact",
+          "ok": true
+        },
+        {
+          "n": 19,
+          "candidate": "bouamrane",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "model:fuzzy",
+          "ok": true
+        },
+        {
+          "n": 20,
+          "candidate": "cazeneuve",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "model:fuzzy",
+          "ok": true
+        },
+        {
+          "n": 21,
+          "candidate": "duponaignan",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "model:exact",
+          "ok": true
+        },
+        {
+          "n": 22,
+          "candidate": "durif",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "model:exact",
+          "ok": true
+        },
+        {
+          "n": 23,
+          "candidate": "glucksmann",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "model:fuzzy",
+          "ok": true
+        },
+        {
+          "n": 24,
+          "candidate": "kazib",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "model:fuzzy",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "config": "pro",
+      "agreement": 0.833,
+      "stanceRecall": 0.2,
+      "stancePrecision": 1,
+      "falseStance": 0,
+      "predictedStance": 1,
+      "goldStance": 5,
+      "rows": [
+        {
+          "n": 1,
+          "candidate": "arthaud",
+          "gold": "irrelevant",
+          "pred": "unclear",
+          "basis": "model:unverified",
+          "ok": true
+        },
+        {
+          "n": 2,
+          "candidate": "asselineau",
+          "gold": "ambiguous",
+          "pred": "unclear",
+          "basis": "model:unverified",
+          "ok": true
+        },
+        {
+          "n": 3,
+          "candidate": "attal",
+          "gold": "critical",
+          "pred": "critical",
+          "basis": "model:exact",
+          "ok": true
+        },
+        {
+          "n": 4,
+          "candidate": "bardella",
+          "gold": "neutral",
+          "pred": "unclear",
+          "basis": "model:unverified",
+          "ok": true
+        },
+        {
+          "n": 5,
+          "candidate": "batho",
+          "gold": "irrelevant",
+          "pred": "unclear",
+          "basis": "model:unverified",
+          "ok": true
+        },
+        {
+          "n": 6,
+          "candidate": "becht",
+          "gold": "neutral",
+          "pred": "unclear",
+          "basis": "model:unverified",
+          "ok": true
+        },
+        {
+          "n": 7,
+          "candidate": "bouamrane",
+          "gold": "irrelevant",
+          "pred": "unclear",
+          "basis": "model:unverified",
+          "ok": true
+        },
+        {
+          "n": 8,
+          "candidate": "cazeneuve",
+          "gold": "irrelevant",
+          "pred": "unclear",
+          "basis": "model:unverified",
+          "ok": true
+        },
+        {
+          "n": 9,
+          "candidate": "durif",
+          "gold": "irrelevant",
+          "pred": "unclear",
+          "basis": "model:unverified",
+          "ok": true
+        },
+        {
+          "n": 10,
+          "candidate": "glucksmann",
+          "gold": "neutral",
+          "pred": "unclear",
+          "basis": "model:unverified",
+          "ok": true
+        },
+        {
+          "n": 11,
+          "candidate": "labib",
+          "gold": "favorable",
+          "pred": "unclear",
+          "basis": "model:unverified",
+          "ok": false
+        },
+        {
+          "n": 12,
+          "candidate": "lepen",
+          "gold": "ambiguous",
+          "pred": "unclear",
+          "basis": "model:unverified",
+          "ok": true
+        },
+        {
+          "n": 13,
+          "candidate": "arthaud",
+          "gold": "favorable",
+          "pred": "unclear",
+          "basis": "model:unverified",
+          "ok": false
+        },
+        {
+          "n": 14,
+          "candidate": "asselineau",
+          "gold": "neutral",
+          "pred": "unclear",
+          "basis": "model:unverified",
+          "ok": true
+        },
+        {
+          "n": 15,
+          "candidate": "attal",
+          "gold": "critical",
+          "pred": "unclear",
+          "basis": "model:unverified",
+          "ok": false
+        },
+        {
+          "n": 16,
+          "candidate": "bardella",
+          "gold": "critical",
+          "pred": "unclear",
+          "basis": "model:unverified",
+          "ok": false
+        },
+        {
+          "n": 17,
+          "candidate": "batho",
+          "gold": "neutral",
+          "pred": "unclear",
+          "basis": "model:unverified",
+          "ok": true
+        },
+        {
+          "n": 18,
+          "candidate": "bertrand",
+          "gold": "neutral",
+          "pred": "unclear",
+          "basis": "model:unverified",
+          "ok": true
+        },
+        {
+          "n": 19,
+          "candidate": "bouamrane",
+          "gold": "neutral",
+          "pred": "unclear",
+          "basis": "model:unverified",
+          "ok": true
+        },
+        {
+          "n": 20,
+          "candidate": "cazeneuve",
+          "gold": "neutral",
+          "pred": "unclear",
+          "basis": "model:unverified",
+          "ok": true
+        },
+        {
+          "n": 21,
+          "candidate": "duponaignan",
+          "gold": "neutral",
+          "pred": "unclear",
+          "basis": "model:unverified",
+          "ok": true
+        },
+        {
+          "n": 22,
+          "candidate": "durif",
+          "gold": "neutral",
+          "pred": "unclear",
+          "basis": "model:unverified",
+          "ok": true
+        },
+        {
+          "n": 23,
+          "candidate": "glucksmann",
+          "gold": "neutral",
+          "pred": "unclear",
+          "basis": "model:unverified",
+          "ok": true
+        },
+        {
+          "n": 24,
+          "candidate": "kazib",
+          "gold": "neutral",
+          "pred": "unclear",
+          "basis": "model:unverified",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "config": "embeddings",
+      "agreement": 0.583,
+      "stanceRecall": 0.4,
+      "stancePrecision": 0.364,
+      "falseStance": 7,
+      "predictedStance": 11,
+      "goldStance": 5,
+      "rows": [
+        {
+          "n": 1,
+          "candidate": "arthaud",
+          "gold": "irrelevant",
+          "pred": "critical",
+          "basis": "embedding:anchors",
+          "ok": false
+        },
+        {
+          "n": 2,
+          "candidate": "asselineau",
+          "gold": "ambiguous",
+          "pred": "neutral",
+          "basis": "embedding:anchors",
+          "ok": true
+        },
+        {
+          "n": 3,
+          "candidate": "attal",
+          "gold": "critical",
+          "pred": "neutral",
+          "basis": "embedding:anchors",
+          "ok": false
+        },
+        {
+          "n": 4,
+          "candidate": "bardella",
+          "gold": "neutral",
+          "pred": "favorable",
+          "basis": "embedding:anchors",
+          "ok": false
+        },
+        {
+          "n": 5,
+          "candidate": "batho",
+          "gold": "irrelevant",
+          "pred": "favorable",
+          "basis": "embedding:anchors",
+          "ok": false
+        },
+        {
+          "n": 6,
+          "candidate": "becht",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "embedding:anchors",
+          "ok": true
+        },
+        {
+          "n": 7,
+          "candidate": "bouamrane",
+          "gold": "irrelevant",
+          "pred": "neutral",
+          "basis": "embedding:anchors",
+          "ok": true
+        },
+        {
+          "n": 8,
+          "candidate": "cazeneuve",
+          "gold": "irrelevant",
+          "pred": "neutral",
+          "basis": "embedding:anchors",
+          "ok": true
+        },
+        {
+          "n": 9,
+          "candidate": "durif",
+          "gold": "irrelevant",
+          "pred": "favorable",
+          "basis": "embedding:anchors",
+          "ok": false
+        },
+        {
+          "n": 10,
+          "candidate": "glucksmann",
+          "gold": "neutral",
+          "pred": "favorable",
+          "basis": "embedding:anchors",
+          "ok": false
+        },
+        {
+          "n": 11,
+          "candidate": "labib",
+          "gold": "favorable",
+          "pred": "critical",
+          "basis": "embedding:anchors",
+          "ok": false
+        },
+        {
+          "n": 12,
+          "candidate": "lepen",
+          "gold": "ambiguous",
+          "pred": "favorable",
+          "basis": "embedding:anchors",
+          "ok": false
+        },
+        {
+          "n": 13,
+          "candidate": "arthaud",
+          "gold": "favorable",
+          "pred": "favorable",
+          "basis": "embedding:anchors",
+          "ok": true
+        },
+        {
+          "n": 14,
+          "candidate": "asselineau",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "embedding:anchors",
+          "ok": true
+        },
+        {
+          "n": 15,
+          "candidate": "attal",
+          "gold": "critical",
+          "pred": "critical",
+          "basis": "embedding:anchors",
+          "ok": true
+        },
+        {
+          "n": 16,
+          "candidate": "bardella",
+          "gold": "critical",
+          "pred": "favorable",
+          "basis": "embedding:anchors",
+          "ok": false
+        },
+        {
+          "n": 17,
+          "candidate": "batho",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "embedding:anchors",
+          "ok": true
+        },
+        {
+          "n": 18,
+          "candidate": "bertrand",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "embedding:anchors",
+          "ok": true
+        },
+        {
+          "n": 19,
+          "candidate": "bouamrane",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "embedding:anchors",
+          "ok": true
+        },
+        {
+          "n": 20,
+          "candidate": "cazeneuve",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "embedding:anchors",
+          "ok": true
+        },
+        {
+          "n": 21,
+          "candidate": "duponaignan",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "embedding:anchors",
+          "ok": true
+        },
+        {
+          "n": 22,
+          "candidate": "durif",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "embedding:anchors",
+          "ok": true
+        },
+        {
+          "n": 23,
+          "candidate": "glucksmann",
+          "gold": "neutral",
+          "pred": "favorable",
+          "basis": "embedding:anchors",
+          "ok": false
+        },
+        {
+          "n": 24,
+          "candidate": "kazib",
+          "gold": "neutral",
+          "pred": "neutral",
+          "basis": "embedding:anchors",
+          "ok": true
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fewshotMeta": {
+      "calls": 18,
+      "failures": 0,
+      "model": "gemini-2.5-flash",
+      "fewShot": true
+    },
+    "proMeta": {
+      "calls": 18,
+      "failures": 0,
+      "model": "gemini-2.5-pro",
+      "thinkingBudget": 512
+    },
+    "embeddingsMeta": {
+      "model": "gemini-embedding-001",
+      "failures": 0
+    }
+  }
+}

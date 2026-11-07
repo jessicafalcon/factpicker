@@ -1,0 +1,2459 @@
+{
+  "cnt_ed6a159db5cf81a2e11ce27d89dc|arthaud": {
+    "candidate_id": "arthaud",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The post presents Nathalie Arthaud's statements in a positive light, highlighting her directness and agreement with her perspective on violence and police actions.",
+    "evidence_quote": "Nathalie Arthaud dit les termes sur le plateau de BFMTV !",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_bb8f758d8185d1e6c2d599278033|arthaud": {
+    "candidate_id": "arthaud",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The on-screen text mentions 'Artaud' but it is unclear if this refers to Nathalie Arthaud or a different person/entity, and the context is unrelated to French politics.",
+    "evidence_quote": "Artaud es u verga sobrevalor a, el disco",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_cca0f67ab6dd881eed60c72e33a0|arthaud": {
+    "candidate_id": "arthaud",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The video features Nathalie Arthaud speaking, but she is not the subject of the framing; rather, she is the speaker expressing her views on the government and societal issues.",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_9d315ccbde3efdeba0ca22d266d2|arthaud": {
+    "candidate_id": "arthaud",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "Nathalie Arthaud expresses solidarity with Adèle Haenel, who is at the center of the video's discussion.",
+    "evidence_quote": "Nathalie Arthaud @n_arthaud · 5h\nAdèle Haenel censurée sur le replay FranceTV, harcelée pour avoir dénoncé\nle génocide Palestinien : +2 000 enfants tués, 70 % de femmes et\nd'enfants parmi les morts. Faire taire la vérité, c'est se rendre complice d'un\ndrammage parmi molti fere dalle havete; cast re delle mensonge criminel. Solidarità totale avec *Adèle Haenel*",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_9d315ccbde3efdeba0ca22d266d2|lisnard": {
+    "candidate_id": "lisnard",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "David Lisnard is mentioned in a tweet that questions his public recognition, but the video does not take a stance on him.",
+    "evidence_quote": "Twitter c'est une bulle. Je suis allé demander à des passants au hasard s'ils\nconnaissaient David Lisnard, je n'ai eu que des réponses du genre \"Qui ça?\"",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_690ffbe56962d068f6d26c1c6836|arthaud": {
+    "candidate_id": "arthaud",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The post highlights Nathalie Arthaud's direct and unapologetic stance on violence, portraying her as someone who 'says the terms' and supports her perspective.",
+    "evidence_quote": "« Vous condamnez les violences ? » 🗿 Non. – Nathalie Arthaud dit les termes sur le plateau de BFMTV !",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_3ab48ffe6d65fdd92ea9d050221f|arthaud": {
+    "candidate_id": "arthaud",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "Nathalie Arthaud's tweet expresses total solidarity with Adèle Haenel, who is portrayed positively in the video for her statements.",
+    "evidence_quote": "Nathalie Arthaud @n_arthaud · 5h\nAdèle Haenel censurée sur le replay FranceTV, harcelée pour avoir dénoncé\nle génocide Palestinien : +22 000 enfants tués, 70 % de femmes et\nd'enfants parmi les morts. Faire taire la vérité, c'est se rendre complice d'un\nmensonge criminel. Solidarity totale avec **Adèle Haenel** !",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_3ab48ffe6d65fdd92ea9d050221f|lisnard": {
+    "candidate_id": "lisnard",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "David Lisnard is mentioned in a tweet that questions his public recognition, but this does not reflect a stance on his political actions or views within the context of the video's main topic.",
+    "evidence_quote": "Twitter c'est une bulle. Je suis allé demander à des passants au hasard s'ils\nconnaissaient David Lisnard, je n'ai eu que des réponses du genre \"Qui ça?\"\n\"Le joueur de tennis\", \"Non\", \"ça ne me dit rien\" ou encore \"Mettez des habits\nou j'appelle la police'",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_2520955fab0cc687e5b29855c815|arthaud": {
+    "candidate_id": "arthaud",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Nathalie Arthaud is mentioned in the on-screen text as a candidate with her election results.",
+    "evidence_quote": "Nathalie Artaud, 0,56%.",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_2520955fab0cc687e5b29855c815|duponaignan": {
+    "candidate_id": "duponaignan",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Nicolas Dupont-Aignan is mentioned in the on-screen text as a candidate with his election results.",
+    "evidence_quote": "Nicolas Dupont-Aignan, 2,06%",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_ee2de04201714361a73c8f5c0920|arthaud": {
+    "candidate_id": "arthaud",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Nathalie Arthaud is mentioned as a candidate for 2027 without any positive or negative framing.",
+    "evidence_quote": "Nathalie Arthaud Candidate Lutte Ouvrière pour 2027",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_36176376c20683b00d22b11b7f86|asselineau": {
+    "candidate_id": "asselineau",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The post mentions Asselineau as an example of a future candidate, but does not provide enough context to determine a clear stance.",
+    "evidence_quote": "Asselineau",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_36176376c20683b00d22b11b7f86|polony": {
+    "candidate_id": "polony",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The post mentions Natacha Polony as an example of a future candidate, but does not provide enough context to determine a clear stance.",
+    "evidence_quote": "Natacha Polony",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_b71c4a1ee0a8d3c98a3c221240ef|arthaud": {
+    "candidate_id": "arthaud",
+    "stance": "favorable",
+    "score": 1,
+    "rationale": "Nathalie Arthaud proposes to increase the SMIC to 2200 euros net per month by taking from existing profits, especially in wealthy large groups, and suggests allowing workers to vote on their salaries.",
+    "evidence_quote": "Nathalie Arthaud propose d'augmenter le SMIC à 2200 euros net par mois en prenant sur les profits qui existent, en particulier dans les grands groupes richissimes. Elle suggère également de laisser les travailleurs voter pour décider de leur salaire.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_b71c4a1ee0a8d3c98a3c221240ef|ruffin": {
+    "candidate_id": "ruffin",
+    "stance": "favorable",
+    "score": 1,
+    "rationale": "François Ruffin proposes to increase the minimum wage to 1700 euros net per month and suggests reallocating over 200 billion euros in aid to businesses, specifically targeting industry, very small businesses, and small and medium-sized enterprises.",
+    "evidence_quote": "François Ruffin veut augmenter le salaire minimum à 1 700 euros net par mois. Il propose de répartir les plus de 200 milliards d'euros d'aide versées aux entreprises chaque année en ciblant spécifiquement le secteur de l'industrie et les TPE et PME.",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_9ee2a32c9d39569e8a24d0f4df3e|asselineau": {
+    "candidate_id": "asselineau",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post mentions François Asselineau's election results in comparison to another candidate without expressing a direct stance on him.",
+    "evidence_quote": "François Asselineau obtient 2,2% !",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_8586ff4bd6d2206b1ca7ef770a40|arthaud": {
+    "candidate_id": "arthaud",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video lists Nathalie Arthaud as one of the declared candidates for the 2027 presidential election without expressing a specific stance towards her.",
+    "evidence_quote": "Nathalie Arthaud Lutte ouvrière",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_8586ff4bd6d2206b1ca7ef770a40|asselineau": {
+    "candidate_id": "asselineau",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video lists François Asselineau as one of the declared candidates for the 2027 presidential election without expressing a specific stance towards him.",
+    "evidence_quote": "François Asselineau Union populaire républicaine",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_8586ff4bd6d2206b1ca7ef770a40|batho": {
+    "candidate_id": "batho",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video lists Delphine Batho as one of the declared candidates for the 2027 presidential election without expressing a specific stance towards her.",
+    "evidence_quote": "Delphine Batho Génération écologie",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_8586ff4bd6d2206b1ca7ef770a40|bouamrane": {
+    "candidate_id": "bouamrane",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video lists Karim Bouamrane as one of the declared candidates for the 2027 presidential election without expressing a specific stance towards him.",
+    "evidence_quote": "Karim Bouamrane Parti socialiste",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_8586ff4bd6d2206b1ca7ef770a40|cazeneuve": {
+    "candidate_id": "cazeneuve",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video lists Bernard Cazeneuve as one of the declared candidates for the 2027 presidential election without expressing a specific stance towards him.",
+    "evidence_quote": "Bernard Cazeneuve La Convention",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_8586ff4bd6d2206b1ca7ef770a40|duponaignan": {
+    "candidate_id": "duponaignan",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video lists Nicolas Dupont-Aignan as one of the declared candidates for the 2027 presidential election without expressing a specific stance towards him.",
+    "evidence_quote": "Nicolas Dupont-Aignan Debout la France",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_8586ff4bd6d2206b1ca7ef770a40|kazib": {
+    "candidate_id": "kazib",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video lists Anasse Kazib as one of the declared candidates for the 2027 presidential election without expressing a specific stance towards him.",
+    "evidence_quote": "Anasse Kazib Révolution permanente",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_8586ff4bd6d2206b1ca7ef770a40|labib": {
+    "candidate_id": "labib",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video lists Selma Labib as one of the declared candidates for the 2027 presidential election without expressing a specific stance towards her.",
+    "evidence_quote": "Selma Labib NPA-Révolutionnaires",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_8586ff4bd6d2206b1ca7ef770a40|lisnard": {
+    "candidate_id": "lisnard",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video lists David Lisnard as one of the declared candidates for the 2027 presidential election without expressing a specific stance towards him.",
+    "evidence_quote": "David Lisnard Nouvelle Énergie",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_8586ff4bd6d2206b1ca7ef770a40|mikolajczak": {
+    "candidate_id": "mikolajczak",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video lists Antoine Mikolajczak as one of the declared candidates for the 2027 presidential election without expressing a specific stance towards him.",
+    "evidence_quote": "Antoine Mikolajczak Équinoxe",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_8586ff4bd6d2206b1ca7ef770a40|mlekuz": {
+    "candidate_id": "mlekuz",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video features Manolo Mlekuz as an example of a young presidential candidate, using his story to illustrate the concept of 'ego-politics' without expressing a direct stance on him.",
+    "evidence_quote": "Manolo Mlekuz, Le Clayon Photo : sur lido photo présidentielle, À 20 ans, il vise l'Élysée en 2027. Manolo Mlekuz sillonne actuellement la France pour d'écrocher ses 500 France pour décrocher ses 500 parrainages sous la bannière de son parti, « Trajectoire »... plus",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_8586ff4bd6d2206b1ca7ef770a40|philippot": {
+    "candidate_id": "philippot",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video lists Florian Philippot as one of the declared candidates for the 2027 presidential election without expressing a specific stance towards him.",
+    "evidence_quote": "Florian Philippot Les Patriotes",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_8586ff4bd6d2206b1ca7ef770a40|tondelier": {
+    "candidate_id": "tondelier",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video lists Marine Tondelier as one of the declared candidates for the 2027 presidential election without expressing a specific stance towards her.",
+    "evidence_quote": "Marine Tondelier Les Écologistes",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_3efc5ab28643b600d3077a40f8c6|asselineau": {
+    "candidate_id": "asselineau",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "François Asselineau is listed as a featured person in the caption.",
+    "evidence_quote": "François Asselineau",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_3efc5ab28643b600d3077a40f8c6|bertrand": {
+    "candidate_id": "bertrand",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Xavier Bertrand is listed as a featured person in the caption.",
+    "evidence_quote": "Xavier Bertrand",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_3efc5ab28643b600d3077a40f8c6|philippot": {
+    "candidate_id": "philippot",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Florian Philippot is listed as a featured person in the caption.",
+    "evidence_quote": "Florian Philippot",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_43783ae7da480dfc64f10bfd2156|asselineau": {
+    "candidate_id": "asselineau",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The post features François Asselineau as part of a parody, but the specific framing of him is not clear from the provided text.",
+    "evidence_quote": "Feat. Marine Le Pen, Gabriel Attal, Louis Boyard, Gérald Darmanin, Éric Zemmour, François Asselineau.",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_03504f5b4ce5444cbcc828522f67|asselineau": {
+    "candidate_id": "asselineau",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video mentions François Asselineau's poll results in comparison to another candidate without expressing a direct stance on him.",
+    "evidence_quote": "François Asselineau obtient 2,2%",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_265a3dfa4920ddbed712743f31f6|asselineau": {
+    "candidate_id": "asselineau",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post mentions François Asselineau as a guest speaker for a segment discussing the political and economic situation in France.",
+    "evidence_quote": "🔷François Asselineau\nPrésident de l’Union populaire républicaine (UPR) ‪@uprtvfa‬",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_326e773713bb91834d5e9dd41243|asselineau": {
+    "candidate_id": "asselineau",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The caption mentions François Asselineau in the context of an interview where he answers a question, without expressing a clear stance.",
+    "evidence_quote": "François Asselineau est gay ? Il répond !",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_17ec68dac5a73bf6d2837acc4416|asselineau": {
+    "candidate_id": "asselineau",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The video presents information about François Asselineau, including his background and political stances, but also introduces a mysterious theory about him being pre-selected for the 2027 election, without explicitly endorsing or refuting it.",
+    "evidence_quote": "ALORS SUITE À LA QUESTION QU'ON T'AVAIT POSÉ SUR EUH ET BIEN IL Y A ÉNORMÉMENT DE PERSONNES DANS LES COMMENTAIRES Réponses au commentaire de Annelie Lyuk Collin Asselineau ! EST-CE QUE CE SERAIT RÉ ELLEMENT POSSIBLE QUE ENTOUT CAS DITES-MOI VOUS DANS LES COMMENTAIRES",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_ad3b456957d9162f5e3f45b02164|attal": {
+    "candidate_id": "attal",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video mentions Gabriel Attal in passing as part of a timeline of events related to another person's popularity.",
+    "evidence_quote": "J'ai vu que ces derniers temps, surtout depuis l'interview avec Gabrielle Attal Elle avait gagné énormément de popularité",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_5223d5ce6b8655f2f27e4e4ade8b|attal": {
+    "candidate_id": "attal",
+    "stance": "critical",
+    "score": -0.6,
+    "rationale": "The video criticizes a young woman for attacking Gabriel Attal, implying that her criticism is disingenuous and serves a different agenda.",
+    "evidence_quote": "Et cette jeune femme là, en s'attaquant à Gabriel Attal, elle peut nous berner en nous faisant croire qu'on a le même combat, mais c'est faux.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_5223d5ce6b8655f2f27e4e4ade8b|retailleau": {
+    "candidate_id": "retailleau",
+    "stance": "critical",
+    "score": -0.7,
+    "rationale": "The video highlights Bruno Retailleau's support for a student union described as being 'gangrened by neo-Nazis' and involved in antisemitic photomontages.",
+    "evidence_quote": "SOUTIEN IDÉFECTIFIE DE BRUNO RETAILLEAU",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_5b1870bde202df5959f9e36bed10|attal": {
+    "candidate_id": "attal",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Gabriel Attal is mentioned as attending a meeting convened by Emmanuel Macron.",
+    "evidence_quote": "Gabriel Attal\nRenaissance",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_5b1870bde202df5959f9e36bed10|glucksmann": {
+    "candidate_id": "glucksmann",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Raphaël Glucksmann is mentioned as attending a meeting convened by Emmanuel Macron.",
+    "evidence_quote": "Raphaël Glucksmann\nPlace publique",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_5b1870bde202df5959f9e36bed10|retailleau": {
+    "candidate_id": "retailleau",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Bruno Retailleau is mentioned as attending a meeting convened by Emmanuel Macron.",
+    "evidence_quote": "Bruno Retailleau\nLes Républicains",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_5b1870bde202df5959f9e36bed10|roussel": {
+    "candidate_id": "roussel",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Fabien Roussel is mentioned as attending a meeting convened by Emmanuel Macron.",
+    "evidence_quote": "Fabien Roussel",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_5b1870bde202df5959f9e36bed10|tondelier": {
+    "candidate_id": "tondelier",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Marine Tondelier is mentioned as attending a meeting convened by Emmanuel Macron.",
+    "evidence_quote": "Marine Tondelier\nLa France insoumise",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_d4d615f0252433a042de12cd4e40|asselineau": {
+    "candidate_id": "asselineau",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "François Asselineau is listed as one of the declared candidates for the 2027 presidential election.",
+    "evidence_quote": "François Asselineau Union populaire républicaine",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_d4d615f0252433a042de12cd4e40|batho": {
+    "candidate_id": "batho",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Delphine Batho is listed as one of the declared candidates for the 2027 presidential election.",
+    "evidence_quote": "Delphine Batho Génération écologie",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_d4d615f0252433a042de12cd4e40|bouamrane": {
+    "candidate_id": "bouamrane",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Karim Bouamrane is listed as one of the declared candidates for the 2027 presidential election.",
+    "evidence_quote": "Karim Bouamrane Parti socialiste",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_d4d615f0252433a042de12cd4e40|cazeneuve": {
+    "candidate_id": "cazeneuve",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Bernard Cazeneuve is listed as one of the declared candidates for the 2027 presidential election.",
+    "evidence_quote": "Bernard Cazeneuve La Convention",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_d4d615f0252433a042de12cd4e40|kazib": {
+    "candidate_id": "kazib",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Anasse Kazib is listed as one of the declared candidates for the 2027 presidential election.",
+    "evidence_quote": "Anasse Kazib Révolution permanente",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_d4d615f0252433a042de12cd4e40|labib": {
+    "candidate_id": "labib",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Selma Labib is listed as one of the declared candidates for the 2027 presidential election.",
+    "evidence_quote": "Selma Labib NPA-Révolutionnaires",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_d4d615f0252433a042de12cd4e40|mikolajczak": {
+    "candidate_id": "mikolajczak",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Antoine Mikolajczak is listed as one of the declared candidates for the 2027 presidential election.",
+    "evidence_quote": "Antoine Mikolajczak Équinoxe",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_d4d615f0252433a042de12cd4e40|mlekuz": {
+    "candidate_id": "mlekuz",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Manolo Mlekuz is presented as a young presidential candidate whose campaign style exemplifies the concept of 'ego-politics'.",
+    "evidence_quote": "Manolo Mlekuz Trajectoire",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_d4d615f0252433a042de12cd4e40|philippot": {
+    "candidate_id": "philippot",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Florian Philippot is listed as one of the declared candidates for the 2027 presidential election.",
+    "evidence_quote": "Florian Philippot Les Patriotes",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_56d08bf4d828e7e8136cedc18153|attal": {
+    "candidate_id": "attal",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The post criticizes Attal for his stance on the abaya, implying he was wrong and later convinced to change his view.",
+    "evidence_quote": "Ou bien M. Attal qui lui a dit « Ah ben la baya » parce que c'est islamiste. Alors ceux qui sont musulmans et les docteurs de la foi ont dit « Écoutez, vous pensez ce que vous voulez, mais nous, si on peut se permettre de dire quelque chose, c'est que la baya, ce n'est pas une tenue islamique, mais vous faites ce que vous voulez, hein. » Bon. Alors, ces deux-là, apparemment, on les a convaincus, mais ils doivent aller plus loin.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_56d08bf4d828e7e8136cedc18153|retailleau": {
+    "candidate_id": "retailleau",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The post criticizes Retailleau for his past stance on the veil, suggesting he was wrong and later convinced to change his view.",
+    "evidence_quote": "Même, même M. Retailleau qui a pourtant dit dans une réunion, ah ben oui, dans une réunion payée par Israël, il avait dit « Abba le voile ». Ah, ça lui est passé. Bon.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_dda6259045b8d830e873c18025af|attal": {
+    "candidate_id": "attal",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_dda6259045b8d830e873c18025af|bardella": {
+    "candidate_id": "bardella",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_dda6259045b8d830e873c18025af|lepen": {
+    "candidate_id": "lepen",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_dda6259045b8d830e873c18025af|melenchon": {
+    "candidate_id": "melenchon",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_a7583a8651b75c855a981493b948|attal": {
+    "candidate_id": "attal",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The post mocks Gabriel Attal by depicting him as a heavy drinker during his campaign, implying he is intoxicated.",
+    "evidence_quote": "ATTAL À SON 46 ÈME BISTROT POUR SA CAMPAGNE \"C'est du",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_1eebf8ef256a7fe74b32baf96e5a|attal": {
+    "candidate_id": "attal",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The post directly refutes Gabriel Attal's statement about France not being a tax haven and argues the opposite for billionaires.",
+    "evidence_quote": "Ce que dit Gabriel Attal n'est pas vrai. La France, c'est un paradis fiscal pour milliardaires.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_3ea878324d81ec77f2a7e3ec8991|attal": {
+    "candidate_id": "attal",
+    "stance": "critical",
+    "score": -0.6,
+    "rationale": "The caption mocks Gabriel Attal's low attendance at an event and suggests he needs to regain 'aura'.",
+    "evidence_quote": "Seulement 7 personnes au dernier rdv Bistrot d’Attal. Il est temps de regagner quelques points d'aura face à un adversaire facile",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_3ea878324d81ec77f2a7e3ec8991|glucksmann": {
+    "candidate_id": "glucksmann",
+    "stance": "critical",
+    "score": -0.4,
+    "rationale": "The on-screen text implies Raphaël Glucksmann has also 'lost' in a 'battle of aura'.",
+    "evidence_quote": "ATTAL ET GLUCKSMANN QUI\nFONT UNE BATTLE D'AURA\n(Ils ont tous les deux perdu)",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_4959297cadd4c90c5f4cb5b6ce5f|bardella": {
+    "candidate_id": "bardella",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The video mentions Jordan Bardella in the context of a TV appearance but does not express a clear stance towards him.",
+    "evidence_quote": "FACE À FACE JORDAN BARDELLA, INVITÉ DE BFMTV",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_4959297cadd4c90c5f4cb5b6ce5f|glucksmann": {
+    "candidate_id": "glucksmann",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "Raphaël Glucksmann is mentioned in an alert about blocking the RN, but the video does not take a stance on him.",
+    "evidence_quote": "ALERTE INFO • Législatives : \"La seule manière\" de bloquer le RN est \"une union de la gauche\". (R. Gurksemann S/France, lterp.)",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_4959297cadd4c90c5f4cb5b6ce5f|lepen": {
+    "candidate_id": "lepen",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The video criticizes Marine Le Pen by highlighting her legal issues and the party's financial misconduct.",
+    "evidence_quote": "L’extrême-droite qui donne des leçons de légalité aux lycéens depuis des semaines alors que leur présidente est sous bracelet électronique…..",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_808c6a2e27d14266989c9155cd6d|attal": {
+    "candidate_id": "attal",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The video mocks Gabriel Attal by portraying him as a politician who changes his stance depending on his position in government and makes unrealistic proposals.",
+    "evidence_quote": "Gabrielle Attal, bah décidément elle a du buzz ma boulange Je ne suis pas là pour faire du buzz, je suis là pour rencontrer les français C'est vrai que ça va nous faire bizarre d'aller voir les français Ecoutez je ne rentrerai pas dans votre petit jeu Ce dont les français ont marre et j'en ai la grande conviction Ce sont ces élites déconnectées qui gouvernent ce pays depuis trop longtemps Attends, mais vous, vous étiez au gouvernement Monsieur, vous étiez au gouvernement ? Non, non, pas le monsieur, toi là, toi Gabrielle Attal Tout à fait, mais je vais vous poser une question Depuis quand la France va mal ? Pas, 10, 20 ans Mais... Depuis 2024, depuis que j'ai quitté le gouvernement Pas sûr de l'info là Quand j'étais premier ministre, la France était la première puissance mondiale Quasi sûr que non, mais bref Proposez quoi de nouveau là, que vous n'auriez pas pu faire avant ? Selon moi, l'avenir du pays c'était la jeunesse Ouais, bon, ça n'a jamais été la vieillesse hein Et cette jeunesse, elle est ravagée par les écrans Et moi le premier, je le vois avec mon fils Et comment il se comporte ? Et comment il se comporte votre fils ? Mal D'accord, mais c'est un peu vous qui êtes responsable de son éducation quand même Et non monsieur, puisque depuis quand il se comporte mal mon fils ? Ah ça je ne sais pas du coup Depuis 2024, depuis que j'ai quitté le gouvernement Eh ouais, ouais, ouais, logique Mais bon, à part ça, vous proposez quoi de nouveau par rapport à ce qu'on fait depuis 30 ans ? Et qui marche pas ? Écoutez, moi, un de mes grands projets pour 2027 C'est la retraite à 50 ans Waouh, 50 ans ? Ah oui non, ah ouais, là j'admets c'est radical Évidemment, en contrepartie, il faudra continuer à travailler pour toucher cette retraite À un taux horaire que mes équipes ont estimé à 35 heures D'accord, ok, ouais, ok, bah on annule la retraite quoi Non monsieur, ne brutalisez pas le débat s'il vous plaît D'accord, et sinon par exemple pour la sécurité, vous proposez quoi ? Sur cette question, je n'ai jamais dévié de ma ligne Tu casses, tu répares, tu salis, tu nettoies T'es arabe, tu dégages Bah, écoutez, je crois que la France a besoin de quelqu'un qui ait le courage d'agir Et qui de mieux qu'un homme d'expérience comme moi pour incarner ce changement",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_808c6a2e27d14266989c9155cd6d|glucksmann": {
+    "candidate_id": "glucksmann",
+    "stance": "critical",
+    "score": -0.7,
+    "rationale": "The video mocks Raphaël Glucksmann by portraying him as a charismatic but ultimately unoriginal politician who repeats common political rhetoric and is confused about his own political alignment.",
+    "evidence_quote": "Moi C'est qui ? Mais qui a tant de charisme ? C'est Raphaël Glucksmann ! Il est revenu, le Christ rédempteur ! La France a besoin d'un cap clair Non monsieur Glucksmann, la France n'a pas besoin d'un cap clair Elle a surtout besoin d'une direction précise Il faut que les Français aient plus d'argent pour pouvoir acheter plus de choses Là encore vous faites erreur monsieur Glucksmann La priorité est de rendre aux Français leur pouvoir d'achat Bon, pause là, c'est insupportable Vous répétez la même chose avec des mots différents Qu'est-ce qui vous différencie en fait l'un de l'autre ? Eh bien, il y a la grande distinction entre moi et monsieur Attal Et puis je vous laissez voir c'est que lui est de gauche et que moi je suis de droite ah non monsieur Glucksmann c'est vous qui êtes de gauche ah oui attends c'est moi ? non c'est vous ? oui c'est moi qui suis de gauche vous semblez perdu monsieur Glucksmann mais j'ai quelque chose pour vous réveiller ah non range moi ça il est pourtant de gauche comme vous monsieur Glucksmann ah ouais bah tiens prends ça oh merde bon bah abonnez vous pour pas rater les prochains candidats",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_ebe9f88606346a7802b7a229a9a2|attal": {
+    "candidate_id": "attal",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post includes a quote from Gabriel Attal regarding not increasing the cost of labor, but it doesn't frame him in a favorable or critical light.",
+    "evidence_quote": "pas augmenter le coût du trav 24\" (G. Attal/LCI)",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_ebe9f88606346a7802b7a229a9a2|glucksmann": {
+    "candidate_id": "glucksmann",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post includes a quote from Raphaël Glucksmann about courage lacking in French leaders, but it doesn't frame him in a favorable or critical light.",
+    "evidence_quote": "banque aux dirigeants français urage\" (R. Glucksmann/LCI)",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_ebe9f88606346a7802b7a229a9a2|retailleau": {
+    "candidate_id": "retailleau",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post includes quotes from Bruno Retailleau about decreasing the number of civil servants and the state being bureaucratic, but it doesn't frame him in a favorable or critical light.",
+    "evidence_quote": "diminuer le nombre de fonction Retailleau/LCI)",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_25c45e2491aa962bbe7a3c74cc99|bardella": {
+    "candidate_id": "bardella",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The video criticizes Bardella by associating him with the far-right and highlighting his party's alleged hypocrisy regarding legality.",
+    "evidence_quote": "FACE À FACE JORDAN BARDELLA, INVITÉ DE BFMTV",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_25c45e2491aa962bbe7a3c74cc99|glucksmann": {
+    "candidate_id": "glucksmann",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Raphaël Glucksmann is mentioned in the on-screen text, but the video does not express a stance towards him.",
+    "evidence_quote": "ALERTE INFO + Législatives : \"La seule manière\" de bloquer the RN est \"june union de la féule\". (RU.Glücksau, RS/France.looted)",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_25c45e2491aa962bbe7a3c74cc99|lepen": {
+    "candidate_id": "lepen",
+    "stance": "critical",
+    "score": -0.9,
+    "rationale": "The video strongly criticizes Marine Le Pen and her party for alleged financial misconduct and hypocrisy regarding legality.",
+    "evidence_quote": "L’extrême-droite qui donne des leçons de légalité aux lycéens depuis des semaines alors que leur présidente est sous bracelet électronique",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_99086968d8093345b65e2d8fcbf7|bardella": {
+    "candidate_id": "bardella",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The video implies that Jordan Bardella is using the 'phone technique' to avoid addressing accusations of antisemitism, similar to Marine Le Pen.",
+    "evidence_quote": "Il ne va pas pouvoir réagir aux accusations d'antisémitisme. - Monsieur Bardella, n'a pas été prévenue de cet article?",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_99086968d8093345b65e2d8fcbf7|lepen": {
+    "candidate_id": "lepen",
+    "stance": "critical",
+    "score": -0.9,
+    "rationale": "The video mocks Marine Le Pen for allegedly faking a phone call to avoid answering questions about accusations of antisemitism.",
+    "evidence_quote": "Ah mince, elle est au téléphone, certainement un appel très important, c'est dommage, elle ne va pas pouvoir réagir aux accusations d'antisémitisme.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_aa2992a0ecf5da2aa2f64400a442|bardella": {
+    "candidate_id": "bardella",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The post criticizes Bardella for focusing on divisive topics like immigration and the veil, implying he avoids substantive issues.",
+    "evidence_quote": "Dan Bardella abaisse la parole de la France",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_aa2992a0ecf5da2aa2f64400a442|melenchon": {
+    "candidate_id": "melenchon",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Mélenchon is mentioned in the on-screen text in a hypothetical scenario about an election victory, without any direct framing of him.",
+    "evidence_quote": "victoire de J.-L. Mélenchon aurait de",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_aa2992a0ecf5da2aa2f64400a442|philippe": {
+    "candidate_id": "philippe",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Philippe is mentioned in the on-screen text in relation to a quote about society, without any direct framing of him.",
+    "evidence_quote": "notre société\" (Édouard Philippe)",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_aa2992a0ecf5da2aa2f64400a442|ruffin": {
+    "candidate_id": "ruffin",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Ruffin is mentioned in the on-screen text in the context of a primary, without any direct framing of him.",
+    "evidence_quote": "ux une primaire de François Ruffin à",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_064f4182962dfa8d26443976db8f|bardella": {
+    "candidate_id": "bardella",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The video presents Jordan Bardella's proposed solutions and statements regarding the 'casseur-payeur' principle and parental responsibility in a positive light.",
+    "evidence_quote": "JORDAN BARDELLA SUR LCI",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_7b2a6f6ef4904869347e86588251|bardella": {
+    "candidate_id": "bardella",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The post criticizes Bardella by associating him with antisemitism and suggesting he is using a new face to promote extreme right-wing politics.",
+    "evidence_quote": "Bardella est en train de faire tel parce que c'est un antisémite Il trouve un nouveau visage C'est pas anodin, ils essaient de faire monter quelqu'un de jeune Au rassemblement national",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_dc3c456d7a6916380affb61a2d3b|bardella": {
+    "candidate_id": "bardella",
+    "stance": "critical",
+    "score": -1,
+    "rationale": "The video directly insults Jordan Bardella.",
+    "evidence_quote": "Nick Jordan Bardella, c'est gros antisémite de merde.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_dc3c456d7a6916380affb61a2d3b|lepen": {
+    "candidate_id": "lepen",
+    "stance": "critical",
+    "score": -1,
+    "rationale": "The video expresses strong negative sentiment towards Marine Le Pen and the RN.",
+    "evidence_quote": "C'est Marine Le Pen et toi pour voir juste de chialer tous mes grands morts.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_e720c9c5e4366cb32d53519418ef|bardella": {
+    "candidate_id": "bardella",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The video criticizes Jordan Bardella for his absenteeism in the European Parliament.",
+    "evidence_quote": "Jordan Bardella est le champion d'Europe de l'absentéisme au Parlement uropeen avec un tour européen avec un taux d'absence de 77 %",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_fcd149328b59be5e3bc6ef46b9bb|bardella": {
+    "candidate_id": "bardella",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The post uses sarcasm to make a humorous, unbelievable claim about Jordan Bardella, making its true stance unclear.",
+    "evidence_quote": "Pour réaffirmer son soutien aux juifs, Jordan Bardella se fera circoncire en direct sur TF1",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_12492b8203bd2b8eea1b13023094|batho": {
+    "candidate_id": "batho",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Delphine Batho is mentioned as one of the deputies who presented a proposition of law for the modernization of the civil security model.",
+    "evidence_quote": "Mme Léa BALAGE EL. MARIKY, Mme Delphine BATHO. Mme Lisa BELLUCO.",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_e3f95a375b64e07c271011d60071|batho": {
+    "candidate_id": "batho",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Delphine Batho is mentioned as one of the deputies who presented a proposition of law, without any further framing.",
+    "evidence_quote": "Mme Lea BALAGE EL. MARIK Y. Mme Delphine BATHO. Mme Lisa BELLACO.",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_e1e98593ad6f66ba567e09294cfe|batho": {
+    "candidate_id": "batho",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The video features Delphine Batho speaking about the agricultural crisis and proposing solutions.",
+    "evidence_quote": "Merci beaucoup Delphine Bateau, candidate Génération écologie à la présidentielle.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_29924a665beb1dd4f6ce034f3b67|batho": {
+    "candidate_id": "batho",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The post discusses a debate about pesticides and mentions political representatives but does not specifically name or refer to Delphine Batho.",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_3e5c668af27b7b8e2072f2f1b659|batho": {
+    "candidate_id": "batho",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The post highlights Delphine Batho's defense of banning dangerous pesticides in a commission, framing her actions positively as being in favor of science, health, and pollinators.",
+    "evidence_quote": "Ce matin en commission, lors de l’examen du texte de LFI, Delphine Batho a défendu leur interdiction.",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_1048e5b4616356e771239a186a48|batho": {
+    "candidate_id": "batho",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post quotes Delphine Batho's statement about her political intentions without expressing a favorable or critical opinion.",
+    "evidence_quote": "\"Je veux proposer une écologie de gouvernement\", assure Delphine Batho, candidante à l'élection présidentielle 2027.",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_6c6ee0b64cd19c53e41af56169da|batho": {
+    "candidate_id": "batho",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post is a press release from Delphine Batho, where she criticizes the government and the Minister of Interior, but does not mention herself in a way that expresses a stance towards herself.",
+    "evidence_quote": "Delphine BATHO\nDéputée des Deux-Sèvres\nAncienne ministre",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_55f4b1b61bc223990e5f61484bc5|batho": {
+    "candidate_id": "batho",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post mentions Delphine Batho as one of the personalities who would be presented for the final vote of the Popular Primary.",
+    "evidence_quote": "#5 DELPHINE BATHO",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_47cc1ad6993e7c15b5141aab1e6f|bertrand": {
+    "candidate_id": "bertrand",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post mentions Xavier Bertrand in the context of Gérald Darmanin's opinion about him, without expressing a direct stance on Bertrand himself.",
+    "evidence_quote": "Gérald Dramanin, il pense que Xavier Bertrand ferait un très bon Premier ministre.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_4b9d4faeff4ea353996bb498a66a|becht": {
+    "candidate_id": "becht",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post mentions Olivier Becht as a potential candidate for the Elysée, but it does not express any particular stance towards him.",
+    "evidence_quote": "Olivier Becht, un candidat de plus à l'Elysée",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_6a6e5fa05aa4f9160e74d8ae5997|bertrand": {
+    "candidate_id": "bertrand",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video mentions Xavier Bertrand as an example of a politician with a specific political leaning within the right-wing spectrum, without expressing a favorable or critical view of him.",
+    "evidence_quote": "tandis que Xavier Bertrand revendique une droite gaulliste et populaire.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_b310d779737b77240fd1e2d59924|bertrand": {
+    "candidate_id": "bertrand",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Xavier Bertrand is mentioned in the on-screen text in the context of his presidential candidacy announcement, but the video's main topic is EU investment policy.",
+    "evidence_quote": "DIRECT. Présidentielle: Xavier Bertrand annonce officiellement\ncandidature",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_bf70a3fc31b075080e9dfa1e0539|bertrand": {
+    "candidate_id": "bertrand",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Xavier Bertrand is mentioned in a list of politicians with their satisfaction ratings.",
+    "evidence_quote": "(-9) 10 % Xavier Bertrand",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_bf70a3fc31b075080e9dfa1e0539|cazeneuve": {
+    "candidate_id": "cazeneuve",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Bernard Cazeneuve is mentioned in a list of politicians with their satisfaction ratings.",
+    "evidence_quote": "(=) 11 % Bernard Cazeneuve",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_bf70a3fc31b075080e9dfa1e0539|duponaignan": {
+    "candidate_id": "duponaignan",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Nicolas Dupont-Aignan is mentioned in a list of politicians with their satisfaction ratings.",
+    "evidence_quote": "(+2) 14 % Nicolas Dupont-Aignan",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_8bcb7391a7de91e1f67db1892f56|bertrand": {
+    "candidate_id": "bertrand",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Xavier Bertrand is quoted in the on-screen text regarding a tragic incident, but the post does not express a stance towards him.",
+    "evidence_quote": "LYCÉES | Main arrachée à Lens : \"C'est un drame terrible\"\n(Xavier Bertrand, président des Hauts-de-France)",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_a39e8675c28d952b136ec81b4a9d|bertrand": {
+    "candidate_id": "bertrand",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video mentions Xavier Bertrand as a potential candidate for the 2027 presidential elections, describing his political position and some of his proposals without expressing a clear favorable or critical stance.",
+    "evidence_quote": "Xavier Bertrand, lui aussi du parti, mais plus modéré, a confirmé lui aussi qu'il serait candidat, mais en indépendant. Il a notamment proposé de baisser l'impôt sur le revenu des premières tranches, et de mieux partager entre les salariés la richesse créée par leur entreprise.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_7f05ecdcc89a6a335c530e3550e0|bertrand": {
+    "candidate_id": "bertrand",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Xavier Bertrand is mentioned as one of four options in a quiz question about a French political personality.",
+    "evidence_quote": "Xavier Bertrand ?",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_476069401b3341687ae08a455f26|bertrand": {
+    "candidate_id": "bertrand",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Xavier Bertrand is mentioned in the caption as part of a list of politicians featured in a parody video.",
+    "evidence_quote": "Xavier Bertrand",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_a29303fcc2987baa106aa77370cb|bertrand": {
+    "candidate_id": "bertrand",
+    "stance": "critical",
+    "score": -0.6,
+    "rationale": "The post criticizes Xavier Bertrand by including him in a list of numerous candidates for 2027, implying his candidacy is part of an 'excessive' and 'worrying' trend that benefits Marine Le Pen.",
+    "evidence_quote": "Même Xavier Bertrand est encore là pour 2027.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_895e6d22eff5887f34f9592f1f9d|bouamrane": {
+    "candidate_id": "bouamrane",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The on-screen text mentions Karim Bouamrane as a candidate for 2027, quoting his statement about not going through a primary.",
+    "evidence_quote": "2027 | \"Je ne passerai pas par la case primaire mais je suis plus\nque jamais candidat\" (K. Bouamrane, maire de Saint-Ouen/TF1)",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_6df274c542b71ee06581e9e088bc|bouamrane": {
+    "candidate_id": "bouamrane",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Karim Bouamrane is mentioned as 'another presidential candidate' without any further positive or negative framing.",
+    "evidence_quote": "Un autre candidat à la présidentielle, Karim Bouamrane, le socialiste.",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_7593fa7398d2e31002832076bbce|bouamrane": {
+    "candidate_id": "bouamrane",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video mentions Karim Bouamrane as a presidential candidate without expressing a clear opinion about him.",
+    "evidence_quote": "Un autre candidat à la présidentielle, Karim Bouamrane, le socialiste.",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_9c43984acfa0780bd1fa40cc51b0|bouamrane": {
+    "candidate_id": "bouamrane",
+    "stance": "critical",
+    "score": -0.6,
+    "rationale": "The video mocks Karim Bouamrane by showing his image with text about his anger at not being invited to a debate, followed by a humorous, nonsensical audio clip about 'poulet'.",
+    "evidence_quote": "La colère de\nKarim Bouamrane,\npas invité au premier\ndébat présidentiel",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_a6e7195e420017e2abc2f99d7cfc|bouamrane": {
+    "candidate_id": "bouamrane",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video features Karim Bouamrane expressing his views on LFI and Jean-Luc Mélenchon, positioning himself in opposition to their political line.",
+    "evidence_quote": "Karim Bouamrane s’en prend violemment à LFI et Jean-Luc Mélenchon. Le candidat à 2027 assume une rupture nette avec la ligne mélenchoniste et explique pourquoi il refuse cette gauche-là.",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_af5ceda23d3fa2ef50f4f65cdaee|bouamrane": {
+    "candidate_id": "bouamrane",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The video features Karim Bouamrane expressing his views and defending his position as a presidential candidate, highlighting his qualifications and past electoral successes.",
+    "evidence_quote": "Je ne suis pas exclu de la course à la présidentielle. Je suis sondé, je suis à Blois, je suis respecté par les militants, j'ai gagné les élections municipales, j'ai regagné, c'est les autres qui ont le sentiment de vouloir m'exclure. Je sais que moi je serai le meilleur candidat au mois de janvier pour fédérer tous les progressistes, les écologistes, les républicains qui se disent on ne veut pas de RN et on ne veut pas de la France à soumise.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_47671baf7742ce2247443213e1ca|bouamrane": {
+    "candidate_id": "bouamrane",
+    "stance": "critical",
+    "score": -0.7,
+    "rationale": "The video features a debate where Karim Bouamrane is criticized for his political alignment and policy positions.",
+    "evidence_quote": "Que ce soit vous le candidat, que ce soit Hollande, que ce soit Glucksmann, que ce soit tous ces gens-là. Je suis désolé. Vous voyez, le problème, c'est que vous êtes quand même sur des solutions qui, moi, effectivement, entre la gravité des enjeux auxquels la France a à répondre, qui en gros sont existentiels, c'est-à-dire, est-ce que la France va rester un pays à peu près riche, à peu près dans la compétition ?",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_bd1065f3177de167d6413f4982ec|bouamrane": {
+    "candidate_id": "bouamrane",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Karim Bouamrane is mentioned in the on-screen text as making a statement about his candidacy for 2027.",
+    "evidence_quote": "2027 | \"Je ne passerai pas par la case primaire mais je suis plus que jamais candidat\" (K. Bouamrane, maire de Saint-Ouen/TF1)",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_967b017ffcf1c28e7348b78f117a|cazeneuve": {
+    "candidate_id": "cazeneuve",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "Pierre Cazeneuve is shown criticizing the National Rally's proposal to include certain figures in the Pantheon, suggesting that if Jordan Bardella had made the list, he would have included controversial figures like Alain Soral.",
+    "evidence_quote": "PIERRE CAZENEUVE\nDéputé Ensemble pour la République\n(Hauts-de-Seine)\nSi vous étiez honnêtes,\nvotre président de parti,\npour pantheoniser des gens,\nanticipation, Alain Soral,",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_12e376af6845cdcd65d66824921f|cazeneuve": {
+    "candidate_id": "cazeneuve",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post mentions Marguerite Cazeneuve as an associate of Glucksmann, but does not express a stance on Bernard Cazeneuve himself.",
+    "evidence_quote": "Marguerite Cazeneuve d'abord, conseillère d'Emmanuel Macron lors de sa campagne présidentielle de 2022, qui s'occupe de votre programme, qu'on n'a pas encore vu d'ailleurs.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_497d9e8ff06a31d0b3a41ff1c2f3|cazeneuve": {
+    "candidate_id": "cazeneuve",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The video criticizes Bernard Cazeneuve for having previously instituted a 'permit to kill' by relaxing rules on the use of weapons.",
+    "evidence_quote": "Nous le savons car déjà en 2017, Bernard Cazeneuve avait instauré un permis de tuer en assouplissant l'usage des armes lors de refus d'obtempérer.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_94fd4df54fb6f174aff602e424e7|cazeneuve": {
+    "candidate_id": "cazeneuve",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post mentions Marguerite Cazeneuve as an associate of Glucksmann, but does not express a stance on Bernard Cazeneuve himself.",
+    "evidence_quote": "Marguerite Cazeneuve d'abord, conseillère d'Emmanuel Macron lors de sa campagne présidentielle de 2022, qui s'occupe de votre programme, qu'on n'a pas encore vu d'ailleurs.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_68853315fc407f02ba785d9bb99b|duponaignan": {
+    "candidate_id": "duponaignan",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Nicolas Dupont-Aignan is mentioned as being present at the event, but no specific stance is taken towards him.",
+    "evidence_quote": "Nicolas Dupont-Aignan, Marine Le Pen et Éric Zemmour étaient là aujourd'hui.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_5ebb3c71507fd8b78583c897d8e3|cazeneuve": {
+    "candidate_id": "cazeneuve",
+    "stance": "critical",
+    "score": -0.6,
+    "rationale": "The video criticizes Raphaël Glucksmann for surrounding himself with former Macronists, including Marguerite Cazeneuve, implying this makes his campaign disingenuous.",
+    "evidence_quote": "Marguerite Cazeneuve, ancienne macroniste, qui a élaboré le programme de Macron en 2022 et la réforme des retraites en 2018.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_68ac85046b5c278d479d286abc17|cazeneuve": {
+    "candidate_id": "cazeneuve",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Bernard Cazeneuve is mentioned as part of a group of politicians who might share common values, without any specific positive or negative framing.",
+    "evidence_quote": "François Hollande, Bernard Cazeneuve, Raphaël Luxemann, Gabriel Attal, Édouard Philippe, David Listeroumé, Bruno Rotaillot ont plus de valeurs communes et d'idées à partager entre eux",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_7dc04bbf139aee812ac940d8d254|duponaignan": {
+    "candidate_id": "duponaignan",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The video presents Nicolas Dupont-Aignan's proposal for a retirement capital for newborns, highlighting his ideas and solutions.",
+    "evidence_quote": "Je propose qu'à chaque nouveau-né français, l'État donne un capital de 10 000 euros. 10 000 euros sur un compte épargne ? Un livret. Un livret retraite qui sera gelé jusqu'à l'âge de 60 ans.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_eb2edc13bf3b50dd4310901874d9|cazeneuve": {
+    "candidate_id": "cazeneuve",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The caption states that if a new law is passed, it will be abrogated along with the 'loi Cazeneuve,' indicating opposition to the law associated with him.",
+    "evidence_quote": "nous l’abrogerons, ainsi que la loi Cazeneuve",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_a20d52a46df25d3486e92b075178|duponaignan": {
+    "candidate_id": "duponaignan",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post mentions Nicolas Dupont-Aignan as having denounced a difference in treatment regarding police protection for businesses.",
+    "evidence_quote": "Nicolas Dupont-Aignan a notamment dénoncé une différence de traitement, estimant que les petits commerçants ont été abandonnés face aux casseurs tandis qu’un établissement lié à la famille de la Première dame bénéficiait d’une protection renforcée.",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_729affc427ddad489720b393dc66|duponaignan": {
+    "candidate_id": "duponaignan",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The on-screen text includes Nicolas Dupont-Aignan in a list of presidential candidates with an associated percentage, without any further commentary.",
+    "evidence_quote": "Nicolas Dupont-Aignan",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_303d1c31b09899879a1a4cb7e3c0|duponaignan": {
+    "candidate_id": "duponaignan",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "Nicolas Dupont-Aignan criticizes the deployment of police resources to protect the Trogneux boutique while other merchants were abandoned.",
+    "evidence_quote": "Jusqu'où iront-ils ? 6 fourgons de police étaient présents samedi pour protéger la boutique Trogneux, de la famille de Brigitte Macron... Tous les autres commerçants de France ont, eux, été abandonnés face aux pilleurs.",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_c1b8109a9e93cce4f97b54a45719|durif": {
+    "candidate_id": "durif",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post reports on Sylvain Durif's announcement of his candidacy for the 2027 presidential election without expressing a positive or negative opinion.",
+    "evidence_quote": "Sylvain Durif, alias « le Christ cosmique », se lance dans la course à l’Élysée et annonce être officiellement candidat à l’élection présidentielle de 2027",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_0e792c7b1985f328ae0c32f51bd8|duponaignan": {
+    "candidate_id": "duponaignan",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video mentions Nicolas Dupont-Aignan's political event and his presidential candidacy announcement without expressing a clear stance on him.",
+    "evidence_quote": "C’était ce samedi 19 septembre, à la rentrée politique de Nicolas Dupont-Aignan, aka la Fête de la liberté. NDA y annonçait sa candidature à l’élection présidentielle.",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_0e792c7b1985f328ae0c32f51bd8|philippot": {
+    "candidate_id": "philippot",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Florian Philippot is interviewed in the video, where he discusses a conspiracy theory about Emmanuel Macron, but the video itself does not take a stance on Philippot.",
+    "evidence_quote": "- Monsieur Philippot, bonjour, Emmanuel Macron qui voudraient supprimer l'élection présidentielle de 2027, qu'est-ce que c'est que cette histoire",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_2266d5b46eefb4702bbcd367b4e6|duponaignan": {
+    "candidate_id": "duponaignan",
+    "stance": "critical",
+    "score": -0.6,
+    "rationale": "The video frames Nicolas Dupont-Aignan's event as associated with conspiracy theories and extreme views.",
+    "evidence_quote": "Frexit, antivax et complots en tout genre : bienvenue à Fête de la Liberté. C'était ce samedi 19 septembre, à la rentrée politique de Nicolas Dupont-Aignan, aka la Fête de la liberté.",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_2266d5b46eefb4702bbcd367b4e6|philippot": {
+    "candidate_id": "philippot",
+    "stance": "critical",
+    "score": -0.5,
+    "rationale": "The video presents Florian Philippot's statements as conspiratorial, particularly regarding the 2027 election.",
+    "evidence_quote": "- C'est pas un peu complotiste de penser ça ?",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_e94d51d1cdb4a91cb31345d1ede8|durif": {
+    "candidate_id": "durif",
+    "stance": "favorable",
+    "score": 1,
+    "rationale": "The video features Sylvain Durif announcing his candidacy for the 2027 presidential election and outlining his platform.",
+    "evidence_quote": "Bonjour, je suis le grand monarque, le Christo Cosmique, le Messie, le roi et le pape Pierre, le président de la gouvernance pacifique, planétaire et cosmique, Elvita. Je suis également candidat aux élections présidentielles en France en 2027.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_a2c833a3ad845b51975f4128c946|durif": {
+    "candidate_id": "durif",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "Sylvain Durif is mentioned in the on-screen text, but the context is unclear and does not relate to him as a politician.",
+    "evidence_quote": "Durif",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_ca945686de62d3299a69df5fa060|durif": {
+    "candidate_id": "durif",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video features Sylvain Durif recounting an experience of seeing UFOs, with the caption questioning the veracity of his testimony, but it does not explicitly support or criticize him.",
+    "evidence_quote": "Vrai témoignage vous pensez ? #sylvaindurif #christcosmique #humour #drole #ovni",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_d3bec1cc1b1eff52636594686160|durif": {
+    "candidate_id": "durif",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The post introduces Sylvain Durif as an 'improbable candidate' and highlights his unusual and nonsensical statements, framing him in a mocking or dismissive light.",
+    "evidence_quote": "l'un des candidats les plus improbables des prochaines présidentielles françaises, le Christ cosmique Sylvain Durif",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_622c72da04b3bb57071455f6ddc4|durif": {
+    "candidate_id": "durif",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The video presents Sylvain Durif as a powerful figure capable of convincing even Satan and Macron to change their ways, aligning with the humorous and meme-like tone of the post.",
+    "evidence_quote": "Sylvain Durif pourrait convaincre Satan et Macron d'arrêter leurs conneries",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_3a3a9e4d1fb6eb1d4c4e918acb8c|durif": {
+    "candidate_id": "durif",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The video uses a 'POV' meme format to mock Sylvain Durif's eccentric claims, implying he is making excuses for a missed appointment.",
+    "evidence_quote": "POV: Ton patient se justifie de son rendez-vous manqué",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_36eb446550ba62efb79c57c3bbd5|durif": {
+    "candidate_id": "durif",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video mentions Sylvain Durif as one of the 'inclassable' candidates for the 2027 presidential election.",
+    "evidence_quote": "Et dans tout ce barda, il y a aussi Sylvain Durif alias le Christ Cosmic",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_36eb446550ba62efb79c57c3bbd5|lalanne": {
+    "candidate_id": "lalanne",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video presents Francis Lalanne as a candidate for the presidential election, detailing his proposals and noting his support from Dieudonné.",
+    "evidence_quote": "Il y a aussi Francis Lalanne qui a officialisé sa candidature à la présidentielle avec le soutien de Dieudonné, qui a été condamné plusieurs fois pour des propos antisémites. Son projet met notamment en avant le référendum d'initiative citoyenne, la souveraineté nationale, la sortie de l'Union Européenne et de l'OTAN, ainsi que le retour à une monnaie nationale.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_36eb446550ba62efb79c57c3bbd5|mathieu": {
+    "candidate_id": "mathieu",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video describes Benoît Mathieu's atypical campaign, highlighting his method of gathering sponsorships and his proposed program.",
+    "evidence_quote": "Dans un style plus atypique, il y a Benoît Mathieu. 27 ans, ingénieur de formation, ancien prof de maths, aucun parti politique et surtout, il fait littéralement un Tour de France à vélo pour rencontrer des maires et essayer de récupérer les 500 parrainages.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_36eb446550ba62efb79c57c3bbd5|polony": {
+    "candidate_id": "polony",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video mentions Natacha Polony as having recently entered the presidential race.",
+    "evidence_quote": "ou encore la journaliste Natacha Polony qui vient de se lancer dans la course",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_e29f725261abb1815abe52cda3e2|durif": {
+    "candidate_id": "durif",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The on-screen text mentions 'DURIF' in a technical context related to TV repair, which does not seem to refer to the politician Sylvain Durif.",
+    "evidence_quote": "(2) Presta sesión DURIF (ffluencia)",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_77557ff658839a0812fe5e8f78d7|glucksmann": {
+    "candidate_id": "glucksmann",
+    "stance": "critical",
+    "score": -0.6,
+    "rationale": "The video mocks the incident where Raphaël Glucksmann was floured, comparing it to preparing pizza dough and implying it's a French political tactic.",
+    "evidence_quote": "Et ça, c'est une technique bien française pour préparer un candidat à l'élection présidentielle. Tu lui balances de la farine plein la gueule.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_4a873960170f5c729f1a56b79909|glucksmann": {
+    "candidate_id": "glucksmann",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The video uses Glucksmann's name in hashtags but the content is a generic satire of a politician's vague answers, not specifically targeting him.",
+    "evidence_quote": "#glucksman #raphaelglucksmann",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_046e4220890ceb41766459a0d6da|durif": {
+    "candidate_id": "durif",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The video mocks Sylvain Durif's candidacy by grouping him with Francis Lalanne as examples of absurd presidential candidates, implying that if they can run, anyone can.",
+    "evidence_quote": "Donc on a Sylvain Durif et Francis Lalanne qui se présentent aux présidentielles. Bon, mais vous savez quoi ? Moi aussi je me présente. Voilà, c'est officiel, Bertosaurus 2027. À un moment donné, il faut arrêter de se sous-estimer. Parce que jusqu'ici, moi, je regardais les présidentielles comme tout le monde. Je me contentais de regarder des gens qui m'expliquaient comment sauver la France alors qu'ils sont incapables de répondre lui ou non à une question. Mais là, quand je vois le Christ cosmique et Francis Lalanne arriver, vous savez ce que je me suis dit ? Les mecs sont en train de faire le casting de mon type Python et ils ne m'appellent pas.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_046e4220890ceb41766459a0d6da|lalanne": {
+    "candidate_id": "lalanne",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The video mocks Francis Lalanne's candidacy by grouping him with Sylvain Durif as examples of absurd presidential candidates, implying that if they can run, anyone can.",
+    "evidence_quote": "Donc on a Sylvain Durif et Francis Lalanne qui se présentent aux présidentielles. Bon, mais vous savez quoi ? Moi aussi je me présente. Voilà, c'est officiel, Bertosaurus 2027. À un moment donné, il faut arrêter de se sous-estimer. Parce que jusqu'ici, moi, je regardais les présidentielles comme tout le monde. Je me contentais de regarder des gens qui m'expliquaient comment sauver la France alors qu'ils sont incapables de répondre lui ou non à une question. Mais là, quand je vois le Christ cosmique et Francis Lalanne arriver, vous savez ce que je me suis dit ? Les mecs sont en train de faire le casting de mon type Python et ils ne m'appellent pas.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_b4a8e0e3c14569daf8c6869a9e99|glucksmann": {
+    "candidate_id": "glucksmann",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The video portrays Raphaël Glucksmann as confused about his political alignment and presents his ideas as unoriginal or easily dismissed.",
+    "evidence_quote": "Non, monsieur Glucksmann, la France n'a pas besoin d'un cap clair. Elle a surtout besoin d'une direction précise. Il faut que les Français aient plus d'argent pour pouvoir acheter plus de choses. Là encore, vous faites erreur, monsieur Glucksmann. La priorité est de rendre aux Français leur pouvoir d'achat. Bon, pause, là, c'est insupportable. Vous répétez la même chose avec des mots différents. Qu'est-ce qui vous différencie, en fait, l'un de l'autre? Eh bien, il y a la grande distinction entre moi et monsieur Attal. c'est que lui est de gauche et que moi je suis de droite ah non monsieur Glucksmann c'est vous qui êtes de gauche ah oui attends c'est moi? non c'est vous? oui c'est moi qui suis de gauche vous semblez perdu monsieur Glucksmann mais j'ai quelque chose pour vous réveiller ah non range moi ça il est pourtant de gauche comme vous monsieur Glucksmann ah ouais bah tiens prends ça oh merde bon bah abonnez vous pour pas rater les prochains candidats",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_b3a152b7545969543c88446ab5ca|glucksmann": {
+    "candidate_id": "glucksmann",
+    "stance": "critical",
+    "score": -0.5,
+    "rationale": "The on-screen text suggests that Glucksmann, along with Attal, has lost a 'battle of aura,' implying a negative assessment of his public image.",
+    "evidence_quote": "ATTAL ET GLUCKSMANN QUI\nFONT UNE BATTLE D'AURA\n(Ils ont tous les deux perdu)",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_0817b13a2235cbe49afa90d11e6d|kazib": {
+    "candidate_id": "kazib",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The post defends Anasse Kazib against accusations and praises his activism.",
+    "evidence_quote": "La campaña contra mi compañero @anassekazib y mis compañeros y compañeras de @revolutionpermanente.fr es infame.",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_0a5fcf815b485bbdf36ebcfa6e06|kazib": {
+    "candidate_id": "kazib",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The video explicitly states that Anasse Kazib and his group 'Le Poing Levé' are part of the student rebellion and struggle.",
+    "evidence_quote": "CON ANASSE KAZIB,\nELSA MARCEL\nY SU JUVENTUD DE\nLE POING LEVÉ\nSONPARTE DE ESTA\nLUCHA",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_8ac38fabd4f4afd7e082731bf397|kazib": {
+    "candidate_id": "kazib",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "Anasse Kazib is quoted in the video, criticizing France's actions regarding Palestine and contrasting them with the minister's claims.",
+    "evidence_quote": "Anasse Kazib\n@AnasseKazib\nénormément pour la cause palestinienne depuis le 7 octobre.\nElle a interdit des manifestations, elle a mis des amendes par milliers à\nceux qui se réunissaient, elle a interdit des colloques d'intellectuels, elle\na poursuivi des milliers de personnes pour un tweet de soutien ou une\naction de dénonciation du génocide, elle a même mis en centre de\nretention Mariam Abu Daqqa, palestinienne de 72 ans qui venait depuis\nl'Égypte participer à des tables-rondes.\nLa France a aussi dissout de\nprocédure de dissolution\nministres génocidair\nprésidente de l'Assr\npalestiniens et lancé une\nastine, accueilli des\nde la macronie et la\nen photo avec des\npresident de la\nmilitaires israélien\nalimentaires po-\nisraélienne et el\navec la nouvelle\nen photo avec des\na donné des colis\nmement de l'armée\ntion de l'État d'lraël\nY'a pas à dire, !",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_650806252e45617f1eaf652798ef|kazib": {
+    "candidate_id": "kazib",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The post explicitly states that the demands for ending selection and ensuring dignified study conditions are carried by Anasse Kazib's candidacy.",
+    "evidence_quote": "C'est ce même projet qu'on porte dans la candidature d'Anasse Kazib, cheminot de la SNCF et militant révolutionnaire, dans les présidentielles.",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_5ac3d0eb1074e4cf5b54ce919460|kazib": {
+    "candidate_id": "kazib",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The post quotes Anasse Kazib's tweet, which uses sarcasm to criticize France's actions regarding Palestine, implying that France's supposed efforts are actually repressive measures against pro-Palestinian activism.",
+    "evidence_quote": "Laissez tranquille Jean-Noël Barrot, il a raison ! la France a fait énormément pour la cause palestinienne depuis le 7 octobre. Elle a interdit des manifestations, elle a mis des amendes par milliers à ceux qui se réunissaient, elle a interdit des colloques d'intellectuels, elle a poursuivi des milliers de personnes pour un tweet de soutien ou une action de dénonciation du génocide, elle a même mis en centre de rétention Mariam Abu Daqqa, palestinienne de 72 ans qui venait depuis l'Égypte participer à des tables-rondes.",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_6bdbbc8b2d72276d8f8551798a69|kazib": {
+    "candidate_id": "kazib",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The post is an editorial by Anasse Kazib, promoting his views on student protests and his presidential campaign.",
+    "evidence_quote": "🔴 De la RÉVOLTE LYCÉENNE à la GRÈVE GÉNÉRALE ?? - Édito d’@AnasseKazib",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_15495d136c79c72fdb8b53f6661e|kazib": {
+    "candidate_id": "kazib",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The video promotes a meeting discussing Anasse Kazib's candidacy and encourages attendance.",
+    "evidence_quote": "la candidature d'Anna Skazib. Prends ta place !",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_6e0f1fa1e2ccee3396d2999b173f|kazib": {
+    "candidate_id": "kazib",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The video defends Anasse Kazib against accusations and portrays him as a victim of an islamophobic campaign.",
+    "evidence_quote": "La campaña contra mi compañero @anasserpy mis compañeros y compañeras de @revpermanentees infame.",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_cccc0a00f8a12f5d710b4cef3735|labib": {
+    "candidate_id": "labib",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The post does not mention Selma Labib.",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_d05750ed4b1886bcaa0836e2eff4|labib": {
+    "candidate_id": "labib",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The video promotes Selma Labib's presidential campaign and her political platform.",
+    "evidence_quote": "Le 28 novembre à Paris, meeting central de lancement de la campagne de Selma Lhabib.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_45030a5bd1b897b7af6ba450f151|labib": {
+    "candidate_id": "labib",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_bfecbc92619dbcf35085c43ab013|labib": {
+    "candidate_id": "labib",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The post introduces Selma Labib as their candidate, highlights her background as a bus driver, and explains why she is running in the elections to represent workers.",
+    "evidence_quote": "Parce qu'on fait notre topo, on présente notre candidate, Selma Labib, conductrice de bus. Elle n'était pas là hier puisqu'elle était en grève sur son dépôt à Ivry, mais aujourd'hui elle est là à la fête de l'UMA, c'est l'occasion de la rencontrer, c'est surtout l'occasion de l'entendre parler, de pourquoi on se présente dans ces élections, pourquoi on pense qu'il faut faire entendre la voix des travailleurs et des travailleuses lors de ces élections.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_0bf7a9415e5167a46a9a13e82916|labib": {
+    "candidate_id": "labib",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The post announces Selma Labib as a presidential candidate for the NPA-Révolutionnaires, presenting her as a bus driver, which is likely intended to be a positive framing.",
+    "evidence_quote": "Selma LABIB\ncandidate à la présidentielle\nconductrice de bus",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_1950cb792a625dffd6228f1997a4|labib": {
+    "candidate_id": "labib",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video features Selma Labib, a bus driver, who describes her working conditions and the impact of the transfer to a new operator.",
+    "evidence_quote": "Moi je m'appelle Selma, Selma Labib Conductrice de bus, candidate NPA-Révolutionnaires 2027 je suis ce qu'on appelle conductrice hors ligne, Ce matin je me suis levée à 3h30 pour aller sur un piquet de grève mais les autres jours, je me lève à 3h30 On a quand même de nos conditions de travail avant le transfert pour préparer ces transferts, ES et ça, c'est la RATP qui l'a fait,",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_2fb596ac4fa710b5cb4e392af757|labib": {
+    "candidate_id": "labib",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The speaker expresses support for Selma Labib by stating he is speaking on behalf of her as a candidate and spokesperson.",
+    "evidence_quote": "Je m'exprime au nom de notre candidate et porte-parole Selma Labib",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_3db14cd35b19db2dd00890062417|labib": {
+    "candidate_id": "labib",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The post promotes a public meeting featuring Selma Labib, identifying her as a presidential candidate and highlighting her political affiliation.",
+    "evidence_quote": "Selma LABIB\n2027 Conductrice de bus &\ncandidate à la présidentielle",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_57d266d97e9c65e61006062d82d2|lalanne": {
+    "candidate_id": "lalanne",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video mentions Francis Lalanne as an example of a singer the speaker enjoys imitating during karaoke, without expressing a positive or negative opinion about him.",
+    "evidence_quote": "moi dans tous les cas Garou Francis Lalanne je suis incontrôlable",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_62fe53fbee9e60848042d0721306|lalanne": {
+    "candidate_id": "lalanne",
+    "stance": "favorable",
+    "score": 0.5,
+    "rationale": "The video explicitly states a vote for Francis Lalanne.",
+    "evidence_quote": "Je vote francis lalanne",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_73c45b2e21d24f668134b2389469|lalanne": {
+    "candidate_id": "lalanne",
+    "stance": "critical",
+    "score": -0.6,
+    "rationale": "The video implies that Francis Lalanne running for elections is an absurd idea, suggesting the speaker needs to stop drinking for having such a dream.",
+    "evidence_quote": "Tiens, j'ai fait un autre rêve cette nuit, j'ai rêvé que Francis Lalanne se présentait aux élections. Faut vraiment que j'arrête de boire, hein, moi, la nuit ?",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_0d621220e5e35ce86fff3289551c|lalanne": {
+    "candidate_id": "lalanne",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video mentions Francis Lalanne as part of a list of singers that the speaker enjoys for karaoke.",
+    "evidence_quote": "moi dans tous les cas Garou Francis Lalanne, je suis incontrôlable.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_54e2e56d1cd96f0d3ad34e9a28ac|lalanne": {
+    "candidate_id": "lalanne",
+    "stance": "critical",
+    "score": -0.6,
+    "rationale": "The post mentions Francis Lalanne as an undesirable neighbor, associating him with 'has-been' and 'weird' individuals.",
+    "evidence_quote": "entre avoir comme voisin Francis Lalanne et Affidateur Nord ou se taper avec un dragon, il choisit la violence pour défendre son terrain.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_59bae00186acdfed2262d40b06c9|lalanne": {
+    "candidate_id": "lalanne",
+    "stance": "critical",
+    "score": -0.5,
+    "rationale": "The post uses humor to suggest Francis Lalanne is 'completely frozen' or 'crazy'.",
+    "evidence_quote": "Ségolène Royal et Francis Lalanne sont eux, toujours complètement givrés.",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_3875b91fd72c031d2b7d57ca4477|lalanne": {
+    "candidate_id": "lalanne",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post mentions Francis Lalanne as part of a timeline of events related to Dieudonné's performance being banned, without expressing a stance on Lalanne himself.",
+    "evidence_quote": "Samedi 9 octobre 2026, Valencienne, après le meeting\nde Francis Lalanne, Dieudo est interdit de jouer\ndans son bus...",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_1939ab52331bdb27b15cca7be8ed|lalanne": {
+    "candidate_id": "lalanne",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video mentions Francis Lalanne in a hypothetical scenario about a presidential debate without expressing a clear stance on him.",
+    "evidence_quote": "Le débat du second tour entre Francis Lalanne et Marine Le Pen",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_d0380ae982b9df797354447ab39c|lepen": {
+    "candidate_id": "lepen",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "Marine Le Pen is mentioned in the on-screen text as part of a graphic showing election results, but the video does not express a clear stance towards her.",
+    "evidence_quote": "M LEPEN",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_c5086178f885e6cd6c1d2f0b1d24|lepen": {
+    "candidate_id": "lepen",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post mentions Marine Le Pen as a point of comparison for voters, but does not express a stance towards her.",
+    "evidence_quote": "mieux vaut voter pour Marine Le Pen qui est blanche blonde aux yeux bleus",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_c5086178f885e6cd6c1d2f0b1d24|zemmour": {
+    "candidate_id": "zemmour",
+    "stance": "critical",
+    "score": -0.7,
+    "rationale": "The video mocks Éric Zemmour by showing him being compared to an 'Arab uncle' and stating that the journalist 'took Zemmour at his own game'.",
+    "evidence_quote": "Là il a pris Zemmour à son propre jeu",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_7f1884770f703007249e7257b27a|lepen": {
+    "candidate_id": "lepen",
+    "stance": "critical",
+    "score": -0.6,
+    "rationale": "The video suggests that the Pope's speech, particularly on secularism, was directed at Marine Le Pen and her policies.",
+    "evidence_quote": "A sept mois de l'élection présidentielle, le souverain pontife a aussi eu des mots fermes sur la laïcité qui semble tout droit adressé à Marine Le Pen et notamment sa volonté d'interdire le voile dans l'espace public.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_36c2acf4ac828c9d3c916b6b37e1|lepen": {
+    "candidate_id": "lepen",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The video depicts Marine Le Pen winning the presidential election and becoming president, which is a positive portrayal.",
+    "evidence_quote": "Marine Le Pen est élue présidente de la République. Marine Le Pen remporte l'élection présidentielle de 2027.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_b6039fb31752366ab1ed8911c57e|lisnard": {
+    "candidate_id": "lisnard",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The post does not mention David Lisnard.",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_5e80fe1ef11abfa386100ea854df|lisnard": {
+    "candidate_id": "lisnard",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The video criticizes David Lisnard for his claims about 'terrorist training camps' and 'Black Blocs' on the Millevaches plateau, implying his statements are absurd and misinformed.",
+    "evidence_quote": "Monsieur Linard. Non mais, il est maire de Cannes, Cannes c'est sympa comme quoi. Et voilà ce qu'il dit. Il y a des camps d'entraînement terroriste sur le plateau de Mille Vaches.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_cf2f270b7354ca15ad762ef9cd03|lisnard": {
+    "candidate_id": "lisnard",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The post features David Lisnard speaking about the progress and strategy of his movement, indicating a positive framing.",
+    "evidence_quote": "« On a passé les 30 000 adhérents, on est les premiers en progression sur les réseaux sociaux. On est en train de faire quelque chose. » @davidlisnard hier soir à Benfeld",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_0b906e26f25b62f1fbe0cac7eae1|lisnard": {
+    "candidate_id": "lisnard",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The on-screen text expresses affection for David Lisnard but immediately follows it with a statement that he has no chance, creating an unclear overall stance.",
+    "evidence_quote": "J'ADORE DAVID LISNARD\nMAIS IL N'A AUCUNE CHANCE.",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_5bf5d8d22094ab7c10378c904005|lisnard": {
+    "candidate_id": "lisnard",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The post discusses politicians generally and does not mention David Lisnard specifically.",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_e68634372af8f1909ac6120cb029|lisnard": {
+    "candidate_id": "lisnard",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The post criticizes David Lisnard by questioning his alleged disregard for a historical event and linking it to his presidential aspirations.",
+    "evidence_quote": "David Lisnard, vous n’en avez « rien à foutre » du 17 octobre 1961 ? ... Qui méprise les victimes d’un massacre d’État ne peut pas prétendre présider la République.",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_0d7cfccd8e2e950efde38839a81c|lepen": {
+    "candidate_id": "lepen",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The post criticizes Marine Le Pen by associating her with her mother's alleged admiration for Adolf Hitler, implying a connection to racist ideologies.",
+    "evidence_quote": "Quand vous avez votre propre ministre Darmanin qui reproche à Marine Le Pen d'être trop molle avec l'islam, vous avez tellement voulu récupérer les électeurs de l'extrême droite que vous avez totalement légitimé leur discours. Les discours d'un parti dont la candidate Marine Le Pen a une maman qui racontait avec le sourire qu'à la maison, on appelait Adolf Hitler « tonton Dolphy ».",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_0d7cfccd8e2e950efde38839a81c|melenchon": {
+    "candidate_id": "melenchon",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Jean-Luc Mélenchon is mentioned in the on-screen text in the context of his statements regarding Macron and demonstrations, without any explicit positive or negative framing from the post's author.",
+    "evidence_quote": "17 UCTDBRE I'-E \"Macron doit mettre un terme à des histoires repondre à revendications\" (J-L, Melenchon, LF sur LC1)",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_0d7cfccd8e2e950efde38839a81c|zemmour": {
+    "candidate_id": "zemmour",
+    "stance": "critical",
+    "score": -0.9,
+    "rationale": "The post heavily criticizes Éric Zemmour, portraying him as a 'multirécidiviste condamné pour haine raciale' whose rhetoric contributes to violence and racism.",
+    "evidence_quote": "Quand je vois les médias comme CNews, BFMTV, LCI, les grandes gueules qui refusent de prendre la responsabilité alors qu'ils invitent sans arrêt des multirécidivistes condamnés pour haine raciale comme Éric Zemmour.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_1d07b3db7ecc900320202fe267bb|markovic": {
+    "candidate_id": "markovic",
+    "stance": "favorable",
+    "score": 0.5,
+    "rationale": "The post introduces Mira Markovic as a new presidential candidate, highlighting her long-standing commitment to animal welfare and her goal to make it a political issue, which frames her positively.",
+    "evidence_quote": "La présidentielle de 2027 accueille une nouvelle candidate : Mira Markovic, cofondatrice du Parti animaliste, qui portera la cause animale dans la course à l’Élysée. Engagée depuis 25 ans sur le sujet, elle veut notamment faire de la condition animale un véritable enjeu politique.",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_b6c7af8759278dcaf53159188009|lisnard": {
+    "candidate_id": "lisnard",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The post criticizes David Lisnard for his dismissive attitude towards the historical event of October 17, 1961, by quoting his controversial statements.",
+    "evidence_quote": "L'épisode est tragique et David Lisnard, le petit candidat de droite qui monte, préfère dire qu'il \"s'en fout\" parce qu'il n'était \"pas né\".",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_2198f0d08364c775c442da2d7fdc|melenchon": {
+    "candidate_id": "melenchon",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The video defends Jean-Luc Mélenchon against accusations of being responsible for violence in demonstrations.",
+    "evidence_quote": "peu importe que notre candidat Jean-Luc Mélenchon les répétait dix fois depuis le début du mouvement, nous accuser vous épargne de tirer les conséquences politiques du moment que notre pays traverse.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_0fd41725a512825fe8d1922d137f|melenchon": {
+    "candidate_id": "melenchon",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The speaker mentions Mélenchon in a humorous context, urging him to participate in a social media trend, but it's unclear if this is meant to be critical or favorable.",
+    "evidence_quote": "Mélenchon, toi aussi fais ! Voilà, non, il ne faut pas te laisser se merder ! Imagine Manu y fait ! Toi aussi, tu dois faire en tout fou !",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_1c55d97f67d1720529b6d3a4ce2e|melenchon": {
+    "candidate_id": "melenchon",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The video explicitly promotes Jean-Luc Mélenchon's candidacy for 2027 and encourages viewers to sponsor him.",
+    "evidence_quote": "Parrainez ma candidature sur MELENCHON 2027.fr",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_5dc5b6fcaa7e003120006d80ec1c|melenchon": {
+    "candidate_id": "melenchon",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video features Jean-Luc Mélenchon speaking, but the content is his own speech and not about him as a politician.",
+    "evidence_quote": "Intervention de Jean-Luc Mélenchon",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_facf3a121cbbda996e08339bd118|melenchon": {
+    "candidate_id": "melenchon",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The post does not mention Jean-Luc Mélenchon.",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_772df88a182098fe72e3334ef526|mikolajczak": {
+    "candidate_id": "mikolajczak",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The post discusses parental exhaustion and strategies for recovery, with no mention of any politicians.",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_61f9973b83affd3b76ae83e0997b|mikolajczak": {
+    "candidate_id": "mikolajczak",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The post discusses parental burnout and does not mention Antoine Mikolajczak.",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_f75a885d22c062d3fb415752380c|melenchon": {
+    "candidate_id": "melenchon",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The video features Jean-Luc Mélenchon speaking, where he defends himself against accusations of inciting chaos and criticizes media for spreading racist narratives.",
+    "evidence_quote": "J'ai entendu des gens dire : \"Il veut le chaos parce que ça l'arrange pour les élections.\" Mais vous me prenez pour qui ? Vous croyez que je ne sais pas dans quel pays je vis ?",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_e2503e098d9da7829a522636d086|mikolajczak": {
+    "candidate_id": "mikolajczak",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post mentions Maxime Mikolajczak as part of a company performing at a venue, which is a neutral mention.",
+    "evidence_quote": "Maxime Mikolajczak",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_fc8a6a0c251d87ac15a08bb83559|melenchon": {
+    "candidate_id": "melenchon",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The video features Jean-Luc Mélenchon speaking about his commitment to eradicating poverty and his views on wealth accumulation, presenting his perspective positively.",
+    "evidence_quote": "Je m'engage absolument à tout faire pour qu'il n'y ait plus de pauvres.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_5ac3d99369f3c7db06d2d0b59271|mlekuz": {
+    "candidate_id": "mlekuz",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post mentions Manolo Mlekuz as an actor in a film without expressing a stance towards him.",
+    "evidence_quote": "Mathias Mlekuz",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_1a2ca0b3e5112d64bdb360c0b4ea|mlekuz": {
+    "candidate_id": "mlekuz",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post mentions Manolo Mlekuz's name in the caption as a comedian, but does not express a clear stance towards him.",
+    "evidence_quote": "Joseph Mlekuz, comédien",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_f464e718fc6b68db907926eeb8d0|mlekuz": {
+    "candidate_id": "mlekuz",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The post is about a French film club in Mexico and does not mention Manolo Mlekuz.",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_ddffc1fa7e6c422f148e2cc63a96|mlekuz": {
+    "candidate_id": "mlekuz",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post mentions Mathias Mlekuz as the director of a film being screened at an event, which is a factual mention without expressing a stance.",
+    "evidence_quote": "Comédie dramatique de Mathias Mlekuz",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_a11d4cc216d76da3a87b0081c650|mlekuz": {
+    "candidate_id": "mlekuz",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Manolo Mlekuz is featured in the video discussing his memories of the film festival.",
+    "evidence_quote": "MATHIAS MLEKUZ",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_2a7bb6fd0f98b85567005c20e75e|mlekuz": {
+    "candidate_id": "mlekuz",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video is a trailer for a fictional film where a character named Manolo Mlekuz runs for president, and the post does not express a stance on the real politician.",
+    "evidence_quote": "Bonjour mon fils Manolo. J'ai un projet de réécriture de la constitution.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_36c43061e4dfff106b0100f6af1f|mlekuz": {
+    "candidate_id": "mlekuz",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The post promotes a film about Manolo Mlekuz's quest for 500 sponsorships, framing it as an adventure.",
+    "evidence_quote": "Découvre la bande-annonce de MON FILS PRÉSIDENT ! Après « À BICYCLETTE ! », Mathias Mlekuz reprend la route avec son ami Philippe pour suivre Manolo dans sa quête des 500 parrainages. Rendez-vous le 2 décembre dans tes cinémas CGR.",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_62f01dbbf3e317439a259ace8ba7|mlekuz": {
+    "candidate_id": "mlekuz",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post describes a film where Manolo Mlekuz is a character attempting to gather sponsorships for a presidential campaign, without expressing support or opposition for him.",
+    "evidence_quote": "accompagner Manolo, le fils cadet qui a pour projet de recueillir les 500 parrainages pour se lancer dans la campagne présidentielle et devenir président !",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_00f2fa0ab4625d65c962a15b10f4|philippe": {
+    "candidate_id": "philippe",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The video uses Édouard Philippe's past statements to illustrate a political mechanism where government actions proceed despite public opposition and protests, implying a disregard for democratic processes.",
+    "evidence_quote": "Celui qui résume encore mieux le pouvoir, c'est Édouard Philippe. On fait la réforme de la SNCF. Il y a des grèves, mais ça passe. On dit qu'on va pouvoir entrer dans les universités sur le fondement d'une orientation sélective. Il y a des universités qui sont occupées. Et ça passe. Même quand ça crispe, si on considère que c'est bon pour le pays, il faut y aller.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_7e05d70cc9f71f5c8d3c2166c097|philippe": {
+    "candidate_id": "philippe",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The video criticizes voting for Édouard Philippe by associating him with policies that are detrimental to working people.",
+    "evidence_quote": "Tu peux même pas voter Edouard Philippe quand tu travailles",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_cae70df008944d78b05df3c3a188|philippe": {
+    "candidate_id": "philippe",
+    "stance": "critical",
+    "score": -0.7,
+    "rationale": "The post criticizes Édouard Philippe by stating he presents himself as an alternative to Macron, despite his policies being the same as Macron's.",
+    "evidence_quote": "Par contre, lui et Edouard Philippe, ils se présentent comme alternative à Macron, alors que la politique de Macron, c'est eux.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_cae70df008944d78b05df3c3a188|tondelier": {
+    "candidate_id": "tondelier",
+    "stance": "critical",
+    "score": -0.5,
+    "rationale": "The post mocks Marine Tondelier by questioning whether she has multiple green suits or just one that she never washes.",
+    "evidence_quote": "Marine Tondelier. Ah, c'est la madame avec son tailleur vert. On sait pas si elle en a 30 différents ou un seul qu'elle a jamais lavé.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_23be165038e31deffde6b22088ea|philippe": {
+    "candidate_id": "philippe",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The video criticizes Édouard Philippe's proposal of a 350 euro bonus per child, arguing it's not a real solution for families.",
+    "evidence_quote": "M. Édouard Philippe propose une prime de 350 euros par enfant. On ne fait pas des enfants pour une prime ! Ce n’est pas un projet.",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_64886989cf2134ef2f308147baf5|philippe": {
+    "candidate_id": "philippe",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The post does not mention Édouard Philippe.",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_878925e181f5bac910863d3cc61a|philippe": {
+    "candidate_id": "philippe",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Édouard Philippe is mentioned in the on-screen text in the context of a quote about society.",
+    "evidence_quote": "notre société\" (Édouard Philippe)",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_878925e181f5bac910863d3cc61a|ruffin": {
+    "candidate_id": "ruffin",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "François Ruffin is mentioned in the on-screen text in the context of a primary election.",
+    "evidence_quote": "ux une primaire de François Ruffin à",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_6d4ce83694295c3ff080bae918a7|philippe": {
+    "candidate_id": "philippe",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The post criticizes Édouard Philippe's proposal of a 350 euro bonus per child, arguing it's not a real solution for families.",
+    "evidence_quote": "M. Édouard Philippe propose une prime de 350 euros par enfant. On ne fait pas des enfants pour une prime ! Ce n’est pas un projet.",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_92f4191bd47660c3526ac6f98eb0|philippot": {
+    "candidate_id": "philippot",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The video features Florian Philippot expressing his views and arguments, presenting him in a speaking role.",
+    "evidence_quote": "Florian Philippot Président des \"Patriotes\" Frank Riester Co-directeur de campagne de G. Attal",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_b6d6a0fed8ae831fc0fa221ea33d|philippot": {
+    "candidate_id": "philippot",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video mentions Florian Philippot as part of the 'Banlieue Patriote' collective with Jordan Bardella, without expressing a particular stance towards him.",
+    "evidence_quote": "Il monte alors le collectif Banlieue Patriote avec Florian Philippot.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_f0e2274a4927bd9cebb4522ed32a|philippe": {
+    "candidate_id": "philippe",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The caption states that Édouard Philippe criticized Emmanuel Macron's speech, judging it 'insufficient'.",
+    "evidence_quote": "Les oppositions et même son ancien Premier ministre Édouard Philippe ont critiqué l’allocution d’Emmanuel Macron, que la plupart jugent « insuffisante ».",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_f0e2274a4927bd9cebb4522ed32a|tondelier": {
+    "candidate_id": "tondelier",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "Marine Tondelier is not mentioned in the provided caption or on-screen text.",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_872f0e732e92cb80d367667c63b1|philippe": {
+    "candidate_id": "philippe",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post mentions Édouard Philippe in the context of his political merchandise, specifically a sleeveless down jacket, without expressing a favorable or critical opinion.",
+    "evidence_quote": "Chez Edouard Philippe\nhttps://boutique.horizonsleparti.fr/\nHORIZONS\nBallon de football - Congrès\nMarseille\n20.00 €\n20.00 €\nT-shirt Jeunes Horizons -\n\"Horidays\"\nT-shirt Jeunes Horizons - \"Pas là\npour beurrer les tartines*\nH\ncette magnifique\ndoudoune sans manche,\nhttps://boutique.horizonsleparti.fr/\nHORIZONS\nT-shirt Jeunes Horizons\nT-shirt Jeunes Horizons - *Pas là\npour beurrer les tartines\"\nDoudoune Sans Manches Homm\n73.00 €\nDécapulse Jeunes Horizons\n6.00 €\nDoudoune Sana Manches Femme\n73.00 €\nDoudoune Sans Manches Homme\nHI\nà destination d'un électorat un peu plus aisé donc.\nhttps://boutique horizonsleparti.fr/\nHORIZONS\nAjouter au panier\nSon design moderne avec un logo Horizons discret s'adapte aussi bien à une tenue decontractee qu'à\nun look plus chic.\nCaractéristiques techniques :\nExtérieur en polyester dont 30% de polyester recyclé. garissage vegan en polyoster.\nDoudoune sans manches, coupe cintrée.\nExterieur en polyster dont 30% de polyester recycle, gammage végue en polyster.\nMatslageage fm. Coupe droite. Poches mains passepoilées. 2 poches interieures plaques. Zip central YKK imperméable.\n\nFabriqué en France\nFabriqué en France\nRéception des produits fin février 2025\nest parfaite pour rester\nau chaud\nhttps://boutique.horizonsleparti.fr\nHORIZONS\nBoutons de\nmanchette\n16.00 €\nmême s'il n'y a pas\nde manches...\nsignature\nd'Edouard Philippe,\nil en porte tout le temps.\nVIVE\n4 juillet 2017\nMatignon\n- Des boutons\nde manchette,\nj'en ai, je ne sais pas,\nune centaine de paires.\n- Aujourd'hui, c'est quoi ?\n- Aujourd'hui,\nc'est des gants de boxe.\nuo,( ,\nsawiadie\n- Aujourd'hui,\nc'est des gants de boxe.",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_56d06b0988cc390807b0a7fcf007|philippot": {
+    "candidate_id": "philippot",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The video features Florian Philippot speaking and presents his statements as direct quotes on screen, indicating a platform for his views.",
+    "evidence_quote": "« Arrêtons de donner des milliards à l'Ukraine et donnons-les plutôt à l'éducation, aux pompiers et aux paysans ! »",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_fba30effc8faaec7d24df7b9f270|philippot": {
+    "candidate_id": "philippot",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post mentions Florian Philippot as a guest speaker and lists his title without expressing a favorable or critical stance.",
+    "evidence_quote": "🔷Florian Philippot\nPrésident et fondateur des Patriotes",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_2749df54d045fbbddb810778aad2|philippot": {
+    "candidate_id": "philippot",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "Florian Philippot promotes his own political party, Les Patriotes, and encourages similar electoral success in France.",
+    "evidence_quote": "Évidemment, il faut aussi que les souverainistes connaissent les mêmes percées en France. Et on y travaille, aux Patriotes.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_a1bb232c6e6842dedc19eab2edcf|platret": {
+    "candidate_id": "platret",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The on-screen text mentions 'PLATRET' as part of a list of names or labels, without any further context that would indicate a stance.",
+    "evidence_quote": "PLATRET",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_fc9b7067d067f1aa215b0a1cdac0|platret": {
+    "candidate_id": "platret",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "Gilles Platret announces his candidacy for the 2027 presidential election, indicating a self-promotional and favorable framing.",
+    "evidence_quote": "Gilles Platret annonce sa candidature à l'élection présidentielle 2027 depuis Chalon-sur-Saône.",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_f55cdbb55e070fb810dfe3fc8842|platret": {
+    "candidate_id": "platret",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The on-screen text mentions \"Le Platret des Colombes,\" which appears to be a restaurant name and not a direct reference to the politician Gilles Platret.",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_8dca1e921ecc8b8f6719072cef62|platret": {
+    "candidate_id": "platret",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post mentions Aurélien Platret in the context of a football game, describing a shot that went over the goal.",
+    "evidence_quote": "la frappe au-dessus d'Aurélien Platret",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_242a2ec724c528f2eede7dbb58eb|platret": {
+    "candidate_id": "platret",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Gilles Platret is mentioned on a poster as part of a list of names, without any specific framing or commentary.",
+    "evidence_quote": "PLATRET",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_cf2ea849f0749fdcf2a3278b1fe2|polony": {
+    "candidate_id": "polony",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The video features Natacha Polony speaking about the French education system, but it does not express a stance towards her as a politician.",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_e9dc584eae49c1eaebe52f69ddaf|polony": {
+    "candidate_id": "polony",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The post quotes Natacha Polony directly, using her words to support the argument for national preference in public procurement and highlighting her role in denouncing current practices.",
+    "evidence_quote": "« La France est spécialiste pour se tirer des balles dans le pied. [...] Il faut que nous commencions à défendre notre industrie et nos producteurs. » — Natacha Polony",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_7aa3c69de02e23469f7d03a20bd0|polony": {
+    "candidate_id": "polony",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The post presents Natacha Polony's views on the necessity of a production policy and the state's strategic role in a positive and supportive light.",
+    "evidence_quote": "Pour @natachapolony, journaliste et essayiste, la France ne s’en sortira pas sans une véritable politique de production. À #LaREF26, Natacha Polony appelle l’État à retrouver son rôle stratégique pour soutenir la production française et garantir à nos entreprises des conditions de concurrence plus équitables.",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_683acd81ba1895c73732fb3a5c42|polony": {
+    "candidate_id": "polony",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The post introduces Natacha Polony as a presidential candidate and highlights her critical views on the education system, framing her as a knowledgeable figure due to her past teaching experience.",
+    "evidence_quote": "La journaliste Natacha Polony vient d’annoncer sa candidature à l’élection présidentielle. Parmi les enjeux qui traversent le débat public, l’éducation occupe une place centrale, alors que la chute du niveau scolaire, la dégradation de l’École et les blocus qui font l’actualité relancent les interrogations sur notre système éducatif. Ancienne enseignante dans le public et le privé, elle critique l’évolution des programmes scolaires et la place désormais accordée à la littérature, à l’histoire et à la culture générale.",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_68f5a8c7283064a87fbc18a38280|polony": {
+    "candidate_id": "polony",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "Natacha Polony announces her candidacy for the 2027 presidential election, outlining her vision and goals for France.",
+    "evidence_quote": "Ma déclaration de candidature à l'élection présidentielle de 2027 Je me présente aujourd’hui devant vous avec gravité et détermination.",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_b50eb9a1f668ad7b7bb5be1d9a98|polony": {
+    "candidate_id": "polony",
+    "stance": "critical",
+    "score": -0.6,
+    "rationale": "The video mocks Natacha Polony's presidential candidacy announcement by presenting it as a less serious or legitimate option compared to the video creator's own satirical candidacy.",
+    "evidence_quote": "DERNIERE MINUTE L'assayiste et journaliste Natacha Polony annonce sa candidature à l'élection presidentielle de 2027. l'élection présidentielle de 2027. Elle dite voulir \"reconstruire\" la \"puissance industrielle\" française et garantir sa \"souveraineté\" énergétique\". je vois que j'ai lancé une trend HUECR Y P TE PTE A B are Uo Can't Sho DERNIÈRE NIÈRE MINUTE Election présidentielle de 2027. Elle dite vouloir \"reconstruire\" la \"puissance industrielle\" française et garantir sa \"souveraineté\" énergétique\". moi je me présente vraiment",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_142dd6a6b1aa39f410ee79ef77fc|polony": {
+    "candidate_id": "polony",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The post presents Natacha Polony as denouncing French naivety and advocating for France to assert itself more strongly within the EU.",
+    "evidence_quote": "Pour les Forces Françaises de l'Industrie (FFI), Natacha Polony dénonce la naïveté française au sein de l'Union européenne. Pour bâtir une véritable « Europe puissance », la France doit cesser de se poser en élève soumis et s'imposer d'égal à égal dans les négociations, en défendant fermement ses choix industriels et sa souveraineté.",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_2ad8b526f9d58fc6ebe48e8cc310|polony": {
+    "candidate_id": "polony",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Natacha Polony is mentioned as a participant in a debate without any indication of the post's stance towards her.",
+    "evidence_quote": "Natacha Polony",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_75902a46cf0cdb62aeab0e178190|retailleau": {
+    "candidate_id": "retailleau",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The post does not mention Bruno Retailleau.",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_2a237f9e1c2f404b2a7f525c154d|retailleau": {
+    "candidate_id": "retailleau",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_4fd6fbdbcf59aa565ad52c7c7152|retailleau": {
+    "candidate_id": "retailleau",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The video depicts a young woman confronting Bruno Retailleau and telling him to let her speak, implying he is being disrespectful.",
+    "evidence_quote": "« S'il faut que je vous remette à votre place... ». May, une lycéenne de 17 ans qui avait été blessée lors des manifestations, n'a pas froid aux yeux face à Bruno Retailleau, 65 ans, patron des LR.",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_1a5f6581dfe5bc328a73f68cd7fc|retailleau": {
+    "candidate_id": "retailleau",
+    "stance": "critical",
+    "score": -1,
+    "rationale": "The post criticizes Bruno Retailleau as a 'small denouncer' who lies and cheats, and whose attacks are 'low'.",
+    "evidence_quote": "Le pays n'exige pas, monsieur Rotaillot, des petits dénonciateurs. Ils demandent des chefs d'État. Vous, aujourd'hui, vous êtes un petit dénonciateur.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_60a2a367a72054c5a76677a958af|retailleau": {
+    "candidate_id": "retailleau",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The video criticizes Bruno Retailleau by highlighting his past controversies, questioning his authority, and accusing his party of corruption.",
+    "evidence_quote": "Vous êtes le patron de la corruption et du trafic d'influence. Vous êtes le patron des emplois objectifs. Vous êtes le patron du parti de la fraude fiscale, du blanchiment d'argent, du détournement de fonds publics.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_90e81d81f6ab9ba23ba2c7ed3f5e|roussel": {
+    "candidate_id": "roussel",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "Fabien Roussel is not mentioned in the provided text.",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_cb722796dcbd6cc781c75593df10|retailleau": {
+    "candidate_id": "retailleau",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The post criticizes Bruno Retailleau, calling him a 'petit dénonciateur' and accusing him of lying and cheating.",
+    "evidence_quote": "Il n’a pas besoin de petits dénonciateurs comme Retailleau. Je lui rappelle qu’il ment et qu’il triche depuis Intervilles !",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_243e6a068c911b6383c11455f682|roussel": {
+    "candidate_id": "roussel",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The video is about a child of deaf adults and does not mention Fabien Roussel.",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_237dfade440aadc54867740b7fbc|roussel": {
+    "candidate_id": "roussel",
+    "stance": "critical",
+    "score": -0.5,
+    "rationale": "The speaker criticizes Mr. Roussel for calling for revolution and suggests his approach is similar to traditional left-wing parties that only offer slogans.",
+    "evidence_quote": "Vous avez eu pendant longtemps quelqu'un comme M. Roussel, qui reprend le rôle aujourd'hui. Vous avez fait attention, il a dit « je vous appelle à faire la révolution ». Je n'appelle à rien de tout ça, moi.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_a039a27f0ded0ea47ea819447915|roussel": {
+    "candidate_id": "roussel",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Fabien Roussel is mentioned in the transcript as part of a band name, without any further context or evaluation.",
+    "evidence_quote": "Un groupe avec Gaëtan, Roussel, elle touche à plein de choses.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_d569e7da7c1fd500dd4cbd86421e|roussel": {
+    "candidate_id": "roussel",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The post mentions 'Gaëtan Roussel' who is a musician, not the politician Fabien Roussel.",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_d3be699266012bc79b0eb1bb44fd|roussel": {
+    "candidate_id": "roussel",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The video shows a young Cuban woman confronting Fabien Roussel, questioning his support for the Cuban dictator Miguel Díaz-Canel and criticizing his stance.",
+    "evidence_quote": "Joven cubana confronta al líder del Partido Comunista Francés: “¿No le avergüenza apoyar a un dictador?”",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_29721a3f2bb4e7f2dc2102a82a56|roussel": {
+    "candidate_id": "roussel",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Fabien Roussel is listed as one of the party leaders attending a meeting with Emmanuel Macron.",
+    "evidence_quote": "Fabien Roussel",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_29721a3f2bb4e7f2dc2102a82a56|tondelier": {
+    "candidate_id": "tondelier",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "Marine Tondelier is listed as one of the party leaders attending a meeting with Emmanuel Macron.",
+    "evidence_quote": "Marine Tondelier",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_11f17e4993a3084b502c6a69a431|roussel": {
+    "candidate_id": "roussel",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The post mentions 'Gaëtan Roussel' who is a musician, not the politician Fabien Roussel.",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_9e719f22c5386bcba7559129c1c8|roussel": {
+    "candidate_id": "roussel",
+    "stance": "critical",
+    "score": -0.6,
+    "rationale": "The video criticizes Fabien Roussel by stating he is less communist than LFI, implying he is not truly communist or even left-wing.",
+    "evidence_quote": "Si on parle de Fabien Roussel, il n'essaie pas. On lui dit qu'il est moins communiste que LFI et il est content. Mais si t'es moins communiste que LFI, ça veut dire que t'es au niveau du PS. Ça veut dire que non seulement t'es pas communiste, mais t'es même pas de gauche.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_2d8e30519d6d31dd059d3f16b267|ruffin": {
+    "candidate_id": "ruffin",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The post criticizes François Ruffin's understanding of the suburbs and dismisses his contributions.",
+    "evidence_quote": "« Monsieur Ruffin, allez dessiner vos bandes dessinées et ne prétendez pas m’apprendre la banlieue. Je la connais infiniment mieux que vous. » François Ruffin s’est ridiculisé ce soir sur le plateau de BFM. Je rétablis la vérité. ⬆️",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_168de90f8bef9bca1cdccb16b06d|ruffin": {
+    "candidate_id": "ruffin",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The post does not mention François Ruffin.",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_df4e72ea05496ba9919104cb50f6|ruffin": {
+    "candidate_id": "ruffin",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post mentions François Ruffin as an example of a political personality whose personal data, including a bank account number, was found on a pirate search engine, without expressing a favorable or critical stance towards him.",
+    "evidence_quote": "et même un numéro de compte bancaire de François Ruffin",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_d35f77251c1891697d7982c981ba|ruffin": {
+    "candidate_id": "ruffin",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The post praises François Ruffin for engaging with reality and seeking to repair things, despite acknowledging some disagreements.",
+    "evidence_quote": "François Ruffin a, à mes yeux, un mérite particulier : dans un temps où la politique s’est trop souvent éloignée des réalités quotidiennes, il va au contact du réel, il écoute, il regarde, et il cherche à réparer ce qui peut l’être.",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_678486bb8c656ccd3117d86d4bfa|ruffin": {
+    "candidate_id": "ruffin",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "The post describes working with François Ruffin to develop common proposals despite differences, indicating a collaborative and positive framing.",
+    "evidence_quote": "Avec François Ruffin, malgré nos différences et parfois nos désaccords, nous avons voulu dégager cinq propositions communes, pour montrer qu’il est possible de s’entendre et d’agir ensemble.",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_828321c6355cb4a25e5ba51af8dc|ruffin": {
+    "candidate_id": "ruffin",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "François Ruffin is mentioned in the on-screen text in the context of a primary, but the video does not provide enough information to determine a clear stance.",
+    "evidence_quote": "une primaire de François Ruffin",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_93ddac5a6d3df1fceea79c4eee4c|ruffin": {
+    "candidate_id": "ruffin",
+    "stance": "unclear",
+    "score": 0,
+    "rationale": "The post discusses Bernard Arnault's influence on economic debates and media ownership, but François Ruffin is not mentioned or alluded to.",
+    "evidence_quote": "",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_d67f998550a1625c3ea8e2b8cbe5|tondelier": {
+    "candidate_id": "tondelier",
+    "stance": "favorable",
+    "score": 0.8,
+    "rationale": "Marine Tondelier expresses her personal stance against hunting and advocates for its restriction, promoting alternative activities like photographic hunting.",
+    "evidence_quote": "Je suis pour l'interdiction immédiate de toutes les chasses barbares. Et il faut un jour sans chasse par semaine, car la nature doit se partager. Et si certains y tiennent absolument, qu'ils essayent la chasse photographique. C'est moins cruel, et on profite mieux de la nature.",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_06f27499ed880834c82b6d87126f|tondelier": {
+    "candidate_id": "tondelier",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The post lists Marine Tondelier as a featured individual in a fictional, parodic content without expressing a clear stance towards her.",
+    "evidence_quote": "Marine Tondelier",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  },
+  "cnt_c04b7624563ac5b4d28c61023deb|tondelier": {
+    "candidate_id": "tondelier",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The video uses on-screen text to attribute a quote to Marine Tondelier, which is then used to mock her and LFI.",
+    "evidence_quote": "considère Marine Tondelier",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_bbda5655de880ba4d02a3de25d67|zemmour": {
+    "candidate_id": "zemmour",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The video humorously portrays a scenario where the speaker is paired with Zemmour, implying he is a 'racist colleague' and expressing discomfort and opposition to his views.",
+    "evidence_quote": "On m'a mis en duo avec Zemmour, donc moi je fais comment en fait là ?",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_bbc8742c597c1c1739d5f01792b2|tondelier": {
+    "candidate_id": "tondelier",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video reports on Marine Tondelier's proposal for a law against political lying without expressing a clear stance for or against her or her idea.",
+    "evidence_quote": "Suite à ça, Marine Tondelier, la candidate écologiste à l'élection présidentielle de 2027, a proposé l'introduction d'une loi pour, je cite, interdire le mensonge en politique sous peine d'inéligibilité.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_9a5c1e55a65587f54925041fcc65|zemmour": {
+    "candidate_id": "zemmour",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The video criticizes an influencer for supporting Zemmour and spreading hate speech.",
+    "evidence_quote": "exemple de l'autre là qui est la grande soeur de tout le monde et qui nous fait des manifestations pro zemmour et qui véhicule des discours de haine sur ses autres réseaux laisse nous en font tranquille s'il te plaît espèce de grosse dégénérée",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_c4d07ec573dfbc3bc872eef29a5e|zemmour": {
+    "candidate_id": "zemmour",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video discusses a TikToker who previously supported Éric Zemmour but is now regretting her past statements.",
+    "evidence_quote": "Contrant qu'elle soutenait clairement Eric Zemmour. Elle allait à ses conférences, qu'elle était genre fan de lui.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_a9fcb5757ac8dd1d6490c5afb5a8|zemmour": {
+    "candidate_id": "zemmour",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The video criticizes Éric Zemmour by associating him with hate speech and linking his rhetoric to real-world violence.",
+    "evidence_quote": "Quand je vois les médias comme CNews, BFMTV, LCI, les grandes gueules qui refusent de prendre la responsabilité alors qu'ils invitent sans arrêt des multirécidivistes condamnés pour haine raciale comme Éric Zemmour.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_1bc36240682fbe994bd2efe4b590|zemmour": {
+    "candidate_id": "zemmour",
+    "stance": "critical",
+    "score": -0.6,
+    "rationale": "The post implies that watching news channels, which could include those featuring Zemmour, contributed to the radicalization of the alleged terrorist.",
+    "evidence_quote": "mais à cause de la tête, c'est important à signaler. D'ailleurs, nous avons pu mettre la main sur des SMS envoyés entre amis qui parlent de politique et surtout des opinions de Kevin.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_71a934999ec0c999637aabea2c36|zemmour": {
+    "candidate_id": "zemmour",
+    "stance": "critical",
+    "score": -0.6,
+    "rationale": "The video mentions an influencer who is 'pro Zemmour' and says she posts 'crazy things' in her tweets and old videos, which the speaker finds disgusting.",
+    "evidence_quote": "dites-vous qu'elle est pro zemmour et puis elle dit des dingueries dans ses tweets et dans les anciennes vidéos qui ont été retrouvées vraiment ça me dégoûte",
+    "evidence_verified": false,
+    "evidence_source": null
+  },
+  "cnt_c48e839236fb982a48aa3c644076|zemmour": {
+    "candidate_id": "zemmour",
+    "stance": "neutral",
+    "score": 0,
+    "rationale": "The video mentions Éric Zemmour as a point of reference for Bérénice Levet's political alignment.",
+    "evidence_quote": "Moi je suis sur la ligne quand même de Eric Zemmour",
+    "evidence_verified": true,
+    "evidence_source": "on_screen_text"
+  },
+  "cnt_04308955293226dbc635bc20e6d2|tondelier": {
+    "candidate_id": "tondelier",
+    "stance": "critical",
+    "score": -0.8,
+    "rationale": "The video criticizes Marine Tondelier for her perceived lack of political knowledge and her inability to articulate significant achievements of past French presidents.",
+    "evidence_quote": "On a commencé la saison en parlant de Marine Le Pen. Aujourd'hui, on va continuer avec Marine, mais tondeliers. Ouais, celle qui a la tête du parti des écologistes, vous voyez ou pas ? On la retrouve sur LCI face à Darius Rochebin, qui lui demande d'avoir un mot sur chacun des présidents de la 5ème République. Accrochez-vous, en termes de connaissances et culture politique, c'est pointu. Ben là, j'ai pas trop vécu des choses. C'est quoi le rapport ? Moi, je connais les Beatles et j'étais pas né, mais bon. On a fait l'exercice avec Marine Le Pen, avec un certain nombre. Mais elle les a connus. Elle les a connus ? De Gaulle et Pompidou ? Oh, sororité, là, non ? Ça taille le physique, maintenant. Tu trouves que Marine, elle a mal vieilli ? En dehors de ses dents de Voldemort, là. Ou peut-être, tondeliers, elle pense que Marine Le Pen, c'est Jean-Marie Le Pen qui a fait une transition, je sais pas. Pompidou ? Pas de truc marquant à dire sur Pompidou. En tant que citoyenne, qu'électrice. J'ai l'impression que dans sa tête, le monde commence le jour où elle est née, quoi. On dirait les gens qui parlent de la Palestine, mais qu'à partir du 7 octobre. En fait, là, on est en l'an 40 de Marine Tondelier. Pour la culture, Pompidou, il a généralisé, entre autres, la mensualisation du salaire pour les ouvriers. Il a créé le SMIC pour que les bas salaires soient indexés sur la croissance économique. Il a créé la loi Pleven, une loi majeure qui est venue condamner pour la première fois le racisme. Il a créé le premier ministère de l'environnement. Marine ! Écoute ! Écoute, là ! Toi, t'es dirigeante du parti écologiste. T'as rien à dire sur Pompidou. C'est comme si j'avais rien à dire sur Coluche. Ah mais j'ai jamais mangé dans ces restos. Mitterrand. Alors, Mitterrand, moi, j'ai pas de souvenirs de Mitterrand au pouvoir. Mais par contre, j'ai bien constaté que sur plusieurs générations de Mitterrand, il y a des gens qui ont été décédés sur le monde. c'était leur moment quoi. Remboursement de l'IVG par la sécurité sociale, dépénalisation totale de l'homosexualité, liberté audiovisuelle, fin du monopole d'État sur la radio et autorisation des radios libres, abaissement de l'âge de la retraite à 60 ans, baisse du temps de travail, renforcement des droits des travailleurs, pas des patrons, des travailleurs dans l'entreprise, nationalisation de grandes entreprises industrielles et de banques. Elles se rappellent vaguement qu'il a aboli la peine de mort. Bah tranquille. Et pour plusieurs générations de gauche, bah c'était leur moment quoi. Chirac. Euh... Alors Chirac, ça a été un président dont je me rappelle, mais je me rappelle forcément des choses qui sont pas très politiques. Moi ce qui m'a marqué c'est manger des pommes de... Ah mais c'est elle qui dirige les écologistes s'il vous plaît ! A deux doigts de nous dire ce que j'aimais bien chez Chirac, c'était euh... sa marionnette dans les guignols... Et euh... super menteur. Retrouvez-moi dans la riposte et mon spectacle, tous les liens sont dans ma bio. Les liens sont dans ma bio.",
+    "evidence_verified": true,
+    "evidence_source": "transcript"
+  },
+  "cnt_052692d7048a70cad91e1840883d|zemmour": {
+    "candidate_id": "zemmour",
+    "stance": "critical",
+    "score": -0.6,
+    "rationale": "The caption mentions Eric Zemmour's convictions for incitement to racial hatred in a critical context.",
+    "evidence_quote": "condamnations d’Eric Zemmour pour incitation à la haine raciale",
+    "evidence_verified": true,
+    "evidence_source": "caption"
+  }
+}

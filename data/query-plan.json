@@ -1,0 +1,275 @@
+{
+  "generatedAt": "2026-11-07T10:19:29.905Z",
+  "since": "2026-06-01",
+  "textFields": [
+    "transcript",
+    "caption",
+    "on_screen_text"
+  ],
+  "counts": [
+    {
+      "query": "topic: presidentielle",
+      "total": 4162,
+      "ms": 242
+    },
+    {
+      "query": "candidate: lepen",
+      "total": 2273,
+      "ms": 140
+    },
+    {
+      "query": "candidate: melenchon",
+      "total": 1613,
+      "ms": 75
+    },
+    {
+      "query": "candidate: bardella",
+      "total": 1397,
+      "ms": 63
+    },
+    {
+      "query": "candidate: attal",
+      "total": 715,
+      "ms": 59
+    },
+    {
+      "query": "candidate: philippe",
+      "total": 632,
+      "ms": 67
+    },
+    {
+      "query": "candidate: retailleau",
+      "total": 340,
+      "ms": 58
+    },
+    {
+      "query": "candidate: glucksmann",
+      "total": 590,
+      "ms": 59
+    },
+    {
+      "query": "candidate: tondelier",
+      "total": 236,
+      "ms": 54
+    },
+    {
+      "query": "candidate: zemmour",
+      "total": 391,
+      "ms": 69
+    },
+    {
+      "query": "candidate: lisnard",
+      "total": 245,
+      "ms": 66
+    },
+    {
+      "query": "candidate: roussel",
+      "total": 141,
+      "ms": 58
+    },
+    {
+      "query": "candidate: duponaignan",
+      "total": 46,
+      "ms": 59
+    },
+    {
+      "query": "candidate: ruffin",
+      "total": 140,
+      "ms": 102
+    },
+    {
+      "query": "candidate: cazeneuve",
+      "total": 41,
+      "ms": 56
+    },
+    {
+      "query": "candidate: polony",
+      "total": 71,
+      "ms": 53
+    },
+    {
+      "query": "candidate: arthaud",
+      "total": 58,
+      "ms": 59
+    },
+    {
+      "query": "candidate: asselineau",
+      "total": 20,
+      "ms": 54
+    },
+    {
+      "query": "candidate: philippot",
+      "total": 27,
+      "ms": 52
+    },
+    {
+      "query": "candidate: batho",
+      "total": 10,
+      "ms": 62
+    },
+    {
+      "query": "candidate: bertrand",
+      "total": 38,
+      "ms": 59
+    },
+    {
+      "query": "candidate: bouamrane",
+      "total": 28,
+      "ms": 57
+    },
+    {
+      "query": "candidate: becht",
+      "total": 1,
+      "ms": 66
+    },
+    {
+      "query": "candidate: markovic",
+      "total": 1,
+      "ms": 152
+    },
+    {
+      "query": "candidate: kazib",
+      "total": 41,
+      "ms": 63
+    },
+    {
+      "query": "candidate: labib",
+      "total": 18,
+      "ms": 54
+    },
+    {
+      "query": "candidate: lalanne",
+      "total": 44,
+      "ms": 56
+    },
+    {
+      "query": "candidate: platret",
+      "total": 1,
+      "ms": 61
+    },
+    {
+      "query": "candidate: durif",
+      "total": 20,
+      "ms": 58
+    },
+    {
+      "query": "candidate: mathieu",
+      "total": 1,
+      "ms": 58
+    },
+    {
+      "query": "candidate: mikolajczak",
+      "total": 2,
+      "ms": 58
+    },
+    {
+      "query": "candidate: mlekuz",
+      "total": 3,
+      "ms": 58
+    },
+    {
+      "query": "image posts: 4 candidates",
+      "total": 888,
+      "ms": 71
+    }
+  ],
+  "accentProbe": [
+    {
+      "value": "Édouard Philippe",
+      "total": 53
+    },
+    {
+      "value": "Edouard Philippe",
+      "total": 196
+    },
+    {
+      "value": "Mélenchon",
+      "total": 1211
+    },
+    {
+      "value": "Melenchon",
+      "total": 15
+    },
+    {
+      "value": "Melanchon",
+      "total": 4
+    }
+  ],
+  "canonicalBody": {
+    "operator": "and",
+    "queries": [
+      {
+        "operator": "or",
+        "queries": [
+          {
+            "name": "lepen|transcript",
+            "operator": "and",
+            "filters": {
+              "transcript": {
+                "includesExactly": {
+                  "values": [
+                    "Marine Le Pen",
+                    "Marine Lepen",
+                    "Marine Le-Pen",
+                    "Marine LePen",
+                    "Marine le Pen"
+                  ],
+                  "operator": "or"
+                }
+              }
+            }
+          },
+          {
+            "name": "lepen|caption",
+            "operator": "and",
+            "filters": {
+              "caption": {
+                "includesExactly": {
+                  "values": [
+                    "Marine Le Pen",
+                    "Marine Lepen",
+                    "Marine Le-Pen",
+                    "Marine LePen",
+                    "Marine le Pen"
+                  ],
+                  "operator": "or"
+                }
+              }
+            }
+          },
+          {
+            "name": "lepen|on_screen_text",
+            "operator": "and",
+            "filters": {
+              "onScreenText": {
+                "includesExactly": {
+                  "values": [
+                    "Marine Le Pen",
+                    "Marine Lepen",
+                    "Marine Le-Pen",
+                    "Marine LePen",
+                    "Marine le Pen"
+                  ],
+                  "operator": "or"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "filters": {
+      "publishedAt": {
+        "after": "2026-06-01"
+      },
+      "platform": {
+        "includes": [
+          "instagram",
+          "tiktok",
+          "youtube"
+        ],
+        "operator": "and"
+      }
+    }
+  }
+}

@@ -1,0 +1,1520 @@
+{
+  "generatedAt": "2026-11-07T11:14:27.188Z",
+  "timezone": "Europe/Paris",
+  "source": "31 candidate files in data/oriane",
+  "range": {
+    "first_posted": "2026-08-08T23:43:15.000Z",
+    "last_posted": "2026-11-02T15:01:48.000Z",
+    "first_date": "2026-08-09",
+    "last_date": "2026-11-02",
+    "span_days": 85,
+    "span_weeks": 12.1
+  },
+  "totals": {
+    "unique_videos": 217,
+    "french_videos": 209,
+    "non_french_videos": 8,
+    "creators": 138,
+    "candidates": 31,
+    "active_days": 77,
+    "silent_days": 9,
+    "videos_per_active_day": 2.71,
+    "videos_per_week": 17.21,
+    "with_stance_label": 166,
+    "total_views": 190819304,
+    "avg_views": 1020424,
+    "median_views": 481800
+  },
+  "monthly": [
+    {
+      "bucket": "2026-08",
+      "videos": 29,
+      "french": 27,
+      "creators": 21,
+      "total_views": 17666199,
+      "avg_views": 609179,
+      "median_views": 340978,
+      "total_interactions": 1410207,
+      "talking": 26,
+      "image_post": 3,
+      "instagram": 18,
+      "tiktok": 11,
+      "youtube": 0,
+      "favorable": 2,
+      "critical": 5,
+      "neutral": 17,
+      "with_decisive_stance": 24
+    },
+    {
+      "bucket": "2026-09",
+      "videos": 84,
+      "french": 80,
+      "creators": 60,
+      "total_views": 81972807,
+      "avg_views": 999668,
+      "median_views": 480773,
+      "total_interactions": 8486892,
+      "talking": 73,
+      "image_post": 11,
+      "instagram": 49,
+      "tiktok": 35,
+      "youtube": 0,
+      "favorable": 14,
+      "critical": 23,
+      "neutral": 27,
+      "with_decisive_stance": 64
+    },
+    {
+      "bucket": "2026-10",
+      "videos": 102,
+      "french": 100,
+      "creators": 79,
+      "total_views": 92590910,
+      "avg_views": 1129157,
+      "median_views": 618400,
+      "total_interactions": 11571427,
+      "talking": 71,
+      "image_post": 31,
+      "instagram": 51,
+      "tiktok": 48,
+      "youtube": 3,
+      "favorable": 26,
+      "critical": 28,
+      "neutral": 22,
+      "with_decisive_stance": 76
+    },
+    {
+      "bucket": "2026-11",
+      "videos": 2,
+      "french": 2,
+      "creators": 2,
+      "total_views": 151398,
+      "avg_views": 75699,
+      "median_views": 75699,
+      "total_interactions": 6727,
+      "talking": 0,
+      "image_post": 2,
+      "instagram": 1,
+      "tiktok": 1,
+      "youtube": 0,
+      "favorable": 1,
+      "critical": 0,
+      "neutral": 1,
+      "with_decisive_stance": 2
+    }
+  ],
+  "weekly": [
+    {
+      "bucket": "2026-W32",
+      "videos": 1,
+      "french": 1,
+      "creators": 1,
+      "total_views": 20300,
+      "avg_views": 20300,
+      "median_views": 20300,
+      "total_interactions": 429,
+      "talking": 1,
+      "image_post": 0,
+      "instagram": 0,
+      "tiktok": 1,
+      "youtube": 0,
+      "favorable": 0,
+      "critical": 0,
+      "neutral": 1,
+      "with_decisive_stance": 1
+    },
+    {
+      "bucket": "2026-W33",
+      "videos": 2,
+      "french": 1,
+      "creators": 2,
+      "total_views": 791400,
+      "avg_views": 395700,
+      "median_views": 395700,
+      "total_interactions": 123996,
+      "talking": 2,
+      "image_post": 0,
+      "instagram": 0,
+      "tiktok": 2,
+      "youtube": 0,
+      "favorable": 0,
+      "critical": 0,
+      "neutral": 0,
+      "with_decisive_stance": 0
+    },
+    {
+      "bucket": "2026-W34",
+      "videos": 6,
+      "french": 6,
+      "creators": 5,
+      "total_views": 6033084,
+      "avg_views": 1005514,
+      "median_views": 359758,
+      "total_interactions": 453456,
+      "talking": 5,
+      "image_post": 1,
+      "instagram": 2,
+      "tiktok": 4,
+      "youtube": 0,
+      "favorable": 0,
+      "critical": 1,
+      "neutral": 5,
+      "with_decisive_stance": 6
+    },
+    {
+      "bucket": "2026-W35",
+      "videos": 15,
+      "french": 14,
+      "creators": 11,
+      "total_views": 9045803,
+      "avg_views": 603054,
+      "median_views": 299863,
+      "total_interactions": 738464,
+      "talking": 13,
+      "image_post": 2,
+      "instagram": 12,
+      "tiktok": 3,
+      "youtube": 0,
+      "favorable": 1,
+      "critical": 3,
+      "neutral": 9,
+      "with_decisive_stance": 13
+    },
+    {
+      "bucket": "2026-W36",
+      "videos": 25,
+      "french": 25,
+      "creators": 21,
+      "total_views": 16260730,
+      "avg_views": 650429,
+      "median_views": 406996,
+      "total_interactions": 1299839,
+      "talking": 25,
+      "image_post": 0,
+      "instagram": 18,
+      "tiktok": 7,
+      "youtube": 0,
+      "favorable": 6,
+      "critical": 7,
+      "neutral": 8,
+      "with_decisive_stance": 21
+    },
+    {
+      "bucket": "2026-W37",
+      "videos": 19,
+      "french": 18,
+      "creators": 17,
+      "total_views": 20416105,
+      "avg_views": 1074532,
+      "median_views": 1023822,
+      "total_interactions": 2412708,
+      "talking": 15,
+      "image_post": 4,
+      "instagram": 12,
+      "tiktok": 7,
+      "youtube": 0,
+      "favorable": 5,
+      "critical": 2,
+      "neutral": 7,
+      "with_decisive_stance": 14
+    },
+    {
+      "bucket": "2026-W38",
+      "videos": 18,
+      "french": 16,
+      "creators": 15,
+      "total_views": 19221882,
+      "avg_views": 1130699,
+      "median_views": 481800,
+      "total_interactions": 1493013,
+      "talking": 15,
+      "image_post": 3,
+      "instagram": 11,
+      "tiktok": 7,
+      "youtube": 0,
+      "favorable": 1,
+      "critical": 6,
+      "neutral": 8,
+      "with_decisive_stance": 15
+    },
+    {
+      "bucket": "2026-W39",
+      "videos": 17,
+      "french": 17,
+      "creators": 14,
+      "total_views": 19770444,
+      "avg_views": 1162967,
+      "median_views": 978400,
+      "total_interactions": 2710070,
+      "talking": 17,
+      "image_post": 0,
+      "instagram": 8,
+      "tiktok": 9,
+      "youtube": 0,
+      "favorable": 2,
+      "critical": 7,
+      "neutral": 2,
+      "with_decisive_stance": 11
+    },
+    {
+      "bucket": "2026-W40",
+      "videos": 17,
+      "french": 16,
+      "creators": 15,
+      "total_views": 10228816,
+      "avg_views": 852401,
+      "median_views": 467100,
+      "total_interactions": 1208718,
+      "talking": 8,
+      "image_post": 9,
+      "instagram": 10,
+      "tiktok": 7,
+      "youtube": 0,
+      "favorable": 2,
+      "critical": 2,
+      "neutral": 6,
+      "with_decisive_stance": 10
+    },
+    {
+      "bucket": "2026-W41",
+      "videos": 26,
+      "french": 26,
+      "creators": 25,
+      "total_views": 27879444,
+      "avg_views": 1393972,
+      "median_views": 789336,
+      "total_interactions": 4592084,
+      "talking": 20,
+      "image_post": 6,
+      "instagram": 12,
+      "tiktok": 14,
+      "youtube": 0,
+      "favorable": 10,
+      "critical": 5,
+      "neutral": 5,
+      "with_decisive_stance": 20
+    },
+    {
+      "bucket": "2026-W42",
+      "videos": 23,
+      "french": 23,
+      "creators": 22,
+      "total_views": 16232880,
+      "avg_views": 854362,
+      "median_views": 189791,
+      "total_interactions": 1855781,
+      "talking": 15,
+      "image_post": 8,
+      "instagram": 13,
+      "tiktok": 9,
+      "youtube": 1,
+      "favorable": 4,
+      "critical": 8,
+      "neutral": 6,
+      "with_decisive_stance": 18
+    },
+    {
+      "bucket": "2026-W43",
+      "videos": 39,
+      "french": 37,
+      "creators": 37,
+      "total_views": 40450866,
+      "avg_views": 1225784,
+      "median_views": 786456,
+      "total_interactions": 4030828,
+      "talking": 29,
+      "image_post": 10,
+      "instagram": 18,
+      "tiktok": 19,
+      "youtube": 2,
+      "favorable": 7,
+      "critical": 14,
+      "neutral": 8,
+      "with_decisive_stance": 29
+    },
+    {
+      "bucket": "2026-W44",
+      "videos": 8,
+      "french": 8,
+      "creators": 8,
+      "total_views": 6027662,
+      "avg_views": 753458,
+      "median_views": 235800,
+      "total_interactions": 555841,
+      "talking": 5,
+      "image_post": 3,
+      "instagram": 2,
+      "tiktok": 6,
+      "youtube": 0,
+      "favorable": 4,
+      "critical": 1,
+      "neutral": 2,
+      "with_decisive_stance": 7
+    },
+    {
+      "bucket": "2026-W45",
+      "videos": 1,
+      "french": 1,
+      "creators": 1,
+      "total_views": 1898,
+      "avg_views": 1898,
+      "median_views": 1898,
+      "total_interactions": 26,
+      "talking": 0,
+      "image_post": 1,
+      "instagram": 1,
+      "tiktok": 0,
+      "youtube": 0,
+      "favorable": 1,
+      "critical": 0,
+      "neutral": 0,
+      "with_decisive_stance": 1
+    }
+  ],
+  "daily": [
+    {
+      "date": "2026-08-09",
+      "videos": 1,
+      "views": 20300
+    },
+    {
+      "date": "2026-08-12",
+      "videos": 1,
+      "views": 78700
+    },
+    {
+      "date": "2026-08-14",
+      "videos": 1,
+      "views": 712700
+    },
+    {
+      "date": "2026-08-17",
+      "videos": 1,
+      "views": 313700
+    },
+    {
+      "date": "2026-08-19",
+      "videos": 1,
+      "views": 1100000
+    },
+    {
+      "date": "2026-08-20",
+      "videos": 1,
+      "views": 324
+    },
+    {
+      "date": "2026-08-21",
+      "videos": 1,
+      "views": 4048444
+    },
+    {
+      "date": "2026-08-23",
+      "videos": 2,
+      "views": 570616
+    },
+    {
+      "date": "2026-08-24",
+      "videos": 3,
+      "views": 890298
+    },
+    {
+      "date": "2026-08-25",
+      "videos": 1,
+      "views": 1793374
+    },
+    {
+      "date": "2026-08-26",
+      "videos": 4,
+      "views": 2366145
+    },
+    {
+      "date": "2026-08-27",
+      "videos": 1,
+      "views": 299863
+    },
+    {
+      "date": "2026-08-28",
+      "videos": 3,
+      "views": 1776874
+    },
+    {
+      "date": "2026-08-29",
+      "videos": 2,
+      "views": 122025
+    },
+    {
+      "date": "2026-08-30",
+      "videos": 1,
+      "views": 1797224
+    },
+    {
+      "date": "2026-08-31",
+      "videos": 5,
+      "views": 1775612
+    },
+    {
+      "date": "2026-09-01",
+      "videos": 4,
+      "views": 1089453
+    },
+    {
+      "date": "2026-09-02",
+      "videos": 5,
+      "views": 6512557
+    },
+    {
+      "date": "2026-09-03",
+      "videos": 3,
+      "views": 3348025
+    },
+    {
+      "date": "2026-09-04",
+      "videos": 2,
+      "views": 613302
+    },
+    {
+      "date": "2026-09-05",
+      "videos": 3,
+      "views": 2445073
+    },
+    {
+      "date": "2026-09-06",
+      "videos": 3,
+      "views": 476708
+    },
+    {
+      "date": "2026-09-07",
+      "videos": 3,
+      "views": 3488618
+    },
+    {
+      "date": "2026-09-08",
+      "videos": 6,
+      "views": 7597928
+    },
+    {
+      "date": "2026-09-09",
+      "videos": 1,
+      "views": 1472843
+    },
+    {
+      "date": "2026-09-10",
+      "videos": 1,
+      "views": 215460
+    },
+    {
+      "date": "2026-09-11",
+      "videos": 4,
+      "views": 4603822
+    },
+    {
+      "date": "2026-09-12",
+      "videos": 4,
+      "views": 3037434
+    },
+    {
+      "date": "2026-09-14",
+      "videos": 3,
+      "views": 2812930
+    },
+    {
+      "date": "2026-09-15",
+      "videos": 3,
+      "views": 1559291
+    },
+    {
+      "date": "2026-09-16",
+      "videos": 2,
+      "views": 918185
+    },
+    {
+      "date": "2026-09-17",
+      "videos": 1,
+      "views": 42900
+    },
+    {
+      "date": "2026-09-18",
+      "videos": 6,
+      "views": 13309946
+    },
+    {
+      "date": "2026-09-19",
+      "videos": 1,
+      "views": 317427
+    },
+    {
+      "date": "2026-09-20",
+      "videos": 2,
+      "views": 261203
+    },
+    {
+      "date": "2026-09-21",
+      "videos": 2,
+      "views": 2799539
+    },
+    {
+      "date": "2026-09-22",
+      "videos": 2,
+      "views": 283735
+    },
+    {
+      "date": "2026-09-23",
+      "videos": 3,
+      "views": 2483043
+    },
+    {
+      "date": "2026-09-24",
+      "videos": 1,
+      "views": 1200000
+    },
+    {
+      "date": "2026-09-25",
+      "videos": 1,
+      "views": 2300000
+    },
+    {
+      "date": "2026-09-26",
+      "videos": 4,
+      "views": 2534005
+    },
+    {
+      "date": "2026-09-27",
+      "videos": 4,
+      "views": 8170122
+    },
+    {
+      "date": "2026-09-28",
+      "videos": 2,
+      "views": 2249103
+    },
+    {
+      "date": "2026-09-29",
+      "videos": 2,
+      "views": 219463
+    },
+    {
+      "date": "2026-09-30",
+      "videos": 6,
+      "views": 5610692
+    },
+    {
+      "date": "2026-10-01",
+      "videos": 1,
+      "views": 2100000
+    },
+    {
+      "date": "2026-10-02",
+      "videos": 2,
+      "views": 0
+    },
+    {
+      "date": "2026-10-03",
+      "videos": 2,
+      "views": 34800
+    },
+    {
+      "date": "2026-10-04",
+      "videos": 2,
+      "views": 14758
+    },
+    {
+      "date": "2026-10-05",
+      "videos": 4,
+      "views": 1114349
+    },
+    {
+      "date": "2026-10-06",
+      "videos": 4,
+      "views": 3076572
+    },
+    {
+      "date": "2026-10-07",
+      "videos": 4,
+      "views": 4762194
+    },
+    {
+      "date": "2026-10-08",
+      "videos": 1,
+      "views": 31704
+    },
+    {
+      "date": "2026-10-09",
+      "videos": 4,
+      "views": 6334200
+    },
+    {
+      "date": "2026-10-10",
+      "videos": 7,
+      "views": 10260425
+    },
+    {
+      "date": "2026-10-11",
+      "videos": 2,
+      "views": 2300000
+    },
+    {
+      "date": "2026-10-12",
+      "videos": 6,
+      "views": 3641624
+    },
+    {
+      "date": "2026-10-13",
+      "videos": 1,
+      "views": 220178
+    },
+    {
+      "date": "2026-10-14",
+      "videos": 5,
+      "views": 849220
+    },
+    {
+      "date": "2026-10-15",
+      "videos": 1,
+      "views": 131307
+    },
+    {
+      "date": "2026-10-16",
+      "videos": 7,
+      "views": 10181681
+    },
+    {
+      "date": "2026-10-17",
+      "videos": 1,
+      "views": 1208870
+    },
+    {
+      "date": "2026-10-18",
+      "videos": 2,
+      "views": 0
+    },
+    {
+      "date": "2026-10-19",
+      "videos": 4,
+      "views": 2759200
+    },
+    {
+      "date": "2026-10-20",
+      "videos": 7,
+      "views": 6003620
+    },
+    {
+      "date": "2026-10-21",
+      "videos": 5,
+      "views": 3192408
+    },
+    {
+      "date": "2026-10-22",
+      "videos": 8,
+      "views": 3917870
+    },
+    {
+      "date": "2026-10-23",
+      "videos": 8,
+      "views": 10702407
+    },
+    {
+      "date": "2026-10-24",
+      "videos": 2,
+      "views": 4318923
+    },
+    {
+      "date": "2026-10-25",
+      "videos": 5,
+      "views": 9556438
+    },
+    {
+      "date": "2026-10-26",
+      "videos": 3,
+      "views": 1133542
+    },
+    {
+      "date": "2026-10-27",
+      "videos": 1,
+      "views": 78700
+    },
+    {
+      "date": "2026-10-28",
+      "videos": 1,
+      "views": 2000000
+    },
+    {
+      "date": "2026-10-29",
+      "videos": 1,
+      "views": 237600
+    },
+    {
+      "date": "2026-10-30",
+      "videos": 1,
+      "views": 2428320
+    },
+    {
+      "date": "2026-11-01",
+      "videos": 1,
+      "views": 149500
+    },
+    {
+      "date": "2026-11-02",
+      "videos": 1,
+      "views": 1898
+    }
+  ],
+  "by_weekday": [
+    {
+      "weekday": "Mon",
+      "videos": 37
+    },
+    {
+      "weekday": "Tue",
+      "videos": 31
+    },
+    {
+      "weekday": "Wed",
+      "videos": 38
+    },
+    {
+      "weekday": "Thu",
+      "videos": 20
+    },
+    {
+      "weekday": "Fri",
+      "videos": 40
+    },
+    {
+      "weekday": "Sat",
+      "videos": 26
+    },
+    {
+      "weekday": "Sun",
+      "videos": 25
+    }
+  ],
+  "by_hour": [
+    {
+      "hour": 0,
+      "videos": 2
+    },
+    {
+      "hour": 1,
+      "videos": 1
+    },
+    {
+      "hour": 2,
+      "videos": 4
+    },
+    {
+      "hour": 3,
+      "videos": 0
+    },
+    {
+      "hour": 4,
+      "videos": 0
+    },
+    {
+      "hour": 5,
+      "videos": 0
+    },
+    {
+      "hour": 6,
+      "videos": 3
+    },
+    {
+      "hour": 7,
+      "videos": 3
+    },
+    {
+      "hour": 8,
+      "videos": 8
+    },
+    {
+      "hour": 9,
+      "videos": 8
+    },
+    {
+      "hour": 10,
+      "videos": 6
+    },
+    {
+      "hour": 11,
+      "videos": 9
+    },
+    {
+      "hour": 12,
+      "videos": 15
+    },
+    {
+      "hour": 13,
+      "videos": 8
+    },
+    {
+      "hour": 14,
+      "videos": 8
+    },
+    {
+      "hour": 15,
+      "videos": 7
+    },
+    {
+      "hour": 16,
+      "videos": 20
+    },
+    {
+      "hour": 17,
+      "videos": 22
+    },
+    {
+      "hour": 18,
+      "videos": 32
+    },
+    {
+      "hour": 19,
+      "videos": 12
+    },
+    {
+      "hour": 20,
+      "videos": 15
+    },
+    {
+      "hour": 21,
+      "videos": 9
+    },
+    {
+      "hour": 22,
+      "videos": 16
+    },
+    {
+      "hour": 23,
+      "videos": 9
+    }
+  ],
+  "largest_gaps": [
+    {
+      "from": "2026-08-09",
+      "to": "2026-08-12",
+      "days": 3
+    },
+    {
+      "from": "2026-08-14",
+      "to": "2026-08-17",
+      "days": 3
+    },
+    {
+      "from": "2026-08-12",
+      "to": "2026-08-14",
+      "days": 2
+    },
+    {
+      "from": "2026-08-17",
+      "to": "2026-08-19",
+      "days": 2
+    },
+    {
+      "from": "2026-08-21",
+      "to": "2026-08-23",
+      "days": 2
+    }
+  ],
+  "busiest_days": [
+    {
+      "date": "2026-10-23",
+      "videos": 8,
+      "views": 10702407
+    },
+    {
+      "date": "2026-10-22",
+      "videos": 8,
+      "views": 3917870
+    },
+    {
+      "date": "2026-10-10",
+      "videos": 7,
+      "views": 10260425
+    },
+    {
+      "date": "2026-10-16",
+      "videos": 7,
+      "views": 10181681
+    },
+    {
+      "date": "2026-10-20",
+      "videos": 7,
+      "views": 6003620
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "platret",
+      "name": "Gilles Platret",
+      "tier": "minor",
+      "videos": 5,
+      "first_posted": "2026-08-08T23:43:15.000Z",
+      "last_posted": "2026-10-16T11:33:39.000Z",
+      "span_days": 68,
+      "median_date": "2026-10-03",
+      "with_own_mention": 5,
+      "total_views": 122252,
+      "avg_views": 24450,
+      "creators": 5,
+      "by_month": {
+        "2026-08": 2,
+        "2026-10": 3
+      }
+    },
+    {
+      "candidate_id": "zemmour",
+      "name": "Éric Zemmour",
+      "tier": "major",
+      "videos": 10,
+      "first_posted": "2026-08-14T18:18:55.000Z",
+      "last_posted": "2026-10-30T11:46:25.000Z",
+      "span_days": 77,
+      "median_date": "2026-10-22",
+      "with_own_mention": 10,
+      "total_views": 19792136,
+      "avg_views": 1979214,
+      "creators": 10,
+      "by_month": {
+        "2026-08": 2,
+        "2026-09": 1,
+        "2026-10": 7
+      }
+    },
+    {
+      "candidate_id": "arthaud",
+      "name": "Nathalie Arthaud",
+      "tier": "minor",
+      "videos": 10,
+      "first_posted": "2026-08-17T16:09:07.000Z",
+      "last_posted": "2026-10-29T20:01:02.000Z",
+      "span_days": 73,
+      "median_date": "2026-10-05",
+      "with_own_mention": 10,
+      "total_views": 5726948,
+      "avg_views": 636328,
+      "creators": 6,
+      "by_month": {
+        "2026-08": 1,
+        "2026-09": 4,
+        "2026-10": 5
+      }
+    },
+    {
+      "candidate_id": "duponaignan",
+      "name": "Nicolas Dupont-Aignan",
+      "tier": "major",
+      "videos": 10,
+      "first_posted": "2026-08-17T16:09:07.000Z",
+      "last_posted": "2026-10-20T20:21:21.000Z",
+      "span_days": 64,
+      "median_date": "2026-09-29",
+      "with_own_mention": 10,
+      "total_views": 5119891,
+      "avg_views": 511989,
+      "creators": 9,
+      "by_month": {
+        "2026-08": 1,
+        "2026-09": 5,
+        "2026-10": 4
+      }
+    },
+    {
+      "candidate_id": "batho",
+      "name": "Delphine Batho",
+      "tier": "minor",
+      "videos": 10,
+      "first_posted": "2026-08-20T07:34:31.000Z",
+      "last_posted": "2026-10-21T15:11:46.000Z",
+      "span_days": 62,
+      "median_date": "2026-09-27",
+      "with_own_mention": 9,
+      "total_views": 826443,
+      "avg_views": 103305,
+      "creators": 7,
+      "by_month": {
+        "2026-08": 1,
+        "2026-09": 6,
+        "2026-10": 3
+      }
+    },
+    {
+      "candidate_id": "roussel",
+      "name": "Fabien Roussel",
+      "tier": "major",
+      "videos": 10,
+      "first_posted": "2026-08-21T10:00:05.000Z",
+      "last_posted": "2026-10-24T13:01:13.000Z",
+      "span_days": 64,
+      "median_date": "2026-09-24",
+      "with_own_mention": 10,
+      "total_views": 30644004,
+      "avg_views": 3064400,
+      "creators": 7,
+      "by_month": {
+        "2026-08": 1,
+        "2026-09": 7,
+        "2026-10": 2
+      }
+    },
+    {
+      "candidate_id": "cazeneuve",
+      "name": "Bernard Cazeneuve",
+      "tier": "minor",
+      "videos": 10,
+      "first_posted": "2026-08-23T18:34:08.000Z",
+      "last_posted": "2026-10-14T16:00:00.000Z",
+      "span_days": 52,
+      "median_date": "2026-09-18",
+      "with_own_mention": 10,
+      "total_views": 2410186,
+      "avg_views": 241019,
+      "creators": 8,
+      "by_month": {
+        "2026-08": 2,
+        "2026-09": 5,
+        "2026-10": 3
+      }
+    },
+    {
+      "candidate_id": "asselineau",
+      "name": "François Asselineau",
+      "tier": "minor",
+      "videos": 10,
+      "first_posted": "2026-08-24T16:37:40.000Z",
+      "last_posted": "2026-11-01T17:00:00.000Z",
+      "span_days": 69,
+      "median_date": "2026-09-18",
+      "with_own_mention": 10,
+      "total_views": 3170417,
+      "avg_views": 317042,
+      "creators": 7,
+      "by_month": {
+        "2026-08": 2,
+        "2026-09": 4,
+        "2026-10": 3,
+        "2026-11": 1
+      }
+    },
+    {
+      "candidate_id": "durif",
+      "name": "Sylvain Durif",
+      "tier": "minor",
+      "videos": 10,
+      "first_posted": "2026-08-25T14:29:01.000Z",
+      "last_posted": "2026-10-26T07:33:21.000Z",
+      "span_days": 62,
+      "median_date": "2026-10-21",
+      "with_own_mention": 10,
+      "total_views": 5888142,
+      "avg_views": 588814,
+      "creators": 9,
+      "by_month": {
+        "2026-08": 2,
+        "2026-09": 3,
+        "2026-10": 5
+      }
+    },
+    {
+      "candidate_id": "mlekuz",
+      "name": "Manolo Mlekuz",
+      "tier": "minor",
+      "videos": 10,
+      "first_posted": "2026-08-26T10:01:58.000Z",
+      "last_posted": "2026-11-02T15:01:48.000Z",
+      "span_days": 68,
+      "median_date": "2026-09-30",
+      "with_own_mention": 9,
+      "total_views": 1048066,
+      "avg_views": 149724,
+      "creators": 8,
+      "by_month": {
+        "2026-08": 1,
+        "2026-09": 5,
+        "2026-10": 3,
+        "2026-11": 1
+      }
+    },
+    {
+      "candidate_id": "bouamrane",
+      "name": "Karim Bouamrane",
+      "tier": "minor",
+      "videos": 10,
+      "first_posted": "2026-08-26T14:14:26.000Z",
+      "last_posted": "2026-10-05T18:41:47.000Z",
+      "span_days": 40,
+      "median_date": "2026-08-31",
+      "with_own_mention": 10,
+      "total_views": 3039349,
+      "avg_views": 303935,
+      "creators": 7,
+      "by_month": {
+        "2026-08": 6,
+        "2026-09": 3,
+        "2026-10": 1
+      }
+    },
+    {
+      "candidate_id": "lalanne",
+      "name": "Francis Lalanne",
+      "tier": "minor",
+      "videos": 10,
+      "first_posted": "2026-08-26T16:41:54.000Z",
+      "last_posted": "2026-10-23T16:12:25.000Z",
+      "span_days": 58,
+      "median_date": "2026-09-20",
+      "with_own_mention": 10,
+      "total_views": 3470068,
+      "avg_views": 347007,
+      "creators": 9,
+      "by_month": {
+        "2026-08": 3,
+        "2026-09": 3,
+        "2026-10": 4
+      }
+    },
+    {
+      "candidate_id": "polony",
+      "name": "Natacha Polony",
+      "tier": "minor",
+      "videos": 10,
+      "first_posted": "2026-08-26T18:13:23.000Z",
+      "last_posted": "2026-10-27T21:07:51.000Z",
+      "span_days": 62,
+      "median_date": "2026-10-14",
+      "with_own_mention": 10,
+      "total_views": 4574177,
+      "avg_views": 457418,
+      "creators": 8,
+      "by_month": {
+        "2026-08": 1,
+        "2026-09": 3,
+        "2026-10": 6
+      }
+    },
+    {
+      "candidate_id": "attal",
+      "name": "Gabriel Attal",
+      "tier": "frontrunner",
+      "videos": 10,
+      "first_posted": "2026-08-28T14:29:38.000Z",
+      "last_posted": "2026-10-10T16:17:37.000Z",
+      "span_days": 43,
+      "median_date": "2026-09-11",
+      "with_own_mention": 10,
+      "total_views": 23912300,
+      "avg_views": 2391230,
+      "creators": 8,
+      "by_month": {
+        "2026-08": 1,
+        "2026-09": 7,
+        "2026-10": 2
+      }
+    },
+    {
+      "candidate_id": "glucksmann",
+      "name": "Raphaël Glucksmann",
+      "tier": "major",
+      "videos": 10,
+      "first_posted": "2026-08-28T14:29:38.000Z",
+      "last_posted": "2026-10-16T20:55:38.000Z",
+      "span_days": 49,
+      "median_date": "2026-09-21",
+      "with_own_mention": 10,
+      "total_views": 25324013,
+      "avg_views": 2532401,
+      "creators": 9,
+      "by_month": {
+        "2026-08": 1,
+        "2026-09": 6,
+        "2026-10": 3
+      }
+    },
+    {
+      "candidate_id": "retailleau",
+      "name": "Bruno Retailleau",
+      "tier": "major",
+      "videos": 10,
+      "first_posted": "2026-08-28T14:29:38.000Z",
+      "last_posted": "2026-10-23T16:39:09.000Z",
+      "span_days": 56,
+      "median_date": "2026-10-07",
+      "with_own_mention": 9,
+      "total_views": 19670610,
+      "avg_views": 2185623,
+      "creators": 9,
+      "by_month": {
+        "2026-08": 1,
+        "2026-09": 3,
+        "2026-10": 6
+      }
+    },
+    {
+      "candidate_id": "bertrand",
+      "name": "Xavier Bertrand",
+      "tier": "minor",
+      "videos": 10,
+      "first_posted": "2026-08-29T09:54:15.000Z",
+      "last_posted": "2026-10-12T10:00:05.000Z",
+      "span_days": 44,
+      "median_date": "2026-09-04",
+      "with_own_mention": 10,
+      "total_views": 2209204,
+      "avg_views": 220920,
+      "creators": 8,
+      "by_month": {
+        "2026-08": 1,
+        "2026-09": 7,
+        "2026-10": 2
+      }
+    },
+    {
+      "candidate_id": "philippe",
+      "name": "Édouard Philippe",
+      "tier": "major",
+      "videos": 10,
+      "first_posted": "2026-08-30T17:17:12.000Z",
+      "last_posted": "2026-10-26T12:05:56.000Z",
+      "span_days": 57,
+      "median_date": "2026-10-12",
+      "with_own_mention": 9,
+      "total_views": 14984334,
+      "avg_views": 1873042,
+      "creators": 8,
+      "by_month": {
+        "2026-08": 1,
+        "2026-09": 3,
+        "2026-10": 6
+      }
+    },
+    {
+      "candidate_id": "tondelier",
+      "name": "Marine Tondelier",
+      "tier": "major",
+      "videos": 10,
+      "first_posted": "2026-08-30T17:17:12.000Z",
+      "last_posted": "2026-10-19T14:39:42.000Z",
+      "span_days": 50,
+      "median_date": "2026-09-18",
+      "with_own_mention": 9,
+      "total_views": 18895351,
+      "avg_views": 2099483,
+      "creators": 8,
+      "by_month": {
+        "2026-08": 1,
+        "2026-09": 7,
+        "2026-10": 2
+      }
+    },
+    {
+      "candidate_id": "philippot",
+      "name": "Florian Philippot",
+      "tier": "minor",
+      "videos": 10,
+      "first_posted": "2026-09-01T20:42:43.000Z",
+      "last_posted": "2026-10-15T00:00:00.000Z",
+      "span_days": 44,
+      "median_date": "2026-09-23",
+      "with_own_mention": 10,
+      "total_views": 3437775,
+      "avg_views": 343778,
+      "creators": 6,
+      "by_month": {
+        "2026-09": 7,
+        "2026-10": 3
+      }
+    },
+    {
+      "candidate_id": "ruffin",
+      "name": "François Ruffin",
+      "tier": "minor",
+      "videos": 10,
+      "first_posted": "2026-09-03T16:27:51.000Z",
+      "last_posted": "2026-10-29T20:01:02.000Z",
+      "span_days": 56,
+      "median_date": "2026-10-07",
+      "with_own_mention": 8,
+      "total_views": 7512846,
+      "avg_views": 939106,
+      "creators": 8,
+      "by_month": {
+        "2026-09": 5,
+        "2026-10": 5
+      }
+    },
+    {
+      "candidate_id": "kazib",
+      "name": "Anasse Kazib",
+      "tier": "minor",
+      "videos": 10,
+      "first_posted": "2026-09-06T16:01:21.000Z",
+      "last_posted": "2026-10-26T19:15:03.000Z",
+      "span_days": 50,
+      "median_date": "2026-10-05",
+      "with_own_mention": 10,
+      "total_views": 1153222,
+      "avg_views": 128136,
+      "creators": 6,
+      "by_month": {
+        "2026-09": 5,
+        "2026-10": 5
+      }
+    },
+    {
+      "candidate_id": "bardella",
+      "name": "Jordan Bardella",
+      "tier": "frontrunner",
+      "videos": 10,
+      "first_posted": "2026-09-08T15:58:11.000Z",
+      "last_posted": "2026-10-16T20:55:38.000Z",
+      "span_days": 38,
+      "median_date": "2026-10-07",
+      "with_own_mention": 10,
+      "total_views": 26521030,
+      "avg_views": 2946781,
+      "creators": 10,
+      "by_month": {
+        "2026-09": 4,
+        "2026-10": 6
+      }
+    },
+    {
+      "candidate_id": "melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "tier": "frontrunner",
+      "videos": 10,
+      "first_posted": "2026-09-08T15:58:11.000Z",
+      "last_posted": "2026-10-28T08:02:53.000Z",
+      "span_days": 50,
+      "median_date": "2026-10-06",
+      "with_own_mention": 10,
+      "total_views": 27462440,
+      "avg_views": 2746244,
+      "creators": 6,
+      "by_month": {
+        "2026-09": 4,
+        "2026-10": 6
+      }
+    },
+    {
+      "candidate_id": "lepen",
+      "name": "Marine Le Pen",
+      "tier": "frontrunner",
+      "videos": 10,
+      "first_posted": "2026-09-08T16:16:46.000Z",
+      "last_posted": "2026-10-25T21:32:36.000Z",
+      "span_days": 47,
+      "median_date": "2026-10-16",
+      "with_own_mention": 10,
+      "total_views": 33675417,
+      "avg_views": 3367542,
+      "creators": 9,
+      "by_month": {
+        "2026-09": 3,
+        "2026-10": 7
+      }
+    },
+    {
+      "candidate_id": "labib",
+      "name": "Selma Labib",
+      "tier": "minor",
+      "videos": 10,
+      "first_posted": "2026-09-11T11:07:45.000Z",
+      "last_posted": "2026-10-19T10:32:17.000Z",
+      "span_days": 38,
+      "median_date": "2026-10-02",
+      "with_own_mention": 9,
+      "total_views": 818740,
+      "avg_views": 116963,
+      "creators": 4,
+      "by_month": {
+        "2026-09": 5,
+        "2026-10": 5
+      }
+    },
+    {
+      "candidate_id": "lisnard",
+      "name": "David Lisnard",
+      "tier": "major",
+      "videos": 10,
+      "first_posted": "2026-09-11T19:36:43.000Z",
+      "last_posted": "2026-10-25T19:37:06.000Z",
+      "span_days": 44,
+      "median_date": "2026-10-02",
+      "with_own_mention": 8,
+      "total_views": 8933513,
+      "avg_views": 1276216,
+      "creators": 9,
+      "by_month": {
+        "2026-09": 5,
+        "2026-10": 5
+      }
+    },
+    {
+      "candidate_id": "mikolajczak",
+      "name": "Antoine Mikolajczak",
+      "tier": "minor",
+      "videos": 5,
+      "first_posted": "2026-09-18T15:11:54.000Z",
+      "last_posted": "2026-10-16T05:00:02.000Z",
+      "span_days": 28,
+      "median_date": "2026-10-04",
+      "with_own_mention": 3,
+      "total_views": 676395,
+      "avg_views": 225465,
+      "creators": 4,
+      "by_month": {
+        "2026-09": 2,
+        "2026-10": 3
+      }
+    },
+    {
+      "candidate_id": "becht",
+      "name": "Olivier Becht",
+      "tier": "minor",
+      "videos": 1,
+      "first_posted": "2026-09-26T18:41:33.000Z",
+      "last_posted": "2026-09-26T18:41:33.000Z",
+      "span_days": 0,
+      "median_date": "2026-09-26",
+      "with_own_mention": 1,
+      "total_views": 32717,
+      "avg_views": 32717,
+      "creators": 1,
+      "by_month": {
+        "2026-09": 1
+      }
+    },
+    {
+      "candidate_id": "markovic",
+      "name": "Mira Markovic",
+      "tier": "minor",
+      "videos": 1,
+      "first_posted": "2026-10-07T15:10:12.000Z",
+      "last_posted": "2026-10-07T15:10:12.000Z",
+      "span_days": 0,
+      "median_date": "2026-10-07",
+      "with_own_mention": 1,
+      "total_views": 0,
+      "avg_views": 0,
+      "creators": 1,
+      "by_month": {
+        "2026-10": 1
+      }
+    },
+    {
+      "candidate_id": "mathieu",
+      "name": "Benoît Mathieu",
+      "tier": "minor",
+      "videos": 1,
+      "first_posted": "2026-10-21T14:58:33.000Z",
+      "last_posted": "2026-10-21T14:58:33.000Z",
+      "span_days": 0,
+      "median_date": "2026-10-21",
+      "with_own_mention": 1,
+      "total_views": 786456,
+      "avg_views": 786456,
+      "creators": 1,
+      "by_month": {
+        "2026-10": 1
+      }
+    }
+  ]
+}

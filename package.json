@@ -1,0 +1,40 @@
+{
+  "name": "cadrage-2027",
+  "private": true,
+  "type": "module",
+  "description": "How social video creators frame 2027 French presidential candidates. Oriane ingestion + deterministic tagging backend.",
+  "scripts": {
+    "demo": "node --env-file=.env scripts/query-demo.ts",
+    "demo:backend": "node --disable-warning=ExperimentalWarning --env-file-if-exists=.env scripts/backend-demo.ts",
+    "demo:backend:live": "node --disable-warning=ExperimentalWarning --env-file-if-exists=.env scripts/backend-demo.ts --live --refresh",
+    "demo:backend:offline": "node --disable-warning=ExperimentalWarning --env-file-if-exists=.env scripts/backend-demo.ts --offline",
+    "pull:top10": "node --env-file=.env scripts/pull-top10.ts",
+    "ingest": "node --env-file=.env scripts/ingest.ts",
+    "ingest:dry": "node --env-file=.env scripts/ingest.ts --dry-run --per-candidate 5",
+    "analyze": "node --env-file=.env scripts/analyze.ts",
+    "seed:sql": "node scripts/make-seed.ts",
+    "test": "node --test --env-file=.env \"test/**/*.test.ts\"",
+    "test:unit": "node --test \"test/unit/**/*.test.ts\"",
+    "test:api": "node --test --env-file=.env \"test/api/**/*.test.ts\"",
+    "stance": "node --env-file=.env pipeline/main.ts",
+    "stance:vertex": "node --env-file=.env pipeline/main.ts --input data/oriane/top10-all.json --vertex --max-vertex-calls 5",
+    "stance:candidates": "node --env-file=.env scripts/candidate-stance.ts",
+    "timeline": "node --env-file=.env scripts/timeline-stats.ts",
+    "stance:ablation": "node --env-file=.env scripts/stance-ablation.ts",
+    "stance:eval": "node --env-file=.env scripts/stance-eval.ts",
+    "events": "node --env-file=.env scripts/extract-events.ts",
+    "api:dev": "cd api && npm run dev",
+    "api:test": "cd api && npm test",
+    "test:offline": "node --test \"test/unit/**/*.test.ts\" \"test/api/dataset.test.ts\" \"test/api/stance.test.ts\" \"test/api/candidate-stance.test.ts\" \"test/api/timeline.test.ts\" \"test/api/events.test.ts\"",
+    "test:all": "npm run test:offline && npm run api:test",
+    "anatomy": "node scripts/build-anatomy.ts",
+    "edge:build": "node --experimental-strip-types scripts/build-edge.ts",
+    "edge:verify": "node --experimental-strip-types scripts/verify-edge.ts",
+    "edge:deploy": "bash scripts/deploy-supabase.sh",
+    "supabase:login": "npx --yes supabase@latest login",
+    "db:mirror": "node --experimental-strip-types scripts/migrate-to-supabase.ts"
+  },
+  "engines": {
+    "node": ">=22.6"
+  }
+}
