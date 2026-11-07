@@ -1,0 +1,14 @@
+.git
+.gitignore
+.env
+.env.*
+data/
+node_modules/
+test/
+docs/
+supabase/migrations/
+supabase/functions/ingest-oriane/
+supabase/functions/analyze-batch/
+scripts/
+*.md
+diag.tmp.ts

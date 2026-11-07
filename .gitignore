@@ -1,0 +1,44 @@
+# ── Secrets ────────────────────────────────────────────────────────────────
+# Never commit real values. Copy .env.example and fill it locally.
+.env
+.env.*
+!.env.example
+
+# ── Dependencies and build output ──────────────────────────────────────────
+node_modules/
+api/node_modules/
+web-demo/node_modules/
+.next/
+web-demo/.next/
+out/
+.vercel/
+.commandcode/
+*.log
+.DS_Store
+
+# Supabase CLI state (contains the linked project)
+supabase/.temp/
+
+# ── Scraped data ───────────────────────────────────────────────────────────
+# The combined snapshot is enough to run the API; per-candidate dumps are not.
+data/oriane/*
+!data/oriane/top10-all.json
+
+# ── Generated and debug artefacts ──────────────────────────────────────────
+data/snapshots/
+data/analyses/runs/
+data/analyses/*-trace.json
+data/analyses/telemetry-cache.json
+data/analyses/prompts.json
+data/analyses/vector-index*.db*
+api/.cache/
+web-demo/.cache/
+
+# Built edge-function payload — regenerate with `npm run edge:build`.
+supabase/functions/graphql/_bundle.js
+supabase/functions/graphql/_bundle.d.ts
+supabase/functions/graphql/dataset.json
+supabase/functions/graphql/schema.ts
+
+# ── Large binaries ─────────────────────────────────────────────────────────
+docs/*.pdf
