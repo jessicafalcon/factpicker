@@ -1,0 +1,16 @@
+{
+  "name": "@factpicker/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Factpicker GraphQL API v0.1 — composable read layer over Supabase, BigQuery and Vertex AI",
+  "scripts": {
+    "dev": "node --env-file=../.env src/server.ts",
+    "start": "node src/server.ts",
+    "test": "node --test test/*.test.ts",
+    "introspect": "node src/introspect.ts"
+  },
+  "dependencies": {
+    "graphql": "^16.9.0"
+  }
+}
