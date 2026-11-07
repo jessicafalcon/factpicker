@@ -359,6 +359,7 @@ export interface FactPage {
   sourceName: string | null;
   verified: boolean;
   videos: number;
+  leaningTotals: { favorable: number; critical: number; neutral: number; videos: number };
   readings: Reading[];
 }
 
@@ -366,6 +367,7 @@ export async function fetchFactsPage(): Promise<FactPage[]> {
   const data = await gqlFetch<{ facts: FactPage[] }>(`{
     facts {
       id category statement sourceName verified videos
+      leaningTotals { favorable critical neutral videos }
       readings {
         label videos favorable critical neutral dominant
         representatives {

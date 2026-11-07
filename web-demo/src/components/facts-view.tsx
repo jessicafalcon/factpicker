@@ -49,6 +49,33 @@ export function FactsView({ facts, copy, locale }: { facts: FactPage[]; copy: Co
           {fmt(fact.sourceName ? copy.fa.checked : copy.fa.unverified, { source: fact.sourceName ?? "—", n: fact.videos })}
         </p>
 
+        {(() => {
+          const totals = fact.leaningTotals ?? { favorable: 0, critical: 0, neutral: 0, videos: 0 };
+          const sum = totals.favorable + totals.critical + totals.neutral || 1;
+          const bands = [
+            { key: "critical", label: copy.fa.band.against, value: totals.critical, colour: "bg-against" },
+            { key: "favorable", label: copy.fa.band.support, value: totals.favorable, colour: "bg-for" },
+            { key: "neutral", label: copy.fa.band.none, value: totals.neutral, colour: "bg-none" },
+          ] as const;
+          return (
+            <div className="mt-7">
+              <div className="flex h-2.5 overflow-hidden rounded-full bg-paper-deep">
+                {bands.map((band) => (
+                  <span key={band.key} className={band.colour} style={{ width: `${(band.value / sum) * 100}%` }} />
+                ))}
+              </div>
+              <ul className="mt-3 flex flex-wrap gap-x-6 gap-y-1 font-sans text-[12px] text-ink-soft">
+                {bands.map((band) => (
+                  <li key={band.key} className="flex items-center gap-2">
+                    <span className={`size-2 rounded-full ${band.colour}`} aria-hidden />
+                    {band.label} <span className="tabular-nums text-ink">{band.value}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          );
+        })()}
+
         <h3 className="mt-9 font-display text-[22px]">{copy.fa.stories}</h3>
         <ul className="mt-3 divide-y divide-rule border-y border-rule">
           {(fact.readings ?? []).map((item, index) => {

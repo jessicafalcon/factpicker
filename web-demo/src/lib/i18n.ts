@@ -233,6 +233,7 @@ export const dict = {
       howBody: "Before is the average number of videos a day in the 14 days preceding the moment. After covers the 72 hours that follow. Daily rates keep windows of different length comparable.",
     },
     fa: {
+      band: { against: "Used against a candidate", support: "Used to support a candidate", none: "No side taken" },
       kicker: "FACTS · {range}",
       title: "One fact, different stories",
       intro: "Pick a fact, then pick one of the stories creators built on it to read their own words.",
@@ -353,6 +354,7 @@ export const dict = {
       howBody: "Avant est la moyenne de vidéos par jour sur les 14 jours qui précèdent. Après couvre les 72 heures suivantes. Les taux journaliers rendent comparables des fenêtres de longueur différente.",
     },
     fa: {
+      band: { against: "Utilisé contre un candidat", support: "Utilisé pour un candidat", none: "Aucun camp pris" },
       kicker: "FAITS · {range}",
       title: "Un fait, plusieurs histoires",
       intro: "Choisissez un fait, puis l'une des histoires que les créateurs en ont tirée pour lire leurs mots.",

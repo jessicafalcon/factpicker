@@ -208,6 +208,13 @@ type EventFactCount {
   videos: Int!
 }
 
+type LeaningTotals {
+  favorable: Int!
+  critical: Int!
+  neutral: Int!
+  videos: Int!
+}
+
 """One named reading creators built on a fact (page 3)."""
 type FactReading {
   id: ID!
@@ -284,6 +291,8 @@ type Fact {
   creators: Int!
   stories: [FactStory!]!
   readings: [FactReading!]!
+  """Videos citing this fact, split by the verdict they carry."""
+  leaningTotals: LeaningTotals!
   aimedAt: [FactTarget!]!
   timeline: [TimelineBucket!]!
   videosList(limit: Int = 20): [Video!]!

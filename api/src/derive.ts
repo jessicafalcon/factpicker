@@ -892,11 +892,14 @@ function buildEventInsightUncached(index: Index, eventId: string, beforeDays = 1
 
   rows.sort((a, b) => b.afterPerDay - a.afterPerDay || b.after - a.after);
 
-  const biggest = (key: "favorable" | "critical") =>
-    rows
+  const biggest = (key: "favorable" | "critical") => {
+    const items = rows
       .map((row) => ({ row, rise: row[`${key}AfterPerDay` as const] - row[`${key}BeforePerDay` as const] }))
-      .filter((item) => item.row[`${key}AfterCount` as const] > 0)
-      .sort((a, b) => b.rise - a.rise)[0]?.row ?? null;
+      .filter((item) => item.row[`${key}AfterCount` as const] > 0);
+    // A rise from zero is "first appearance", not a surge; prefer a baseline.
+    const withBaseline = items.filter((item) => item.row[`${key}BeforePerDay` as const] > 0);
+    return (withBaseline.length > 0 ? withBaseline : items).sort((a, b) => b.rise - a.rise)[0]?.row ?? null;
+  };
 
   // The brief lists the *facts* creators leaned on in the aftermath, which is
   // also the link into the Facts page.

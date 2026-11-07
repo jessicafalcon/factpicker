@@ -109,7 +109,13 @@ export function EventsView({ insights, copy, locale }: { insights: Insight[]; co
               <span className="flex items-baseline gap-3 font-sans text-[12.5px] tabular-nums text-ink-soft">
                 <span>{row.beforePerDay.toFixed(1)}</span>
                 <span className="text-ink">→ {row.afterPerDay.toFixed(1)}</span>
-                <span className="w-10 text-right text-ink">{MULT(row.multiplier)}</span>
+                <span className="w-10 text-right text-ink">
+                  {(() => {
+                    const before = Number(row.beforePerDay.toFixed(1));
+                    const after = Number(row.afterPerDay.toFixed(1));
+                    return before > 0 ? `${(after / before).toFixed(1).replace(/\.0$/, "")}×` : "—";
+                  })()}
+                </span>
               </span>
             </li>
           ))}

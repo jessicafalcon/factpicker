@@ -341,6 +341,19 @@ export const resolvers = {
       })),
   },
   Fact: {
+    leaningTotals: (parent: any, _args: unknown, ctx: Context) => {
+      const fact: FactDef | undefined = parent._fact;
+      if (!fact) return { favorable: 0, critical: 0, neutral: 0, videos: 0 };
+      return buildFactReadings(ctx.index, fact).reduce(
+        (sum, reading) => ({
+          favorable: sum.favorable + reading.favorable,
+          critical: sum.critical + reading.critical,
+          neutral: sum.neutral + reading.neutral,
+          videos: sum.videos + reading.videos,
+        }),
+        { favorable: 0, critical: 0, neutral: 0, videos: 0 },
+      );
+    },
     readings: (parent: any, _args: unknown, ctx: Context) => {
       const fact: FactDef | undefined = parent._fact;
       if (!fact) return [];
