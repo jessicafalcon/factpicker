@@ -174,6 +174,52 @@ type CandidateImpact {
   criticalAfter: Int!
   neutralAfter: Int!
   unclearAfter: Int!
+  """Daily rates — the only fair comparison between a 14-day baseline and 72 hours."""
+  beforePerDay: Float
+  afterPerDay: Float
+  """afterPerDay / beforePerDay. Null when the baseline is empty."""
+  multiplier: Float
+  favorableBeforePerDay: Float
+  favorableAfterPerDay: Float
+  criticalBeforePerDay: Float
+  criticalAfterPerDay: Float
+}
+
+"""What one moment changed, expressed as daily rates (page 2)."""
+type EventInsight {
+  event: Event!
+  beforeDays: Int!
+  afterDays: Int!
+  beforeVideos: Int!
+  afterVideos: Int!
+  beforePerDay: Float!
+  afterPerDay: Float!
+  multiplier: Float
+  impacts: [CandidateImpact!]!
+  biggestFavorable: CandidateImpact
+  biggestCritical: CandidateImpact
+  """Facts creators leaned on in the days after the moment."""
+  facts: [EventFactCount!]!
+}
+
+type EventFactCount {
+  id: ID!
+  label: String!
+  videos: Int!
+}
+
+"""One named reading creators built on a fact (page 3)."""
+type FactReading {
+  id: ID!
+  label: String!
+  videos: Int!
+  favorable: Int!
+  critical: Int!
+  neutral: Int!
+  views: Int!
+  dominant: Leaning!
+  """Up to two videos, already segmented into fact / meaning / verdict."""
+  representatives: [Anatomy!]!
 }
 
 type FactStory {
@@ -237,6 +283,7 @@ type Fact {
   videos: Int!
   creators: Int!
   stories: [FactStory!]!
+  readings: [FactReading!]!
   aimedAt: [FactTarget!]!
   timeline: [TimelineBucket!]!
   videosList(limit: Int = 20): [Video!]!
@@ -453,6 +500,10 @@ type Query {
   event(id: ID!): Event
   """Before/after comparison used by the Events page."""
   eventImpact(id: ID!, windowDays: Int = 7): [CandidateImpact!]!
+  """Daily-rate comparison for one moment: 14 days before vs 72 hours after."""
+  eventInsight(id: ID!, beforeDays: Int = 14, afterHours: Int = 72): EventInsight
+  """The same comparison for the busiest moments, in one request."""
+  eventInsights(limit: Int = 6, beforeDays: Int = 14, afterHours: Int = 72): [EventInsight!]!
   issueGroups: [IssueGroup!]!
   facts: [Fact!]!
   fact(id: ID!): Fact

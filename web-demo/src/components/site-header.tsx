@@ -3,7 +3,11 @@ import { LanguageSwitcher } from "@/components/language-switcher";
 import type { Copy, Locale } from "@/lib/i18n";
 
 export function SiteHeader({ locale, copy }: { locale: Locale; copy: Copy }) {
-  const NAV = [{ label: copy.nav.story, href: "/", ready: true }];
+  const NAV = [
+    { label: copy.nav.story, href: "/", ready: true },
+    { label: copy.nav.events, href: "/events", ready: true },
+    { label: copy.nav.facts, href: "/facts", ready: true },
+  ];
   return (
     <header className="border-b border-rule/80">
       <div className="mx-auto flex h-14 w-full max-w-[1180px] items-center justify-between gap-4 px-6">

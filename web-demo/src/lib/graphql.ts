@@ -272,3 +272,110 @@ export async function fetchEntryPage(limit = 6): Promise<EntryPageResult> {
     };
   }
 }
+
+// ── Pages 2 and 3 ──────────────────────────────────────────────────────────
+
+export async function gqlFetch<T>(query: string, variables: Record<string, unknown> = {}): Promise<T | null> {
+  const endpoint =
+    process.env.API_URL ?? (process.env.VERCEL ? "" : "http://localhost:8787/graphql");
+  if (!endpoint) return null;
+  try {
+    const response = await fetch(endpoint, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ query, variables }),
+      cache: "no-store",
+      signal: AbortSignal.timeout(12000),
+    });
+    if (!response.ok) return null;
+    const payload = (await response.json()) as { data?: T; errors?: unknown[] };
+    return payload.errors?.length ? null : (payload.data ?? null);
+  } catch {
+    return null;
+  }
+}
+
+export interface Impact {
+  candidate: { id: string; name: string };
+  beforePerDay: number;
+  afterPerDay: number;
+  multiplier: number | null;
+  favorableAfter: number;
+  criticalAfter: number;
+  neutralAfter: number;
+  favorableBeforePerDay: number;
+  favorableAfterPerDay: number;
+  criticalBeforePerDay: number;
+  criticalAfterPerDay: number;
+}
+
+export interface Insight {
+  afterDays: number;
+  afterVideos: number;
+  multiplier: number | null;
+  impacts: Impact[];
+  biggestFavorable: Impact | null;
+  biggestCritical: Impact | null;
+  facts: Array<{ id: string; label: string; videos: number }>;
+  event: { id: string; title: string; kind: string; commencement: string };
+}
+
+export const INSIGHT_FIELDS = `
+  afterDays afterVideos multiplier
+  event { id title kind commencement }
+  facts { id label videos }
+  impacts { candidate { id name } beforePerDay afterPerDay multiplier favorableAfter criticalAfter neutralAfter favorableBeforePerDay favorableAfterPerDay criticalBeforePerDay criticalAfterPerDay }
+  biggestFavorable { candidate { id name } beforePerDay afterPerDay favorableBeforePerDay favorableAfterPerDay }
+  biggestCritical { candidate { id name } beforePerDay afterPerDay criticalBeforePerDay criticalAfterPerDay }
+`;
+
+export async function fetchEventInsights(limit = 6): Promise<Insight[]> {
+  const data = await gqlFetch<{ eventInsights: Insight[] }>(
+    `query($limit: Int!) { eventInsights(limit: $limit) { ${INSIGHT_FIELDS} } }`,
+    { limit },
+  );
+  return data?.eventInsights ?? [];
+}
+
+export interface Reading {
+  label: string;
+  videos: number;
+  favorable: number;
+  critical: number;
+  neutral: number;
+  dominant: "FAVORABLE" | "CRITICAL" | "NEUTRAL";
+  representatives: Array<{
+    composed: string;
+    segments: Array<{ role: string; text: string; truncated: boolean; style: { className: string } }>;
+    attribution: { handle: string; platform: string; views: number | null; postedAt: string | null; url: string };
+    verdict: { candidate: { name: string } | null; leaning: string } | null;
+  }>;
+}
+
+export interface FactPage {
+  id: string;
+  category: string;
+  statement: string;
+  sourceName: string | null;
+  verified: boolean;
+  videos: number;
+  readings: Reading[];
+}
+
+export async function fetchFactsPage(): Promise<FactPage[]> {
+  const data = await gqlFetch<{ facts: FactPage[] }>(`{
+    facts {
+      id category statement sourceName verified videos
+      readings {
+        label videos favorable critical neutral dominant
+        representatives {
+          composed
+          segments { role text truncated style { className } }
+          attribution { handle platform views postedAt url }
+          verdict { candidate { name } leaning }
+        }
+      }
+    }
+  }`);
+  return data?.facts ?? [];
+}

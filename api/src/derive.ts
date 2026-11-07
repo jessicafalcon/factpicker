@@ -793,3 +793,188 @@ export function buildBehindTheNumbers(
   const key = `behind:${options.limit ?? 6}:${options.factId ?? ""}`;
   return memo(index, key, () => buildBehindTheNumbersUncached(index, options));
 }
+
+// ── Event impact at daily rates (page 2) ───────────────────────────────────
+// The brief compares a "normal day" before an event with the 3 days after, so
+// windows of different lengths stay comparable. Counts alone would make a
+// 14-day baseline look busier than a 3-day aftermath.
+
+export interface ImpactRow {
+  candidateId: string;
+  before: number;
+  after: number;
+  beforePerDay: number;
+  afterPerDay: number;
+  multiplier: number | null;
+  favorableBeforePerDay: number;
+  favorableAfterPerDay: number;
+  criticalBeforePerDay: number;
+  criticalAfterPerDay: number;
+  favorableAfterCount: number;
+  criticalAfterCount: number;
+  neutralAfterCount: number;
+  unclearAfterCount: number;
+}
+
+const perDay = (count: number, days: number) => Number((count / Math.max(1, days)).toFixed(2));
+
+export function buildEventInsight(index: Index, eventId: string, beforeDays = 14, afterHours = 72) {
+  const event = index.eventById.get(eventId);
+  if (!event) return null;
+  const start = dayOf(event.commencement);
+  if (!start) return null;
+
+  const afterDays = Math.max(1, Math.ceil(afterHours / 24));
+  const beforeFrom = addDays(start, -beforeDays);
+  const beforeTo = addDays(start, -1);
+  const afterFrom = start;
+  const afterTo = addDays(start, afterDays - 1);
+
+  const within = (video: VideoRow, from: string, to: string) => {
+    const day = dayOf(video.posted_at);
+    return Boolean(day && day >= from && day <= to);
+  };
+
+  const afterVideos = index.dataset.videos.filter((video) => within(video, afterFrom, afterTo));
+  const beforeVideos = index.dataset.videos.filter((video) => within(video, beforeFrom, beforeTo));
+
+  const candidateIds = new Set<string>();
+  for (const id of (event.video_ids ?? []) as string[]) {
+    const video = index.videoById.get(id);
+    if (!video) continue;
+    for (const candidate of index.dataset.candidates) {
+      if (mentionsCandidate(index, video, candidate.id)) candidateIds.add(candidate.id);
+    }
+  }
+
+  const rows: ImpactRow[] = [...candidateIds].map((candidateId) => {
+    const videos = index.videosByCandidate.get(candidateId) ?? [];
+    const before = videos.filter((video) => within(video, beforeFrom, beforeTo));
+    const after = videos.filter((video) => within(video, afterFrom, afterTo));
+    const leaning = (list: VideoRow[], label: string) =>
+      list.filter((video) => primaryStance(index, video.id)?.label === label).length;
+    const beforeRate = perDay(before.length, beforeDays);
+    const afterRate = perDay(after.length, afterDays);
+    return {
+      candidateId,
+      before: before.length,
+      after: after.length,
+      beforePerDay: beforeRate,
+      afterPerDay: afterRate,
+      multiplier: beforeRate > 0 ? Number((afterRate / beforeRate).toFixed(2)) : null,
+      favorableBeforePerDay: perDay(leaning(before, "favorable"), beforeDays),
+      favorableAfterPerDay: perDay(leaning(after, "favorable"), afterDays),
+      criticalBeforePerDay: perDay(leaning(before, "critical"), beforeDays),
+      criticalAfterPerDay: perDay(leaning(after, "critical"), afterDays),
+      favorableAfterCount: leaning(after, "favorable"),
+      criticalAfterCount: leaning(after, "critical"),
+      neutralAfterCount: leaning(after, "neutral"),
+      unclearAfterCount: leaning(after, "unclear"),
+    };
+  });
+
+  rows.sort((a, b) => b.afterPerDay - a.afterPerDay || b.after - a.after);
+
+  const biggest = (key: "favorable" | "critical") =>
+    rows
+      .map((row) => ({ row, rise: row[`${key}AfterPerDay` as const] - row[`${key}BeforePerDay` as const] }))
+      .filter((item) => item.row[`${key}AfterCount` as const] > 0)
+      .sort((a, b) => b.rise - a.rise)[0]?.row ?? null;
+
+  // The brief lists the *facts* creators leaned on in the aftermath, which is
+  // also the link into the Facts page.
+  const facts = index.dataset.facts
+    .map((item) => ({
+      id: item.id,
+      label: item.category,
+      videos: factVideos(index, item).filter((video) => within(video, afterFrom, afterTo)).length,
+    }))
+    .filter((item) => item.videos > 0)
+    .sort((a, b) => b.videos - a.videos)
+    .slice(0, 4);
+
+  const beforeRate = perDay(beforeVideos.length, beforeDays);
+  const afterRate = perDay(afterVideos.length, afterDays);
+
+  return {
+    event,
+    beforeDays,
+    afterDays,
+    beforeVideos: beforeVideos.length,
+    afterVideos: afterVideos.length,
+    beforePerDay: beforeRate,
+    afterPerDay: afterRate,
+    multiplier: beforeRate > 0 ? Number((afterRate / beforeRate).toFixed(2)) : null,
+    impacts: rows,
+    biggestFavorable: biggest("favorable"),
+    biggestCritical: biggest("critical"),
+    facts,
+  };
+}
+
+// ── Named readings per fact (page 3) ───────────────────────────────────────
+
+function readingOf(index: Index, video: VideoRow) {
+  const normalized = index.normalizedByVideo.get(video.id) ?? "";
+  let best: { id: string; label: string; score: number } | null = null;
+  for (const family of READING_FAMILIES) {
+    const score = family.terms.reduce((total, term) => total + (normalized.includes(term) ? 1 : 0), 0);
+    if (score > 0 && (!best || score > best.score)) best = { id: family.id, label: family.label, score };
+  }
+  return best ?? OTHER_READING;
+}
+
+export function buildFactReadings(index: Index, fact: FactDef, limit = 5) {
+  const videos = factVideos(index, fact);
+  const groups = new Map<
+    string,
+    { id: string; label: string; favorites: VideoRow[]; favorable: number; critical: number; neutral: number; views: number }
+  >();
+
+  for (const video of videos) {
+    const reading = readingOf(index, video);
+    const group = groups.get(reading.id) ?? {
+      id: reading.id,
+      label: reading.label,
+      favorites: [],
+      favorable: 0,
+      critical: 0,
+      neutral: 0,
+      views: 0,
+    };
+    const label = primaryStance(index, video.id)?.label;
+    if (label === "favorable") group.favorable += 1;
+    else if (label === "critical") group.critical += 1;
+    else group.neutral += 1;
+    group.views += video.views ?? 0;
+    group.favorites.push(video);
+    groups.set(reading.id, group);
+  }
+
+  const ranked = [...groups.values()].sort((a, b) => a.favorites.length > b.favorites.length ? -1 : 1);
+  const kept = ranked.slice(0, limit);
+
+  return kept.map((group) => {
+    const total = group.favorites.length || 1;
+    const dominant = group.favorable >= group.critical && group.favorable >= group.neutral
+      ? "favorable"
+      : group.critical >= group.neutral
+        ? "critical"
+        : "neutral";
+    return {
+      id: group.id,
+      label: group.label,
+      videos: group.favorites.length,
+      favorable: group.favorable,
+      critical: group.critical,
+      neutral: group.neutral,
+      views: group.views,
+      dominant,
+      representativeIds: group.favorites
+        .slice()
+        .sort((a, b) => (b.views ?? 0) - (a.views ?? 0))
+        .slice(0, 2)
+        .map((video) => video.id),
+    };
+  });
+}

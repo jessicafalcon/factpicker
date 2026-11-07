@@ -133,7 +133,9 @@ export const eventLabel = (label: string, locale: Locale) =>
 
 export const dict = {
   en: {
-    nav: { story: "Story" },
+    nav: { story: "Story",
+      events: "Events",
+      facts: "Facts" },
     lang: { label: "Language", en: "EN", fr: "FR" },
     hero: {
       kicker: "PRÉSIDENTIELLE 2027 · {range}",
@@ -213,6 +215,37 @@ export const dict = {
         "This is not a poll. It describes what creators publish, which is different from what voters think.",
       ],
     },
+    ev: {
+      kicker: "EVENTS · {range}",
+      title: "What each moment changed",
+      intro: "Pick a moment. We compare how many videos creators posted about each candidate on a normal day before it, and in the three days after.",
+      after: "{n} videos in the 3 days after · {x}× a normal day",
+      biggestFav: "Biggest rise in favourable videos",
+      biggestCrit: "Biggest rise in critical videos",
+      perDay: "{before} → {after} a day",
+      table: "Every candidate, before and after",
+      colBefore: "Videos a day, 14 days before",
+      colAfter: "Videos a day, 3 days after",
+      note: "These measure what creators published, not what voters think.",
+      topics: "What creators talked about in those three days",
+      openFact: "Open a fact to see how creators turned it into opinions.",
+      how: "How we compare",
+      howBody: "Before is the average number of videos a day in the 14 days preceding the moment. After covers the 72 hours that follow. Daily rates keep windows of different length comparable.",
+    },
+    fa: {
+      kicker: "FACTS · {range}",
+      title: "One fact, different stories",
+      intro: "Pick a fact, then pick one of the stories creators built on it to read their own words.",
+      fact: "The fact",
+      checked: "Checked against {source} · cited in {n} videos",
+      unverified: "Source not yet verified · cited in {n} videos",
+      stories: "What creators said it meant",
+      mostly: "mostly {x}",
+      inWords: "In their own words",
+      verbatim: "All three quotes found word for word",
+      read: "How to read this",
+      readBody: "Each card keeps three verbatim excerpts: the fact, what the creator said it meant, and the verdict. Nothing is paraphrased. Labels whose quote is not found in the video are held out of the totals.",
+    },
     errors: {
       title: "The API is not answering",
       body: "The page could not reach {endpoint}. Start it in another terminal, then reload — this page reads the live dataset on every request.",
@@ -220,7 +253,9 @@ export const dict = {
     },
   },
   fr: {
-    nav: { story: "Récit" },
+    nav: { story: "Récit",
+      events: "Événements",
+      facts: "Faits" },
     lang: { label: "Langue", en: "EN", fr: "FR" },
     hero: {
       kicker: "PRÉSIDENTIELLE 2027 · {range}",
@@ -300,6 +335,37 @@ export const dict = {
         "Ce n’est pas un sondage. Cela décrit ce que les créateurs publient, ce qui diffère de ce que pensent les électeurs.",
       ],
     },
+    ev: {
+      kicker: "ÉVÉNEMENTS · {range}",
+      title: "Ce que chaque moment a changé",
+      intro: "Choisissez un moment. Nous comparons le nombre de vidéos publiées sur chaque candidat un jour normal avant, et dans les trois jours qui suivent.",
+      after: "{n} vidéos dans les 3 jours · {x}× un jour normal",
+      biggestFav: "Plus forte hausse des vidéos favorables",
+      biggestCrit: "Plus forte hausse des vidéos critiques",
+      perDay: "{before} → {after} par jour",
+      table: "Chaque candidat, avant et après",
+      colBefore: "Vidéos par jour, 14 jours avant",
+      colAfter: "Vidéos par jour, 3 jours après",
+      note: "Ces chiffres mesurent ce que les créateurs publient, pas ce que pensent les électeurs.",
+      topics: "Ce dont les créateurs ont parlé ces trois jours",
+      openFact: "Ouvrez un fait pour voir comment les créateurs en ont fait des opinions.",
+      how: "Comment nous comparons",
+      howBody: "Avant est la moyenne de vidéos par jour sur les 14 jours qui précèdent. Après couvre les 72 heures suivantes. Les taux journaliers rendent comparables des fenêtres de longueur différente.",
+    },
+    fa: {
+      kicker: "FAITS · {range}",
+      title: "Un fait, plusieurs histoires",
+      intro: "Choisissez un fait, puis l'une des histoires que les créateurs en ont tirée pour lire leurs mots.",
+      fact: "Le fait",
+      checked: "Vérifié auprès de {source} · cité dans {n} vidéos",
+      unverified: "Source non encore vérifiée · cité dans {n} vidéos",
+      stories: "Ce que les créateurs en ont dit",
+      mostly: "surtout {x}",
+      inWords: "Dans leurs propres mots",
+      verbatim: "Les trois citations sont mot pour mot dans la vidéo",
+      read: "Comment lire ceci",
+      readBody: "Chaque carte garde trois extraits mot pour mot : le fait, ce que le créateur en a dit, et le verdict. Rien n'est paraphrasé. Les libellés dont la citation est introuvable sont écartés des totaux.",
+    },
     errors: {
       title: "L’API ne répond pas",
       body: "La page n’a pas pu joindre {endpoint}. Lancez-la dans un autre terminal, puis rechargez — cette page lit le jeu de données à chaque requête.",
@@ -310,3 +376,16 @@ export const dict = {
 
 export const copyFor = (locale: Locale) => dict[locale];
 export type Copy = (typeof dict)[Locale];
+/** Corpus window of the committed snapshot; update when the dataset is refreshed. */
+export const DATA_WINDOW = { first: "2026-08-08", last: "2026-11-02" } as const;
+
+export function rangeLabel(locale: Locale, first = DATA_WINDOW.first, last = DATA_WINDOW.last): string {
+  const fmt = (iso: string, opts: Intl.DateTimeFormatOptions) =>
+    new Intl.DateTimeFormat(locale === "fr" ? "fr-FR" : "en-GB", { timeZone: "UTC", ...opts }).format(
+      new Date(`${iso}T00:00:00Z`),
+    );
+  const from = fmt(first, { month: "long" }).toUpperCase();
+  const to = fmt(last, { month: "long" }).toUpperCase();
+  const year = fmt(last, { year: "numeric" });
+  return locale === "fr" ? `${from} – ${to} ${year}` : `${from} TO ${to} ${year}`;
+}

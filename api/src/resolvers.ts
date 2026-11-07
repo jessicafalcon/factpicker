@@ -1,3 +1,4 @@
+import { buildEventInsight, buildFactReadings } from "./derive.ts";
 import { buildBehindTheNumbers, buildFact, buildFactTimeline, creatorStance, eventImpact, factVideos, lexicalSearch, stanceOf, videoText } from "./derive.ts";
 import { buildAnatomy, selectEntry } from "./anatomy.ts";
 import type { Index } from "./derive.ts";
@@ -147,7 +148,42 @@ const factShape = (ctx: Context, fact: FactDef) => {
     timeline: built.timeline,
     events: built.events.map((event: any) => eventShape(ctx, event)),
     sankey: built.sankey,
+    _fact: fact,
     _built: built,
+  };
+};
+
+const insightShape = (ctx: Context, insight: any) => {
+  const impact = (row: any) => ({
+    candidate: candidateShape(ctx.index.candidateById.get(row.candidateId)),
+    before: row.before,
+    after: row.after,
+    changePct: row.before > 0 ? Number((((row.after - row.before) / row.before) * 100).toFixed(1)) : null,
+    favorableAfter: row.favorableAfterCount,
+    criticalAfter: row.criticalAfterCount,
+    neutralAfter: row.neutralAfterCount,
+    unclearAfter: row.unclearAfterCount,
+    beforePerDay: row.beforePerDay,
+    afterPerDay: row.afterPerDay,
+    multiplier: row.multiplier,
+    favorableBeforePerDay: row.favorableBeforePerDay,
+    favorableAfterPerDay: row.favorableAfterPerDay,
+    criticalBeforePerDay: row.criticalBeforePerDay,
+    criticalAfterPerDay: row.criticalAfterPerDay,
+  });
+  return {
+    event: eventShape(ctx, insight.event),
+    beforeDays: insight.beforeDays,
+    afterDays: insight.afterDays,
+    beforeVideos: insight.beforeVideos,
+    afterVideos: insight.afterVideos,
+    beforePerDay: insight.beforePerDay,
+    afterPerDay: insight.afterPerDay,
+    multiplier: insight.multiplier,
+    impacts: insight.impacts.map(impact),
+    biggestFavorable: insight.biggestFavorable ? impact(insight.biggestFavorable) : null,
+    biggestCritical: insight.biggestCritical ? impact(insight.biggestCritical) : null,
+    facts: insight.facts,
   };
 };
 
@@ -175,32 +211,19 @@ export const resolvers = {
       const video = ctx.index.videoById.get(args.id);
       return video ? videoShape(ctx, video) : null;
     },
-    events: (_: unknown, args: { filter?: any }, ctx: Context) => {
-      const filter = args.filter ?? {};
-      return ctx.dataset.events.events
-        .filter((event) => !filter.majorIssue || event.major_issue === filter.majorIssue)
-        .filter((event) => !filter.kind || (KINDS[event.kind as keyof typeof KINDS] === filter.kind))
-        .filter((event) => filter.isScandal === undefined || Boolean(event.is_scandal) === filter.isScandal)
-        .filter((event) => !filter.since || event.commencement >= filter.since)
-        .filter((event) => !filter.until || event.last_covered_at.slice(0, 10) <= filter.until)
-        .slice(0, filter.limit ?? 50)
-        .map((event) => eventShape(ctx, event));
+      eventInsight: (_: unknown, args: { id: string; beforeDays?: number; afterHours?: number }, ctx: Context) => {
+      const insight = buildEventInsight(ctx.index, args.id, args.beforeDays ?? 14, args.afterHours ?? 72);
+      return insight ? insightShape(ctx, insight) : null;
     },
-    event: (_: unknown, args: { id: string }, ctx: Context) => {
-      const event = ctx.index.eventById.get(args.id);
-      return event ? eventShape(ctx, event) : null;
+    eventInsights: (_: unknown, args: { limit?: number; beforeDays?: number; afterHours?: number }, ctx: Context) => {
+      const events = [...(ctx.dataset.events.events as any[])]
+        .sort((a, b) => (b.videos ?? 0) - (a.videos ?? 0))
+        .slice(0, args.limit ?? 6);
+      return events
+        .map((event) => buildEventInsight(ctx.index, event.id, args.beforeDays ?? 14, args.afterHours ?? 72))
+        .filter((item) => item !== null)
+        .map((item) => insightShape(ctx, item));
     },
-    eventImpact: (_: unknown, args: { id: string; windowDays?: number }, ctx: Context) =>
-      eventImpact(ctx.index, args.id, args.windowDays ?? 7).map((row) => ({
-        candidate: candidateShape(row.candidate),
-        before: row.before,
-        after: row.after,
-        changePct: row.changePct,
-        favorableAfter: row.favorableAfter,
-        criticalAfter: row.criticalAfter,
-        neutralAfter: row.neutralAfter,
-        unclearAfter: row.unclearAfter,
-      })),
     issueGroups: (_: unknown, __: unknown, ctx: Context) =>
       ctx.dataset.events.issue_groups.map((group) => ({
         majorIssue: group.major_issue,
@@ -311,6 +334,24 @@ export const resolvers = {
       })),
   },
   Fact: {
+    readings: (parent: any, _args: unknown, ctx: Context) => {
+      const fact: FactDef | undefined = parent._fact;
+      if (!fact) return [];
+      return buildFactReadings(ctx.index, fact).map((reading) => ({
+        id: reading.id,
+        label: reading.label,
+        videos: reading.videos,
+        favorable: reading.favorable,
+        critical: reading.critical,
+        neutral: reading.neutral,
+        views: reading.views,
+        dominant: leaning(reading.dominant),
+        representatives: reading.representativeIds
+          .map((videoId) => buildAnatomy(ctx.index, videoId, ctx.dataset.facts))
+          .filter((item) => item !== null)
+          .map((item) => anatomyShape(ctx, item!)),
+      }));
+    },
     videosList: (parent: any, args: { limit?: number }, ctx: Context) =>
       (parent._built?.videos ?? []).slice(0, args.limit ?? 20).map((video: VideoRow) => videoShape(ctx, video)),
     timeline: (parent: any) => parent._built?.timeline ?? [],
