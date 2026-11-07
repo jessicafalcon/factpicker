@@ -1,0 +1,222 @@
+{
+  "description": "Hand-labelled gold set for stance evaluation. 24 videos sampled from data/oriane/top10-all.json, stratified across candidates and across the baseline model's labels (12 unclear, 12 decisive). Labels: favorable / critical / neutral / irrelevant (the candidate is not actually discussed: OCR listicle, credit roll, foreign-language false positive) / ambiguous (present but irony or too little text).",
+  "labelledBy": "manual review of caption + on-screen text + transcript, 2026-11-07",
+  "items": [
+    {
+      "n": 1,
+      "video_id": "cnt_bb8f758d8185d1e6c2d599278033",
+      "candidate_id": "arthaud",
+      "label": "irrelevant",
+      "why": "Spanish football/Messi content; 'Artaud' refers to a different person.",
+      "creator": "losherederosdealberdi",
+      "baseline_label": "unclear"
+    },
+    {
+      "n": 2,
+      "video_id": "cnt_36176376c20683b00d22b11b7f86",
+      "candidate_id": "asselineau",
+      "label": "ambiguous",
+      "why": "Joke comparing kitchen stools to candidates; Asselineau named only as one of the stools.",
+      "creator": "loucattz",
+      "baseline_label": "unclear"
+    },
+    {
+      "n": 3,
+      "video_id": "cnt_dda6259045b8d830e873c18025af",
+      "candidate_id": "attal",
+      "label": "critical",
+      "why": "Satirical jab: 'they'll have the flag with Attal' while schools lack pencils and teachers.",
+      "creator": "glupatate",
+      "baseline_label": "unclear"
+    },
+    {
+      "n": 4,
+      "video_id": "cnt_4959297cadd4c90c5f4cb5b6ce5f",
+      "candidate_id": "bardella",
+      "label": "neutral",
+      "why": "Excerpt of a BFMTV face-to-face; the candidate is the subject, no stance taken by the creator.",
+      "creator": "sally",
+      "baseline_label": "unclear"
+    },
+    {
+      "n": 5,
+      "video_id": "cnt_12492b8203bd2b8eea1b13023094",
+      "candidate_id": "batho",
+      "label": "irrelevant",
+      "why": "OCR of a credits roll ('Delphine BATHO' among names); video is about firefighters.",
+      "creator": "lemondefr",
+      "baseline_label": "unclear"
+    },
+    {
+      "n": 6,
+      "video_id": "cnt_4b9d4faeff4ea353996bb498a66a",
+      "candidate_id": "becht",
+      "label": "neutral",
+      "why": "Press headline: 'Olivier Becht, un candidat de plus à l'Élysée'.",
+      "creator": "latribunedimanche",
+      "baseline_label": "unclear"
+    },
+    {
+      "n": 7,
+      "video_id": "cnt_895e6d22eff5887f34f9592f1f9d",
+      "candidate_id": "bouamrane",
+      "label": "irrelevant",
+      "why": "OCR news ticker quoting the mayor of Saint-Ouen; video is about capitalism and climate.",
+      "creator": "sandrousseau",
+      "baseline_label": "unclear"
+    },
+    {
+      "n": 8,
+      "video_id": "cnt_967b017ffcf1c28e7348b78f117a",
+      "candidate_id": "cazeneuve",
+      "label": "irrelevant",
+      "why": "OCR of a different politician, Pierre Cazeneuve (Ensemble), in an Assemblée debate.",
+      "creator": "lcp_an",
+      "baseline_label": "unclear"
+    },
+    {
+      "n": 9,
+      "video_id": "cnt_a2c833a3ad845b51975f4128c946",
+      "candidate_id": "durif",
+      "label": "irrelevant",
+      "why": "Spanish Feng Shui video; 'Durif' appears only as OCR noise.",
+      "creator": "sendero.mental",
+      "baseline_label": "unclear"
+    },
+    {
+      "n": 10,
+      "video_id": "cnt_4959297cadd4c90c5f4cb5b6ce5f",
+      "candidate_id": "glucksmann",
+      "label": "neutral",
+      "why": "News quote of Glucksmann on blocking the RN; no evaluative framing by the creator.",
+      "creator": "sally",
+      "baseline_label": "unclear"
+    },
+    {
+      "n": 11,
+      "video_id": "cnt_45030a5bd1b897b7af6ba450f151",
+      "candidate_id": "labib",
+      "label": "favorable",
+      "why": "Campaign placard for Selma Labib (NPA-R) with her programme points.",
+      "creator": "freepalestinetogether",
+      "baseline_label": "unclear"
+    },
+    {
+      "n": 12,
+      "video_id": "cnt_d0380ae982b9df797354447ab39c",
+      "candidate_id": "lepen",
+      "label": "ambiguous",
+      "why": "Creator explains their own irony; Le Pen appears via an OCR ticker.",
+      "creator": "simsim__lg",
+      "baseline_label": "unclear"
+    },
+    {
+      "n": 13,
+      "video_id": "cnt_3ab48ffe6d65fdd92ea9d050221f",
+      "candidate_id": "arthaud",
+      "label": "favorable",
+      "why": "Le Monde video amplifies Arthaud's denunciation of Adèle Haenel's censorship.",
+      "creator": "lemondefr",
+      "baseline_label": "favorable"
+    },
+    {
+      "n": 14,
+      "video_id": "cnt_8586ff4bd6d2206b1ca7ef770a40",
+      "candidate_id": "asselineau",
+      "label": "neutral",
+      "why": "Brut carousel listing declared candidates; no stance.",
+      "creator": "grandebavardeuse",
+      "baseline_label": "neutral"
+    },
+    {
+      "n": 15,
+      "video_id": "cnt_ad3b456957d9162f5e3f45b02164",
+      "candidate_id": "attal",
+      "label": "critical",
+      "why": "Creator attacks an interview with Attal and her popularity.",
+      "creator": "ugochabin",
+      "baseline_label": "neutral"
+    },
+    {
+      "n": 16,
+      "video_id": "cnt_25c45e2491aa962bbe7a3c74cc99",
+      "candidate_id": "bardella",
+      "label": "critical",
+      "why": "Criticism of the RN and a young RN figure: 'spectacle de l'extrême droite'.",
+      "creator": "sallysurtiktok",
+      "baseline_label": "critical"
+    },
+    {
+      "n": 17,
+      "video_id": "cnt_8586ff4bd6d2206b1ca7ef770a40",
+      "candidate_id": "batho",
+      "label": "neutral",
+      "why": "Same Brut listicle; Batho appears as a row in a candidate list.",
+      "creator": "grandebavardeuse",
+      "baseline_label": "neutral"
+    },
+    {
+      "n": 18,
+      "video_id": "cnt_3efc5ab28643b600d3077a40f8c6",
+      "candidate_id": "bertrand",
+      "label": "neutral",
+      "why": "Parodic AI selfies; Bertrand is one name in a long list.",
+      "creator": "davynimal",
+      "baseline_label": "neutral"
+    },
+    {
+      "n": 19,
+      "video_id": "cnt_8586ff4bd6d2206b1ca7ef770a40",
+      "candidate_id": "bouamrane",
+      "label": "neutral",
+      "why": "Same Brut listicle.",
+      "creator": "grandebavardeuse",
+      "baseline_label": "neutral"
+    },
+    {
+      "n": 20,
+      "video_id": "cnt_8586ff4bd6d2206b1ca7ef770a40",
+      "candidate_id": "cazeneuve",
+      "label": "neutral",
+      "why": "Same Brut listicle (Bernard Cazeneuve, La Convention).",
+      "creator": "grandebavardeuse",
+      "baseline_label": "neutral"
+    },
+    {
+      "n": 21,
+      "video_id": "cnt_68853315fc407f02ba785d9bb99b",
+      "candidate_id": "duponaignan",
+      "label": "neutral",
+      "why": "Reporting from the Salon de l'Élevage; 'Dupont-Aignan was there', no stance.",
+      "creator": "quotidienofficiel",
+      "baseline_label": "neutral"
+    },
+    {
+      "n": 22,
+      "video_id": "cnt_c1b8109a9e93cce4f97b54a45719",
+      "candidate_id": "durif",
+      "label": "neutral",
+      "why": "Announcement of Durif's candidacy, quoted without comment.",
+      "creator": "dormiraucourant",
+      "baseline_label": "neutral"
+    },
+    {
+      "n": 23,
+      "video_id": "cnt_25c45e2491aa962bbe7a3c74cc99",
+      "candidate_id": "glucksmann",
+      "label": "neutral",
+      "why": "Same BFMTV excerpt as #10.",
+      "creator": "sallysurtiktok",
+      "baseline_label": "neutral"
+    },
+    {
+      "n": 24,
+      "video_id": "cnt_8586ff4bd6d2206b1ca7ef770a40",
+      "candidate_id": "kazib",
+      "label": "neutral",
+      "why": "Same Brut listicle.",
+      "creator": "grandebavardeuse",
+      "baseline_label": "neutral"
+    }
+  ]
+}

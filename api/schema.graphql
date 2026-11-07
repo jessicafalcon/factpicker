@@ -1,0 +1,523 @@
+# Factpicker API v0.1
+#
+# Contract: every factual claim exposed here is derived from recorded videos and
+# carries the evidence that justifies it. No field invents an interpretation.
+# See docs/api-v0.1.md for semantics, limits and versioning policy.
+
+scalar DateTime
+
+enum Leaning {
+  FAVORABLE
+  CRITICAL
+  NEUTRAL
+  UNCLEAR
+}
+
+enum EventKind {
+  SCANDAL
+  POLICY
+  CAMPAIGN
+  SOCIETY
+  INTERNATIONAL
+}
+
+enum Platform {
+  TIKTOK
+  INSTAGRAM
+  YOUTUBE
+}
+
+type Candidate {
+  id: ID!
+  name: String!
+  party: String
+  partyShort: String
+  tier: String!
+  status: String!
+  statusNote: String
+  communities: [String!]!
+}
+
+type Creator {
+  handle: String!
+  displayName: String
+  followers: Int
+  verified: Boolean
+  platforms: [Platform!]!
+  videos(limit: Int = 20): [Video!]!
+  """Observed stance of this handle's posts toward each candidate."""
+  stanceByCandidate(minVideos: Int = 2): [CreatorStance!]!
+}
+
+type CreatorStance {
+  candidate: Candidate!
+  videos: Int!
+  favorable: Int!
+  critical: Int!
+  neutral: Int!
+  unclear: Int!
+  stanceIndex: Float!
+  viewWeightedIndex: Float!
+  label: String!
+  evidence: [Evidence!]!
+}
+
+type Evidence {
+  videoId: ID!
+  quote: String
+  source: String
+  """Verbatin or fuzzy — how the quote was matched in the source text."""
+  mode: String!
+  url: String!
+  postedAt: DateTime
+}
+
+type CandidateVerdict {
+  candidate: Candidate!
+  leaning: Leaning!
+  confidence: String!
+  quote: String
+  source: String
+  verified: Boolean!
+  """Set when the video reads as irony and the label is held out of the totals."""
+  heldOut: Boolean!
+}
+
+type FactCitation {
+  fact: Fact!
+  story: String
+}
+
+type Video {
+  id: ID!
+  url: String!
+  platform: Platform!
+  postedAt: DateTime
+  creator: Creator!
+  views: Int
+  likes: Int
+  interactions: Int
+  format: String!
+  platformFormat: String!
+  durationSeconds: Float
+  thumbnailUrl: String
+  caption: String
+  transcript: String
+  onScreenText: [String!]!
+  isFrench: Boolean!
+  verdicts: [CandidateVerdict!]!
+  facts: [FactCitation!]!
+  candidates: [Candidate!]!
+}
+
+type TimelineBucket {
+  date: String!
+  videos: Int!
+  candidates: [String!]!
+}
+
+type TopicCount {
+  topic: String!
+  videos: Int!
+}
+
+type EventEvidence {
+  videoId: ID!
+  creator: String!
+  platform: Platform!
+  postedAt: DateTime
+  views: Int
+  quote: String!
+  matchedAnchors: [String!]!
+  url: String!
+}
+
+type EventCandidate {
+  candidate: Candidate!
+  videos: Int!
+}
+
+type Event {
+  id: ID!
+  title: String!
+  category: String!
+  kind: EventKind!
+  majorIssue: String!
+  subIssue: String!
+  isScandal: Boolean!
+  """First video in the sample that covers the event — not the historical start."""
+  commencement: String!
+  commencementBasis: String!
+  peakDate: String!
+  peakVideos: Int!
+  lastCoveredAt: DateTime!
+  durationDays: Int!
+  activeDays: Int!
+  videos: Int!
+  creators: Int!
+  confidence: String!
+  timeline: [TimelineBucket!]!
+  topicBreakdown: [TopicCount!]!
+  candidates: [EventCandidate!]!
+  evidence(limit: Int = 4): [EventEvidence!]!
+  notes: String
+}
+
+"""Videos about a candidate in the N days before vs after an event."""
+type CandidateImpact {
+  candidate: Candidate!
+  before: Int!
+  after: Int!
+  """Percent change. Null when the before window is empty: undefined, not zero."""
+  changePct: Float
+  favorableAfter: Int!
+  criticalAfter: Int!
+  neutralAfter: Int!
+  unclearAfter: Int!
+  """Daily rates — the only fair comparison between a 14-day baseline and 72 hours."""
+  beforePerDay: Float
+  afterPerDay: Float
+  """afterPerDay / beforePerDay. Null when the baseline is empty."""
+  multiplier: Float
+  favorableBeforePerDay: Float
+  favorableAfterPerDay: Float
+  criticalBeforePerDay: Float
+  criticalAfterPerDay: Float
+}
+
+"""What one moment changed, expressed as daily rates (page 2)."""
+type EventInsight {
+  event: Event!
+  beforeDays: Int!
+  afterDays: Int!
+  beforeVideos: Int!
+  afterVideos: Int!
+  beforePerDay: Float!
+  afterPerDay: Float!
+  multiplier: Float
+  impacts: [CandidateImpact!]!
+  biggestFavorable: CandidateImpact
+  biggestCritical: CandidateImpact
+  """Facts creators leaned on in the days after the moment."""
+  facts: [EventFactCount!]!
+}
+
+type EventFactCount {
+  id: ID!
+  label: String!
+  videos: Int!
+}
+
+"""One named reading creators built on a fact (page 3)."""
+type FactReading {
+  id: ID!
+  label: String!
+  videos: Int!
+  favorable: Int!
+  critical: Int!
+  neutral: Int!
+  views: Int!
+  dominant: Leaning!
+  """Up to two videos, already segmented into fact / meaning / verdict."""
+  representatives: [Anatomy!]!
+}
+
+type FactStory {
+  label: String!
+  videos: Int!
+  favorable: Int!
+  critical: Int!
+  neutral: Int!
+  unclear: Int!
+  """Leaning toward the candidate each video is about."""
+  videosList(limit: Int = 10): [Video!]!
+}
+
+type FactTarget {
+  candidate: Candidate!
+  leaning: Leaning!
+  videos: Int!
+}
+
+type SankeyNode {
+  id: ID!
+  label: String!
+  """0 = fact, 1 = reading, 2 = verdict."""
+  column: Int!
+  videos: Int!
+  views: Int!
+}
+
+type SankeyLink {
+  source: ID!
+  target: ID!
+  videos: Int!
+  views: Int!
+}
+
+type SankeySummary {
+  videos: Int!
+  forPct: Float!
+  againstPct: Float!
+  nonePct: Float!
+  """Largest reading, used as the caption's "most common reading"."""
+  topReading: String
+}
+
+"""fact → what creators said it meant → their verdict."""
+type Sankey {
+  nodes: [SankeyNode!]!
+  links: [SankeyLink!]!
+  summary: SankeySummary!
+}
+
+type Fact {
+  id: ID!
+  statement: String!
+  category: String!
+  sourceName: String
+  sourceUrl: String
+  """False until a journalist has checked the anchor against the official source."""
+  verified: Boolean!
+  reviewStatus: String!
+  videos: Int!
+  creators: Int!
+  stories: [FactStory!]!
+  readings: [FactReading!]!
+  aimedAt: [FactTarget!]!
+  timeline: [TimelineBucket!]!
+  videosList(limit: Int = 20): [Video!]!
+  events: [Event!]!
+  sankey: Sankey!
+}
+
+type TopicRef {
+  id: String!
+  videos: Int!
+  first: String
+  last: String
+}
+
+type EventRef {
+  id: ID!
+  videos: Int!
+  commencement: String!
+  isScandal: Boolean!
+}
+
+type SubIssue {
+  subIssue: String!
+  videos: Int!
+  topics: [TopicRef!]!
+  events: [EventRef!]!
+}
+
+type IssueGroup {
+  majorIssue: String!
+  videos: Int!
+  subIssues: [SubIssue!]!
+}
+
+enum AnatomyRole {
+  OPENING
+  FACT
+  MEANING
+  VERDICT
+}
+
+"""Visual contract for one span, taken from the brief's legend."""
+type AnatomyStyle {
+  underline: String!
+  tone: String!
+  fill: Boolean!
+  className: String!
+  legend: String!
+  description: String!
+}
+
+type AnatomySegment {
+  role: AnatomyRole!
+  """Verbatim slice of `sourceText` between `start` and `end`."""
+  text: String!
+  source: String!
+  start: Int!
+  end: Int!
+  """Offsets into Anatomy.composed, so the client can highlight in the joined quote."""
+  composedStart: Int!
+  composedEnd: Int!
+  truncated: Boolean!
+  style: AnatomyStyle!
+}
+
+type AnatomyFactRef {
+  id: ID!
+  statement: String!
+  sourceName: String
+  verified: Boolean!
+}
+
+type AnatomyVerdictRef {
+  candidateId: ID!
+  candidate: Candidate
+  leaning: Leaning!
+  quote: String
+  verified: Boolean!
+  confidence: String!
+}
+
+type AnatomyAttribution {
+  handle: String!
+  platform: Platform!
+  """Platform id used to build the embed URL (TikTok video id, IG shortcode, YT id)."""
+  platformId: String
+  """Official platform embed URL. Null when the id cannot be mapped."""
+  embedUrl: String
+  views: Int
+  postedAt: DateTime
+  thumbnailUrl: String
+  url: String!
+  format: String!
+}
+
+"""The entry-page unit: one video cut into opening → fact → meaning → verdict."""
+type Anatomy {
+  videoId: ID!
+  composed: String!
+  segments: [AnatomySegment!]!
+  fact: AnatomyFactRef
+  verdict: AnatomyVerdictRef
+  attribution: AnatomyAttribution!
+  """full | no_fact | no_meaning | no_verdict | no_text"""
+  coverage: String!
+  """0..1 — usability as a three-step entry card (readable, non-fragmentary)."""
+  quality: Float!
+  qualityNotes: [String!]!
+  video: Video
+}
+
+type SearchHit {
+  video: Video!
+  score: Float!
+  """lexical (default) or embedding (Vertex AI) — reported, never silently mixed."""
+  method: String!
+}
+
+input EventFilter {
+  majorIssue: String
+  kind: EventKind
+  isScandal: Boolean
+  since: String
+  until: String
+  limit: Int = 50
+}
+
+type DateWindow {
+  first: String!
+  last: String!
+}
+
+"""What the running service is actually serving, for honest copy in the UI."""
+type DatasetInfo {
+  videos: Int!
+  stanceRows: Int!
+  events: Int!
+  window: DateWindow!
+  origin: String!
+}
+
+type TimelineFactChip {
+  id: ID!
+  label: String!
+  videos: Int!
+  highlighted: Boolean!
+}
+
+type VerdictSplit {
+  forCandidate: Int!
+  againstCandidate: Int!
+  noSide: Int!
+}
+
+"""One news moment in a fact's life: a calendar day plus its coverage window."""
+type TimelineMoment {
+  id: ID!
+  date: String!
+  month: String!
+  kind: String!
+  label: String!
+  title: String!
+  windowStart: String!
+  windowEnd: String!
+  """Videos citing the selected fact in this window."""
+  videos: Int!
+  """Every indexed video in the window, cited or not."""
+  totalVideos: Int!
+  facts: [TimelineFactChip!]!
+  verdicts: VerdictSplit!
+  hasSelectedFact: Boolean!
+}
+
+type TimelineFactRef {
+  id: ID!
+  category: String!
+  statement: String!
+  videos: Int!
+}
+
+type FactTimeline {
+  factId: ID!
+  fact: TimelineFactRef!
+  windowDays: Int!
+  months: [String!]!
+  moments: [TimelineMoment!]!
+  videosInBursts: Int!
+  totalVideosInBursts: Int!
+}
+
+type BehindFact {
+  id: ID!
+  category: String!
+  statement: String!
+}
+
+"""A video in the strip under the Sankey: it cites a fact and carries a verdict."""
+type BehindItem {
+  video: Video!
+  fact: BehindFact!
+  """The candidate the verdict is aimed at."""
+  candidate: Candidate
+  leaning: Leaning!
+}
+
+type Query {
+  apiVersion: String!
+  dataset: DatasetInfo!
+  candidates: [Candidate!]!
+  candidate(id: ID!): Candidate
+  creator(handle: String!): Creator
+  video(id: ID!): Video
+  events(filter: EventFilter): [Event!]!
+  event(id: ID!): Event
+  """Before/after comparison used by the Events page."""
+  eventImpact(id: ID!, windowDays: Int = 7): [CandidateImpact!]!
+  """Daily-rate comparison for one moment: 14 days before vs 72 hours after."""
+  eventInsight(id: ID!, beforeDays: Int = 14, afterHours: Int = 72): EventInsight
+  """The same comparison for the busiest moments, in one request."""
+  eventInsights(limit: Int = 6, beforeDays: Int = 14, afterHours: Int = 72): [EventInsight!]!
+  issueGroups: [IssueGroup!]!
+  facts: [Fact!]!
+  fact(id: ID!): Fact
+  """The Story page: one anchor fact, its interpretations and its verdicts."""
+  story(factId: ID!, windowDays: Int = 7): Fact
+  search(query: String!, limit: Int = 20, useEmbeddings: Boolean = false): [SearchHit!]!
+  """Anatomy of one video, or null when the id does not exist."""
+  anatomy(videoId: ID!): Anatomy
+  """Pre-ranked entry-page items: full anatomies first, one per creator."""
+  entryPage(limit: Int = 6): [Anatomy!]!
+  timeline(factId: ID): [TimelineBucket!]!
+  """The strip under the Sankey: one video per creator and fact where possible."""
+  behindTheNumbers(limit: Int = 6, factId: ID): [BehindItem!]!
+  """"When each fact came up": the moments a fact travelled with."""
+  factTimeline(factId: ID!, windowDays: Int = 3): FactTimeline
+  factTimelines(windowDays: Int = 3): [FactTimeline!]!
+}
